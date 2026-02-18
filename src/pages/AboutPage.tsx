@@ -1,4 +1,3 @@
-import { Helmet } from 'react-helmet-async'
 import { SectionHeading, Card } from '@/components/common'
 import { CTA } from '@/components/sections'
 import { siteConfig, aboutContent, teamMembers } from '@/constants'
@@ -6,13 +5,11 @@ import { siteConfig, aboutContent, teamMembers } from '@/constants'
 export function AboutPage(): React.ReactElement {
   return (
     <>
-      <Helmet>
-        <title>{`About Us - ${siteConfig.name}`}</title>
-        <meta
-          name="description"
-          content={`Learn about ${siteConfig.name}'s mission, vision, and the team behind our success.`}
-        />
-      </Helmet>
+      <title>{`About Us - ${siteConfig.name}`}</title>
+      <meta
+        name="description"
+        content={`Learn about ${siteConfig.name}'s mission, vision, and the team behind our success.`}
+      />
 
       {/* Hero Section */}
       <section className="bg-linear-to-br from-secondary-50 to-white section-padding">

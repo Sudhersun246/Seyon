@@ -1,4 +1,3 @@
-import { Helmet } from 'react-helmet-async'
 import { SectionHeading, Card } from '@/components/common'
 import { CTA } from '@/components/sections'
 import { siteConfig, services } from '@/constants'
@@ -7,13 +6,11 @@ import type { Service } from '@/types'
 export function ServicesPage(): React.ReactElement {
   return (
     <>
-      <Helmet>
-        <title>{`Our Services - ${siteConfig.name}`}</title>
-        <meta
-          name="description"
-          content={`Explore ${siteConfig.name}'s comprehensive range of technology services including web development, mobile apps, cloud solutions, and UI/UX design.`}
-        />
-      </Helmet>
+      <title>{`Our Services - ${siteConfig.name}`}</title>
+      <meta
+        name="description"
+        content={`Explore ${siteConfig.name}'s comprehensive range of technology services including web development, mobile apps, cloud solutions, and UI/UX design.`}
+      />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary-50 to-white section-padding">

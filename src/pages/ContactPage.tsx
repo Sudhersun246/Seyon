@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Helmet } from 'react-helmet-async'
 import { Card, Input, Button, SectionHeading } from '@/components/common'
 import { siteConfig, contactInfo, contactFormContent } from '@/constants'
 
@@ -33,13 +32,11 @@ export function ContactPage(): React.ReactElement {
 
   return (
     <>
-      <Helmet>
-        <title>{`Contact Us - ${siteConfig.name}`}</title>
-        <meta
-          name="description"
-          content={`Get in touch with ${siteConfig.name}. We'd love to hear about your project and discuss how we can help.`}
-        />
-      </Helmet>
+      <title>{`Contact Us - ${siteConfig.name}`}</title>
+      <meta
+        name="description"
+        content={`Get in touch with ${siteConfig.name}. We'd love to hear about your project and discuss how we can help.`}
+      />
 
       {/* Hero Section */}
       <section className="bg-linear-to-br from-accent-50 to-white section-padding">

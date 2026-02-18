@@ -1,14 +1,11 @@
-import { Helmet } from 'react-helmet-async'
 import { Button } from '@/components/common'
 import { siteConfig, notFoundContent } from '@/constants'
 
 export function NotFoundPage(): React.ReactElement {
   return (
     <>
-      <Helmet>
-        <title>{`Page Not Found - ${siteConfig.name}`}</title>
-        <meta name="description" content="The page you're looking for doesn't exist." />
-      </Helmet>
+      <title>{`Page Not Found - ${siteConfig.name}`}</title>
+      <meta name="description" content="The page you're looking for doesn't exist." />
 
       <section className="min-h-[calc(100vh-80px)] flex items-center justify-center section-padding">
         <div className="container-wrapper">
