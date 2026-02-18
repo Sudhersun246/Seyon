@@ -1,0 +1,11 @@
+.card-single-container:hover {
+  p,
+  h3 {
+    color: white;
+  }
+  .backgound-svg {
+    path {
+      fill: #df440e !important;
+    }
+  }
+}

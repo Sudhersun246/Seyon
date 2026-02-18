@@ -1,0 +1,1876 @@
+
+================================================================================
+SECTION: Header (node 236:410)
+================================================================================
+FRAME: "Frame 2147229579" (1920x101) at (0,0)
+  GROUP: "Group 27" (1920x102) at (0,0)
+    GROUP: "Group 26" (1920x102) at (0,0)
+      BOOLEAN_OPERATION: "Subtract" (1920x101) at (0,0)
+        Fill: #FFFFFF alpha=1.00
+        BooleanOp: SUBTRACT
+        FillGeometry: M1920 2.5C1920 3.88071 1918.88 5 1917.5 5L1731 5C1714.43 5 1701 18.4315 1701 35L1701 71C1701 87.5685 1687.57 101 1671 101L243 101C226.431 101 213 87.5685 213 71L213 35C213 18.4315 199.569 5 183 5L2.5 5C1.11929 5 0 3.88071 0 2.5C0 1.11929 1.11929 0 2.5 0L1917.5 0C1918.88 0 1920 1.11929 1920 2.5Z
+        RECTANGLE: "Rectangle 35" (1920x101) at (0,0)
+          Fill: #160F72 alpha=0.50
+        RECTANGLE: "Rectangle 36" (225x110) at (1701,5)
+          Fill: #D9D9D9 alpha=1.00
+        RECTANGLE: "Rectangle 37" (225x110) at (-12,5)
+          Fill: #D9D9D9 alpha=1.00
+      FRAME: "Frame 81" (1502x96) at (205,6)
+        Effect: DROP_SHADOW color=#000000 a=0.050 offset=(0,1) blur=8 spread=0
+        BorderRadius: 10
+        Layout: HORIZONTAL gap=32 counterAxis=CENTER primaryAxis=SPACE_BETWEEN
+        Padding: L=50 R=50 T=20 B=20
+        RECTANGLE: "image 6" (108x50) at (255,29)
+          Fill: IMAGE ref=e8fe28c4cc9381ed8bd128b9400f985d1f975381 scaleMode=STRETCH
+        FRAME: "Frame 82" (426x16) at (701,46)
+          Layout: HORIZONTAL gap=32 counterAxis=CENTER primaryAxis=
+          FRAME: "Frame 79" (343x16) at (701,46)
+            Layout: HORIZONTAL gap=32 counterAxis= primaryAxis=
+            TEXT: "Home" (45x16) at (701,46)
+              Fill: #DF440E alpha=1.00
+              Text: "Home"
+              Font: Space Grotesk weight=700 size=16px
+              LineHeight: 16px letterSpacing=0 align=LEFT
+              TextCase: UPPER Decoration: UNDERLINE
+            TEXT: "About" (52x16) at (778,46)
+              Fill: #000000 alpha=1.00
+              Text: "About"
+              Font: Space Grotesk weight=400 size=16px
+              LineHeight: 16px letterSpacing=0 align=LEFT
+              TextCase: UPPER Decoration: NONE
+            FRAME: "Frame 63" (72x16) at (862,46)
+              Layout: HORIZONTAL gap=4 counterAxis=CENTER primaryAxis=
+              TEXT: "Services" (72x16) at (862,46)
+                Fill: #000000 alpha=1.00
+                Text: "Services"
+                Font: Space Grotesk weight=400 size=16px
+                LineHeight: 16px letterSpacing=0 align=LEFT
+                TextCase: UPPER Decoration: NONE
+            FRAME: "Frame 64" (78x16) at (966,46)
+              Layout: HORIZONTAL gap=4 counterAxis=CENTER primaryAxis=
+              TEXT: "Projects" (78x16) at (966,46)
+                Fill: #000000 alpha=1.00
+                Text: "Projects"
+                Font: Space Grotesk weight=400 size=16px
+                LineHeight: 16px letterSpacing=0 align=LEFT
+                TextCase: UPPER Decoration: NONE
+          FRAME: "Frame 80" (51x16) at (1076,46)
+            Layout: HORIZONTAL gap=32 counterAxis= primaryAxis=
+            TEXT: "Blogs" (51x16) at (1076,46)
+              Fill: #000000 alpha=1.00
+              Text: "Blogs"
+              Font: Space Grotesk weight=400 size=16px
+              LineHeight: 16px letterSpacing=0 align=LEFT
+              TextCase: UPPER Decoration: NONE
+        FRAME: "Frame 83" (192x56) at (1465,26)
+          Fill: #DF440E alpha=1.00
+          BorderRadius: 10
+          Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+          Padding: L=30 R=30 T=14 B=14
+          TEXT: "Contact Us" (94x16) at (1495,46)
+            Fill: #FFFFFF alpha=1.00
+            Text: "Contact Us"
+            Font: Space Grotesk weight=700 size=16px
+            LineHeight: 16px letterSpacing=0 align=LEFT
+            TextCase: UPPER Decoration: NONE
+          FRAME: "Frame 86" (28x28) at (1599,40)
+            Fill: #FFFFFF alpha=1.00
+            BorderRadius: 14
+            Layout: VERTICAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+            Padding: L=2 R=2 T=2 B=2
+            FRAME: "6" (24.000004005495157x24.000000190798175) at (1600.9999980926514,41.999999809201825)
+              VECTOR: "Vector" (21.637231424636866x21.637227292047953) at (1602.333984375,43.07551553592259)
+                Stroke: #DF440E weight=1 align=INSIDE
+
+================================================================================
+SECTION: Hero (node 236:331)
+================================================================================
+FRAME: "Frame 2147229588" (1920x1492) at (0,0)
+  Layout: VERTICAL gap=-150 counterAxis=CENTER primaryAxis=
+  FRAME: "Frame 2147229581" (1920x1008) at (0,0)
+    BOOLEAN_OPERATION: "Subtract" (1921.6053466796875x1007.9998168945312) at (0,0)
+      Fill: IMAGE ref=759c9535144842f80d75ae2de118d83ed7423434 scaleMode=FILL
+      Fill: #061033 alpha=0.80
+      BooleanOp: SUBTRACT
+      FillGeometry: M1921.61 1008L0 1008L0 0L1921.61 0L1921.61 1008Z
+      RECTANGLE: "image 7" (1921.6053466796875x1007.9998168945312) at (0,0)
+        Fill: IMAGE ref=759c9535144842f80d75ae2de118d83ed7423434 scaleMode=STRETCH
+    FRAME: "Frame 94" (990x501) at (464,227)
+      Layout: VERTICAL gap=50 counterAxis=CENTER primaryAxis=CENTER
+      FRAME: "Frame 97" (990x214) at (464,227)
+        Layout: VERTICAL gap=32 counterAxis= primaryAxis=
+        TEXT: "Foundation for the Future." (1031x120) at (464,227)
+          Fill: #FFFFFF alpha=1.00
+          Text: "Foundation for the Future."
+          Font: Space Grotesk weight=700 size=80px
+          LineHeight: 79.19999694824219px letterSpacing=-1.440000057220459 align=CENTER
+          TextCase: ORIGINAL Decoration: NONE
+        TEXT: "Elite Builders, delivers top tier commercial construction services across Miami, turning blueprints into reality with precision and expertise." (990x62) at (464,379)
+          Fill: #FFFFFF alpha=1.00
+          Text: "Elite Builders, delivers top tier commercial construction services across Miami, turning blueprints into reality with precision and expertise."
+          Font: Space Grotesk weight=400 size=24px
+          LineHeight: 30.624000549316406px letterSpacing=0 align=CENTER
+          TextCase: ORIGINAL Decoration: NONE
+      FRAME: "Frame 95" (614x131) at (652,491)
+        Layout: HORIZONTAL gap=32 counterAxis= primaryAxis=
+        FRAME: "Frame 7" (195x131) at (652,491)
+          Fill: #FFFFFF alpha=0.01
+          Effect: BACKGROUND_BLUR color=#000000 a=0.000 offset=(0,0) blur=12 spread=0
+          BorderRadius: 24
+          Layout: VERTICAL gap=4 counterAxis= primaryAxis=CENTER
+          Padding: L=20 R=20 T=12 B=12
+          Stroke: #FFFFFF weight=1 align=INSIDE
+          TEXT: "500+" (155x79) at (672,503)
+            Fill: #FFFFFF alpha=1.00
+            Text: "500+"
+            Font: Space Grotesk weight=500 size=62px
+            LineHeight: 79.11199951171875px letterSpacing=-0.3199999928474426 align=LEFT
+            TextCase: ORIGINAL Decoration: NONE
+          TEXT: "Project completed" (155x24) at (672,586)
+            Fill: #FFFFFF alpha=1.00
+            Text: "Project completed"
+            Font: Space Grotesk weight=400 size=16px
+            LineHeight: 24px letterSpacing=0 align=LEFT
+            TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 8" (185x131) at (879,491)
+          Fill: #FFFFFF alpha=0.01
+          Effect: BACKGROUND_BLUR color=#000000 a=0.000 offset=(0,0) blur=12 spread=0
+          BorderRadius: 24
+          Layout: VERTICAL gap=4 counterAxis= primaryAxis=CENTER
+          Padding: L=20 R=20 T=12 B=12
+          Stroke: #FFFFFF weight=1 align=INSIDE
+          TEXT: "100+" (145x79) at (899,503)
+            Fill: #FFFFFF alpha=1.00
+            Text: "100+"
+            Font: Space Grotesk weight=500 size=62px
+            LineHeight: 79.11199951171875px letterSpacing=-0.3199999928474426 align=LEFT
+            TextCase: ORIGINAL Decoration: NONE
+          TEXT: "Professionals" (145x24) at (899,586)
+            Fill: #FFFFFF alpha=1.00
+            Text: "Professionals"
+            Font: Space Grotesk weight=400 size=16px
+            LineHeight: 24px letterSpacing=0 align=LEFT
+            TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 9" (170x131) at (1096,491)
+          Fill: #FFFFFF alpha=0.01
+          Effect: BACKGROUND_BLUR color=#000000 a=0.000 offset=(0,0) blur=12 spread=0
+          BorderRadius: 24
+          Layout: VERTICAL gap=4 counterAxis= primaryAxis=CENTER
+          Padding: L=20 R=20 T=12 B=12
+          Stroke: #FFFFFF weight=1 align=INSIDE
+          TEXT: "2M+" (130x79) at (1116,503)
+            Fill: #FFFFFF alpha=1.00
+            Text: "2M+"
+            Font: Space Grotesk weight=500 size=62px
+            LineHeight: 79.11199951171875px letterSpacing=-0.3199999928474426 align=LEFT
+            TextCase: ORIGINAL Decoration: NONE
+          TEXT: "Sq Ft built" (130x24) at (1116,586)
+            Fill: #FFFFFF alpha=1.00
+            Text: "Sq Ft built"
+            Font: Space Grotesk weight=400 size=16px
+            LineHeight: 24px letterSpacing=0 align=LEFT
+            TextCase: ORIGINAL Decoration: NONE
+      FRAME: "Frame 83" (247x56) at (835.5,672)
+        Fill: #DF440E alpha=1.00
+        BorderRadius: 10
+        Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+        Padding: L=30 R=30 T=14 B=14
+        TEXT: "Explore Our Work" (149x18) at (865.5,691)
+          Fill: #FFFFFF alpha=1.00
+          Text: "Explore Our Work"
+          Font: Space Grotesk weight=500 size=18px
+          LineHeight: 18px letterSpacing=0 align=LEFT
+          TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 86" (28x28) at (1024.5,686)
+          Fill: #FFFFFF alpha=1.00
+          BorderRadius: 14
+          Layout: VERTICAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+          Padding: L=2 R=2 T=2 B=2
+          FRAME: "6" (24.000004005495157x24.00000019079812) at (1026.4999980926514,687.9999998092019)
+            VECTOR: "Vector" (21.637231424636866x21.637227292047896) at (1027.833984375,689.0755155359226)
+              Stroke: #DF440E weight=1 align=INSIDE
+  FRAME: "Frame 2147229586" (1316x591) at (302,858)
+    Fill: #FFF8F5 alpha=1.00
+    Effect: BACKGROUND_BLUR color=#000000 a=0.000 offset=(0,0) blur=10 spread=0
+    Effect: DROP_SHADOW color=#160F72 a=0.200 offset=(0,4) blur=50 spread=0
+    BorderRadius: 30
+    Layout: VERTICAL gap=50 counterAxis=CENTER primaryAxis=CENTER
+    Padding: L=30 R=30 T=30 B=30
+    Stroke: #F9773B weight=1 align=INSIDE
+    ClipsContent: true
+    FRAME: "Frame 2147229587" (789x87) at (565.5,888)
+      Layout: VERTICAL gap=16 counterAxis=CENTER primaryAxis=
+      FRAME: "Frame 117" (216x20) at (852,888)
+        Layout: HORIZONTAL gap=8 counterAxis=CENTER primaryAxis=
+        ELLIPSE: "Ellipse 7" (9x9) at (852,893.5)
+          Fill: #DF440E alpha=1.00
+        TEXT: "Why CHOOSE SEYON" (199x20) at (869,888)
+          Fill: #FF6B35 alpha=1.00
+          Text: "Why CHOOSE SEYON"
+          Font: Space Grotesk weight=500 size=16px
+          LineHeight: 20px letterSpacing=3 align=CENTER
+          TextCase: UPPER Decoration: NONE
+      TEXT: "Built on Trust, Delivered with Excellence" (757x51) at (581.5,924)
+        Fill: #000000 alpha=1.00
+        Text: "Built on Trust, Delivered with Excellence"
+        Font: Space Grotesk weight=500 size=40px
+        LineHeight: 51.040000915527344px letterSpacing=-0.3199999928474426 align=CENTER
+        TextCase: ORIGINAL Decoration: NONE
+    FRAME: "Frame 2147229581" (1256x288) at (332,1025)
+      Layout: VERTICAL gap=16 counterAxis= primaryAxis=
+      FRAME: "Frame 123" (1256x292) at (332,1025)
+        Layout: VERTICAL gap=20 counterAxis= primaryAxis=
+        FRAME: "Frame 2147229589" (1256x136) at (332,1025)
+          Layout: HORIZONTAL gap=16 counterAxis=CENTER primaryAxis=
+          FRAME: "Container" (620x136) at (332,1025)
+            Fill: #FFFFFF alpha=1.00
+            BorderRadius: 24
+            Layout: VERTICAL gap=16 counterAxis= primaryAxis=CENTER
+            Padding: L=24 R=24 T=24 B=24
+            Stroke: #FF6900 weight=0.5 align=INSIDE
+            FRAME: "Frame 131" (572x88) at (356,1049)
+              Layout: HORIZONTAL gap=16 counterAxis= primaryAxis=
+              FRAME: "WhyChooseSection" (50x50) at (356,1049)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 50
+                Layout: HORIZONTAL gap=0 counterAxis=CENTER primaryAxis=CENTER
+                FRAME: "Icon" (24x24) at (369,1062)
+                  ClipsContent: true
+                  VECTOR: "Vector" (14.000000953674316x6) at (371,1077)
+                    Stroke: #FFFFFF weight=1.5 align=CENTER
+                  VECTOR: "Vector" (2.9961986541748047x7.743999481201172) at (385,1065.12890625)
+                    Stroke: #FFFFFF weight=1.5 align=CENTER
+                  VECTOR: "Vector" (3x5.869999885559082) at (388,1077.12890625)
+                    Stroke: #FFFFFF weight=1.5 align=CENTER
+                  VECTOR: "Vector" (8x8) at (374,1065)
+                    Stroke: #FFFFFF weight=1.5 align=CENTER
+              FRAME: "WhyChooseSection" (506x88) at (422,1049)
+                Layout: VERTICAL gap=10 counterAxis= primaryAxis=CENTER
+                TEXT: "Expert Engineering Teams" (250x32) at (422,1049)
+                  Fill: #2D2D2D alpha=1.00
+                  Text: "Expert Engineering Teams"
+                  Font: Space Grotesk weight=700 size=20px
+                  LineHeight: 31.200000762939453px letterSpacing=0 align=CENTER
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Highly skilled professionals with deep technical e" (506x46) at (422,1091)
+                  Fill: #3A3A3A alpha=1.00
+                  Text: "Highly skilled professionals with deep technical expertise and industry experience."
+                  Font: Space Grotesk weight=400 size=18px
+                  LineHeight: 22.968000411987305px letterSpacing=0 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+          FRAME: "Container" (620x136) at (968,1025)
+            Fill: #FFFFFF alpha=1.00
+            BorderRadius: 24
+            Layout: VERTICAL gap=16 counterAxis= primaryAxis=CENTER
+            Padding: L=24 R=24 T=24 B=24
+            Stroke: #FF6900 weight=0.5 align=INSIDE
+            FRAME: "Frame 130" (572x88) at (992,1049)
+              Layout: HORIZONTAL gap=16 counterAxis= primaryAxis=
+              FRAME: "WhyChooseSection" (50x50) at (992,1049)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 50
+                Layout: HORIZONTAL gap=0 counterAxis=CENTER primaryAxis=CENTER
+                FRAME: "Icon" (24x24) at (1005,1062)
+                  ClipsContent: true
+                  VECTOR: "Vector" (16x20.00335121154785) at (1009,1064)
+                    Stroke: #FFFFFF weight=1.5 align=CENTER
+              FRAME: "WhyChooseSection" (506x88) at (1058,1049)
+                Layout: VERTICAL gap=10 counterAxis= primaryAxis=CENTER
+                Padding: L=0 R=4 T=0 B=0
+                TEXT: "Assured Quality & Safety" (239x32) at (1058,1049)
+                  Fill: #2D2D2D alpha=1.00
+                  Text: "Assured Quality & Safety"
+                  Font: Space Grotesk weight=700 size=20px
+                  LineHeight: 31.200000762939453px letterSpacing=0 align=CENTER
+                  TextCase: ORIGINAL Decoration: NONE
+                FRAME: "WhyChooseSection" (502x46) at (1058,1091)
+                  Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+                  Padding: L=0 R=3 T=0 B=0
+                  TEXT: "Rigorous quality control and safety-first culture " (499x46) at (1058,1091)
+                    Fill: #3A3A3A alpha=1.00
+                    Text: "Rigorous quality control and safety-first culture across all project phases."
+                    Font: Space Grotesk weight=400 size=18px
+                    LineHeight: 22.968000411987305px letterSpacing=0 align=LEFT
+                    TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 2147229590" (1256x136) at (332,1181)
+          Layout: HORIZONTAL gap=16 counterAxis=CENTER primaryAxis=
+          FRAME: "Container" (620x136) at (332,1181)
+            Fill: #FFFFFF alpha=1.00
+            BorderRadius: 24
+            Layout: VERTICAL gap=16 counterAxis= primaryAxis=CENTER
+            Padding: L=24 R=24 T=24 B=24
+            Stroke: #FF6900 weight=0.5 align=INSIDE
+            FRAME: "Frame 129" (572x88) at (356,1205)
+              Layout: HORIZONTAL gap=16 counterAxis= primaryAxis=
+              FRAME: "WhyChooseSection" (50x50) at (356,1205)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 50
+                Layout: HORIZONTAL gap=0 counterAxis=CENTER primaryAxis=CENTER
+                FRAME: "Icon" (24x24) at (369,1218)
+                  ClipsContent: true
+                  VECTOR: "Vector" (5.621320724487305x3.6213207244873047) at (380,1234)
+                    Stroke: #FFFFFF weight=1.5 align=CENTER
+                  VECTOR: "Vector" (14.121320724487305x14.121824264526367) at (375.87890625,1221)
+                    Stroke: #FFFFFF weight=1.5 align=CENTER
+                  VECTOR: "Vector" (2x11) at (389,1221)
+                    Stroke: #FFFFFF weight=1.5 align=CENTER
+                  VECTOR: "Vector" (10.121320724487305x18.121322631835938) at (371,1221)
+                    Stroke: #FFFFFF weight=1.5 align=CENTER
+                  VECTOR: "Vector" (8x0) at (372,1222)
+                    Stroke: #FFFFFF weight=1.5 align=CENTER
+              FRAME: "WhyChooseSection" (506x88) at (422,1205)
+                Layout: VERTICAL gap=10 counterAxis= primaryAxis=CENTER
+                TEXT: "Transparent Collaboration" (252x32) at (422,1205)
+                  Fill: #2D2D2D alpha=1.00
+                  Text: "Transparent Collaboration"
+                  Font: Space Grotesk weight=700 size=20px
+                  LineHeight: 31.200000762939453px letterSpacing=0 align=CENTER
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Open communication and partnership approach with c" (506x46) at (422,1247)
+                  Fill: #3A3A3A alpha=1.00
+                  Text: "Open communication and partnership approach with clients and stakeholders."
+                  Font: Space Grotesk weight=400 size=18px
+                  LineHeight: 22.968000411987305px letterSpacing=0 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+          FRAME: "Container" (620x136) at (968,1181)
+            Fill: #FFFFFF alpha=1.00
+            BorderRadius: 24
+            Layout: VERTICAL gap=16 counterAxis= primaryAxis=CENTER
+            Padding: L=24 R=24 T=24 B=24
+            Stroke: #FF6900 weight=0.5 align=INSIDE
+            FRAME: "Frame 128" (572x88) at (992,1205)
+              Layout: HORIZONTAL gap=16 counterAxis= primaryAxis=
+              FRAME: "WhyChooseSection" (50x50) at (992,1205)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 50
+                Layout: HORIZONTAL gap=0 counterAxis=CENTER primaryAxis=CENTER
+                FRAME: "Icon" (24x24) at (1005,1218)
+                  ClipsContent: true
+                  VECTOR: "Vector" (4x8) at (1017,1224)
+                    Stroke: #FFFFFF weight=1.5 align=CENTER
+                  VECTOR: "Vector" (20x20) at (1007,1220)
+                    Stroke: #FFFFFF weight=1.5 align=CENTER
+              FRAME: "WhyChooseSection" (506x88) at (1058,1205)
+                Layout: VERTICAL gap=10 counterAxis= primaryAxis=CENTER
+                Padding: L=0 R=46 T=0 B=0
+                TEXT: "On-Time Delivery" (162x32) at (1058,1205)
+                  Fill: #2D2D2D alpha=1.00
+                  Text: "On-Time Delivery"
+                  Font: Space Grotesk weight=700 size=20px
+                  LineHeight: 31.200000762939453px letterSpacing=0 align=CENTER
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Disciplined project management ensuring timely com" (460x46) at (1058,1247)
+                  Fill: #3A3A3A alpha=1.00
+                  Text: "Disciplined project management ensuring timely completion without compromise."
+                  Font: Space Grotesk weight=400 size=18px
+                  LineHeight: 22.968000411987305px letterSpacing=0 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+    FRAME: "Frame 83" (284x56) at (818,1363)
+      Fill: #DF440E alpha=1.00
+      BorderRadius: 10
+      Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+      Padding: L=30 R=30 T=14 B=14
+      TEXT: "Learn More About Us" (186x18) at (848,1382)
+        Fill: #FFFFFF alpha=1.00
+        Text: "Learn  More About Us"
+        Font: Space Grotesk weight=500 size=18px
+        LineHeight: 18px letterSpacing=0 align=LEFT
+        TextCase: ORIGINAL Decoration: NONE
+      FRAME: "Frame 86" (28x28) at (1044,1377)
+        Fill: #FFFFFF alpha=1.00
+        BorderRadius: 14
+        Layout: VERTICAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+        Padding: L=2 R=2 T=2 B=2
+        FRAME: "6" (24.000004005495157x24.00000019079812) at (1045.9999980926514,1378.9999998092019)
+          VECTOR: "Vector" (21.637231424636866x21.63722729204801) at (1047.333984375,1380.0755155359225)
+            Stroke: #DF440E weight=1 align=INSIDE
+
+================================================================================
+SECTION: Services+Projects (node 236:434)
+================================================================================
+FRAME: "Frame 2147229598" (1920x1602) at (0,1592)
+  Layout: VERTICAL gap=-160 counterAxis=CENTER primaryAxis=
+  FRAME: "Frame 2147229593" (1920x803) at (0,1592)
+    ClipsContent: true
+    RECTANGLE: "image 30" (1920x803) at (0,1592)
+      Fill: IMAGE ref=22c98730548bccd611afb29ecae4c1a549c94774 scaleMode=STRETCH
+      Fill: #0C1220 alpha=0.90
+    FRAME: "Frame 2147229583" (1592x527) at (164.13043212890625,1663)
+      Layout: VERTICAL gap=40 counterAxis=CENTER primaryAxis=
+      FRAME: "Frame 116" (789x87) at (565.6304321289062,1663)
+        Layout: VERTICAL gap=16 counterAxis=CENTER primaryAxis=
+        FRAME: "Frame 117" (184x20) at (868.1304321289062,1663)
+          Layout: HORIZONTAL gap=8 counterAxis=CENTER primaryAxis=
+          ELLIPSE: "Ellipse 7" (9x9) at (868.1304321289062,1668.5)
+            Fill: #DF440E alpha=1.00
+          TEXT: "Core Services" (167x20) at (885.1304321289062,1663)
+            Fill: #FF6B35 alpha=1.00
+            Text: "Core Services"
+            Font: Space Grotesk weight=500 size=16px
+            LineHeight: 20px letterSpacing=4.199999809265137 align=CENTER
+            TextCase: UPPER Decoration: NONE
+        TEXT: "Our expertise in commercial construction" (789x51) at (565.6304321289062,1699)
+          Fill: #FFFFFF alpha=1.00
+          Text: "Our expertise in commercial construction"
+          Font: Space Grotesk weight=500 size=40px
+          LineHeight: 51.040000915527344px letterSpacing=-0.3199999928474426 align=LEFT
+          TextCase: ORIGINAL Decoration: NONE
+      FRAME: "Frame 2147229599" (1592x400) at (164.13043212890625,1790)
+        Layout: HORIZONTAL gap=24 counterAxis=CENTER primaryAxis=
+        INSTANCE: "Frame 2147229575" (380x400) at (164.13043212890625,1790)
+          BOOLEAN_OPERATION: "Subtract" (380x400) at (164.13043212890625,1790)
+            Fill: #FFFFFF alpha=1.00
+            BooleanOp: SUBTRACT
+            FillGeometry: M348 0C365.673 0 380 14.3269 380 32L380 325C380 331.627 374.627 337 368 337L331.232 337C324.605 337 319.232 342.373 319.232 349L319.232 388C319.232 394.627 313.86 400 307.232 400L32 400C14.3269 400 0 385.673 0 368L0 32C0 14.3269 14.3269 7.40899e-07 32 0L348 0Z
+            RECTANGLE: "Rectangle 6" (380x400) at (164.13043212890625,1790)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 32
+            VECTOR: "Rectangle 7" (65x65) at (483.36297607421875,2127)
+              Fill: #D9D9D9 alpha=1.00
+              FillGeometry: M0 0L65 0L65 65L0 65L0 0Z
+          FRAME: "Frame 2147229574" (280x196) at (214.13043212890625,1892)
+            ClipsContent: true
+            INSTANCE: "Component 1" (87x87) at (310.13043212890625,1892)
+              ClipsContent: true
+              GROUP: "Group" (87.00054931640625x87) at (310.13043212890625,1892)
+                VECTOR: "Vector" (58x58.000003814697266) at (310.13043212890625,1921)
+                  Fill: #DF440E alpha=1.00
+                  FillGeometry: M53.65 21.75L52.055 21.75C51.7621 21.7505 51.4762 21.6609 51.236 21.4934C50.9958 21.3258 50.8129 21.0884 50.7123 20.8133C50.5362 20.3517 50.3457 19.8956 50.141 19.4459C50.017 19.1792 49.9783 18.8806 50.0302 18.591C50.0821 18.3014 50.222 18.0349 50.431 17.8277L51.5678 16.6895C53.2554 14.987 53.2523 1...
+                VECTOR: "Vector" (71.18389892578125x71.18611907958984) at (325.94696044921875,1892)
+                  Fill: #DF440E alpha=1.00
+                  FillGeometry: M26.2049 57.42C26.1916 57.0725 26.1646 56.7257 26.1237 56.3803C26.0773 56.0091 26.0222 55.6408 25.9454 55.2798C25.8946 55.0434 25.8279 54.81 25.7641 54.5751C25.6833 54.2776 25.5919 53.983 25.49 53.692C25.419 53.4905 25.345 53.2904 25.2696 53.0918C25.083 52.6273 24.8695 52.1742 24.6302 51.7346C24.611...
+                VECTOR: "Vector" (32.576507568359375x32.61208724975586) at (344.24542236328125,1912.30859375)
+                  Fill: #DF440E alpha=1.00
+                  FillGeometry: M27.0638 5.51267C19.6982 -1.83756 7.77267 -1.83756 0.407032 5.51267C0.142903 5.78615 -0.00324889 6.15242 5.48138e-05 6.53261C0.00335852 6.91279 0.155852 7.27647 0.424694 7.54531C0.693535 7.81415 1.05721 7.96665 1.4374 7.96995C1.81758 7.97325 2.18386 7.8271 2.45733 7.56297C8.6443 1.29245 18.743 1.224...
+            TEXT: "Mechanical (HVAC) Installations" (265x62) at (222.13043212890625,2009.671875)
+              Fill: #DF440E alpha=1.00
+              Text: "Mechanical (HVAC) Installations"
+              Font: Space Grotesk weight=500 size=24px
+              LineHeight: 30.624000549316406px letterSpacing=-0.3199999928474426 align=CENTER
+              TextCase: ORIGINAL Decoration: NONE
+            TEXT: "Our integrated design & build approach streamlines construction by handling architectural planning and a smooth workflow from concept to completion." (280x120) at (214.13043212890625,2088)
+              Fill: #DF440E alpha=1.00
+              Text: "Our integrated design & build approach streamlines construction by handling architectural planning and a smooth workflow from concept to completion."
+              Font: Geist weight=500 size=16px
+              LineHeight: 24px letterSpacing=-0.3199999928474426 align=CENTER
+              TextCase: ORIGINAL Decoration: NONE
+          FRAME: "Frame 122" (58x58) at (486.13043212890625,2130)
+            Fill: #FFFFFF alpha=1.00
+            BorderRadius: 8.656716346740723
+            Layout: HORIZONTAL gap=8.285715103149414 counterAxis=CENTER primaryAxis=CENTER
+            Padding: L=13.257143020629883 R=13.257143020629883 T=13.257143020629883 B=13.257143020629883
+            FRAME: "6" (24.857147482528944x24.857147482528944) at (502.7018756866455,2146.571319314346)
+              VECTOR: "Vector" (22.409990918082144x22.4099866379006) at (504.0831604003906,2147.687830648449)
+                Stroke: #DF440E weight=0.8285714387893677 align=INSIDE
+        INSTANCE: "Frame 2147229584" (380x400) at (568.1304321289062,1790)
+          BOOLEAN_OPERATION: "Subtract" (380x400) at (568.1304321289062,1790)
+            Fill: #FFFFFF alpha=1.00
+            BooleanOp: SUBTRACT
+            FillGeometry: M348 0C365.673 0 380 14.3269 380 32L380 325C380 331.627 374.627 337 368 337L331.232 337C324.605 337 319.232 342.373 319.232 349L319.232 388C319.232 394.627 313.86 400 307.232 400L32 400C14.3269 400 0 385.673 0 368L0 32C0 14.3269 14.3269 7.40899e-07 32 0L348 0Z
+            RECTANGLE: "Rectangle 6" (380x400) at (568.1304321289062,1790)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 32
+            VECTOR: "Rectangle 7" (65x65) at (887.3629760742188,2127)
+              Fill: #D9D9D9 alpha=1.00
+              FillGeometry: M0 0L65 0L65 65L0 65L0 0Z
+          FRAME: "Frame 2147229574" (280x196) at (618.1304321289062,1892)
+            ClipsContent: true
+            INSTANCE: "Component 1" (87x87) at (714.1304321289062,1892)
+              VECTOR: "Vector" (87x87) at (714.1304321289062,1892)
+                Fill: #DF440E alpha=1.00
+                FillGeometry: M85.5915 42.0993L82.2607 42.0993L82.2607 1.4015C82.2607 0.626201 81.6328 0 80.8593 0L44.8567 0C44.0815 0 43.4553 0.627955 43.4553 1.4015L43.4553 7.19693L30.0442 0.161374C29.6092 -0.0666545 29.0865 -0.0508679 28.6673 0.203472C28.2481 0.457811 27.9903 0.912114 27.9903 1.40325L27.9903 12.924L6.13373 12...
+            TEXT: "Mechanical (HVAC) Installations" (265x62) at (626.1304321289062,2009.671875)
+              Fill: #DF440E alpha=1.00
+              Text: "Civil & Infrastructure Works"
+              Font: Space Grotesk weight=500 size=24px
+              LineHeight: 30.624000549316406px letterSpacing=-0.3199999928474426 align=CENTER
+              TextCase: ORIGINAL Decoration: NONE
+            TEXT: "Our integrated design & build approach streamlines construction by handling architectural planning and a smooth workflow from concept to completion." (280x72) at (618.1304321289062,2088)
+              Fill: #DF440E alpha=1.00
+              Text: "Comprehensive civil engineering solutions for residential, commercial, and infrastructure projects."
+              Font: Geist weight=500 size=16px
+              LineHeight: 24px letterSpacing=-0.3199999928474426 align=CENTER
+              TextCase: ORIGINAL Decoration: NONE
+          FRAME: "Frame 122" (58x58) at (890.1304321289062,2130)
+            Fill: #FFFFFF alpha=1.00
+            BorderRadius: 8.656716346740723
+            Layout: HORIZONTAL gap=8.285715103149414 counterAxis=CENTER primaryAxis=CENTER
+            Padding: L=13.257143020629883 R=13.257143020629883 T=13.257143020629883 B=13.257143020629883
+            FRAME: "6" (24.857147482528944x24.857147482528944) at (906.7018756866455,2146.571319314346)
+              VECTOR: "Vector" (22.409990918082144x22.4099866379006) at (908.0831298828125,2147.687830648449)
+                Stroke: #DF440E weight=0.8285714387893677 align=INSIDE
+        INSTANCE: "Frame 2147229585" (380x400) at (972.1304321289062,1790)
+          BOOLEAN_OPERATION: "Subtract" (380x400) at (972.1304321289062,1790)
+            Fill: #FFFFFF alpha=1.00
+            BooleanOp: SUBTRACT
+            FillGeometry: M348 0C365.673 0 380 14.3269 380 32L380 325C380 331.627 374.627 337 368 337L331.232 337C324.605 337 319.232 342.373 319.232 349L319.232 388C319.232 394.627 313.86 400 307.232 400L32 400C14.3269 400 0 385.673 0 368L0 32C0 14.3269 14.3269 7.40899e-07 32 0L348 0Z
+            RECTANGLE: "Rectangle 6" (380x400) at (972.1304321289062,1790)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 32
+            VECTOR: "Rectangle 7" (65x65) at (1291.363037109375,2127)
+              Fill: #D9D9D9 alpha=1.00
+              FillGeometry: M0 0L65 0L65 65L0 65L0 0Z
+          FRAME: "Frame 2147229574" (280x196) at (1022.1304321289062,1892)
+            ClipsContent: true
+            INSTANCE: "Component 1" (87x87) at (1118.13037109375,1892)
+              VECTOR: "Vector" (87x87) at (1118.13037109375,1892)
+                Fill: #DF440E alpha=1.00
+                FillGeometry: M12.9714 21.4566L5.35648 21.4586C3.55795 21.4589 0.132778 22.2344 0.111829 19.8054C0.0950345 17.8574 0.132853 15.9032 0.129171 13.9539C0.119244 8.68266 -0.212511 10.3583 4.28394 7.53611L11.6064 2.97747C17.298 -0.571978 15.3243 0.0387621 22.1788 0.0568052C23.1656 0.0657248 25.1699 -0.113127 26.032 0....
+            TEXT: "Mechanical (HVAC) Installations" (265x62) at (1030.13037109375,2009.671875)
+              Fill: #DF440E alpha=1.00
+              Text: "Structural & Industrial Works"
+              Font: Space Grotesk weight=500 size=24px
+              LineHeight: 30.624000549316406px letterSpacing=-0.3199999928474426 align=CENTER
+              TextCase: ORIGINAL Decoration: NONE
+            TEXT: "Our integrated design & build approach streamlines construction by handling architectural planning and a smooth workflow from concept to completion." (280x72) at (1022.1304321289062,2088)
+              Fill: #DF440E alpha=1.00
+              Text: "Robust structural engineering for industrial facilities and heavy-duty applications."
+              Font: Geist weight=500 size=16px
+              LineHeight: 24px letterSpacing=-0.3199999928474426 align=CENTER
+              TextCase: ORIGINAL Decoration: NONE
+          FRAME: "Frame 122" (58x58) at (1294.13037109375,2130)
+            Fill: #FFFFFF alpha=1.00
+            BorderRadius: 8.656716346740723
+            Layout: HORIZONTAL gap=8.285715103149414 counterAxis=CENTER primaryAxis=CENTER
+            Padding: L=13.257143020629883 R=13.257143020629883 T=13.257143020629883 B=13.257143020629883
+            FRAME: "6" (24.857147482528944x24.857147482528944) at (1310.7018146514893,2146.571319314346)
+              VECTOR: "Vector" (22.409990918082258x22.4099866379006) at (1312.0831298828125,2147.687830648449)
+                Stroke: #DF440E weight=0.8285714387893677 align=INSIDE
+        INSTANCE: "Frame 2147229586" (380x400) at (1376.13037109375,1790)
+          BOOLEAN_OPERATION: "Subtract" (380x400) at (1376.13037109375,1790)
+            Fill: #FFFFFF alpha=1.00
+            BooleanOp: SUBTRACT
+            FillGeometry: M348 0C365.673 0 380 14.3269 380 32L380 325C380 331.627 374.627 337 368 337L331.232 337C324.605 337 319.232 342.373 319.232 349L319.232 388C319.232 394.627 313.86 400 307.232 400L32 400C14.3269 400 0 385.673 0 368L0 32C0 14.3269 14.3269 7.40899e-07 32 0L348 0Z
+            RECTANGLE: "Rectangle 6" (380x400) at (1376.13037109375,1790)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 32
+            VECTOR: "Rectangle 7" (65x65) at (1695.3629150390625,2127)
+              Fill: #D9D9D9 alpha=1.00
+              FillGeometry: M0 0L65 0L65 65L0 65L0 0Z
+          FRAME: "Frame 2147229574" (280x196) at (1426.13037109375,1892)
+            ClipsContent: true
+            INSTANCE: "Component 1" (87x87) at (1522.13037109375,1892)
+              VECTOR: "Vector" (87x87) at (1522.13037109375,1892)
+                Fill: #DF440E alpha=1.00
+                FillGeometry: M24.9957 61.6756C26.4327 62.1027 28.4588 63.2389 29.8679 63.8956C32.6415 65.1881 35.4934 66.3866 38.2021 67.8027C39.904 68.6925 39.1394 70.8456 37.4822 70.5691C36.5453 70.4127 34.5195 69.2883 33.5814 68.8455L26.4956 65.5151C24.7078 64.6741 22.0006 64.2013 21.9532 62.0745C21.8644 58.1053 21.9514 54.1...
+              VECTOR: "Vector" (5.855833053588867x4.358955383300781) at (1572.90234375,1917.8148193359375)
+                Fill: #DF440E alpha=1.00
+                FillGeometry: M1.79636 4.35893C0.740672 4.364 -0.399532 3.46939 0.137135 2.36097C0.531619 1.54672 3.17668 0.327759 4.09789 0.00727305C5.7663 -0.130044 6.50108 1.71058 5.16475 2.694C4.63704 3.08254 2.42698 4.16128 1.79636 4.35893Z
+              VECTOR: "Vector" (5.862399578094482x4.400278091430664) at (1572.968505859375,1927.6451416015625)
+                Fill: #DF440E alpha=1.00
+                FillGeometry: M1.73107 4.37376C0.651771 4.59748 -0.315173 3.35945 0.0972077 2.39558C0.421594 1.63756 3.21281 0.325936 4.0326 0.0194468C5.18672 -0.15962 6.26229 0.928055 5.71593 2.04276C5.20462 3.0853 2.7609 4.03952 1.73107 4.37376Z
+              VECTOR: "Vector" (5.941757678985596x4.357696533203125) at (1572.9404296875,1937.4945068359375)
+                Fill: #DF440E alpha=1.00
+                FillGeometry: M1.75839 4.3577C0.649509 4.28892 -0.50536 3.41144 0.233147 2.23375C0.688282 1.50759 3.46658 0.213094 4.37386 0C5.30974 0.14697 6.31745 1.03169 5.80191 2.01704C5.38779 2.80812 2.68158 4.07558 1.75839 4.3577Z
+              VECTOR: "Vector" (5.890392780303955x4.431291103363037) at (1572.9434814453125,1947.5699462890625)
+                Fill: #DF440E alpha=1.00
+                FillGeometry: M1.75534 4.42915C-0.59018 4.52037 -1.25834 1.68112 4.05687 0.000739954C5.66066 -0.0412515 6.61393 1.71394 5.20577 2.72487C4.56147 3.18774 2.52592 4.16948 1.75534 4.42915Z
+            TEXT: "Mechanical (HVAC) Installations" (265x62) at (1434.13037109375,2009.671875)
+              Fill: #DF440E alpha=1.00
+              Text: "MEP & Building Services"
+              Font: Space Grotesk weight=500 size=24px
+              LineHeight: 30.624000549316406px letterSpacing=-0.3199999928474426 align=CENTER
+              TextCase: ORIGINAL Decoration: NONE
+            TEXT: "Our integrated design & build approach streamlines construction by handling architectural planning and a smooth workflow from concept to completion." (280x72) at (1426.13037109375,2088)
+              Fill: #DF440E alpha=1.00
+              Text: "Advanced HVAC systems ensuring optimal climate control and energy efficiency."
+              Font: Geist weight=500 size=16px
+              LineHeight: 24px letterSpacing=-0.3199999928474426 align=CENTER
+              TextCase: ORIGINAL Decoration: NONE
+          FRAME: "Frame 122" (58x58) at (1698.13037109375,2130)
+            Fill: #FFFFFF alpha=1.00
+            BorderRadius: 8.656716346740723
+            Layout: HORIZONTAL gap=8.285715103149414 counterAxis=CENTER primaryAxis=CENTER
+            Padding: L=13.257143020629883 R=13.257143020629883 T=13.257143020629883 B=13.257143020629883
+            FRAME: "6" (24.857147482528944x24.857147482528944) at (1714.7018146514893,2146.571319314346)
+              VECTOR: "Vector" (22.409990918082258x22.4099866379006) at (1716.0831298828125,2147.687830648449)
+                Stroke: #DF440E weight=0.8285714387893677 align=INSIDE
+    FRAME: "Frame 86" (80x38) at (1767,1969)
+      Effect: DROP_SHADOW color=#000000 a=0.250 offset=(0,5.4285712242126465) blur=5.4285712242126465 spread=0
+      BorderRadius: 19
+      Layout: VERTICAL gap=13.571428298950195 counterAxis=CENTER primaryAxis=CENTER
+      Padding: L=2.7142856121063232 R=2.7142856121063232 T=2.7142856121063232 B=2.7142856121063232
+      Stroke: #FFFFFF weight=1 align=INSIDE
+      FRAME: "6" (32.57143305378372x32.57143305378372) at (1790.7143363952637,1971.7143335477788)
+        VECTOR: "Vector" (23.52381246828213x18.004304885864258) at (1795.4459228515625,1978.8531494140625)
+          Stroke: #FFFFFF weight=1.3571428060531616 align=INSIDE
+    FRAME: "Frame 2147229586" (80x38) at (68,1969)
+      Effect: DROP_SHADOW color=#000000 a=0.250 offset=(0,5.4285712242126465) blur=5.4285712242126465 spread=0
+      BorderRadius: 19
+      Layout: VERTICAL gap=13.571428298950195 counterAxis=CENTER primaryAxis=CENTER
+      Padding: L=2.7142856121063232 R=2.7142856121063232 T=2.7142856121063232 B=2.7142856121063232
+      Stroke: #FFFFFF weight=1 align=INSIDE
+      Opacity: 0.5
+      FRAME: "6" (32.57143305378369x32.57143305378372) at (91.71428395671435,1971.7143335477788)
+        VECTOR: "Vector" (23.523812468282188x18.004304885864258) at (96.03031808591703,1978.8531494140625)
+          Stroke: #FFFFFF weight=1.3571428060531616 align=INSIDE
+    ELLIPSE: "Ellipse 22078" (623x623) at (1729,1660)
+      Fill: #DF440E alpha=0.20
+      Effect: LAYER_BLUR color=#000000 a=0.000 offset=(0,0) blur=300 spread=0
+    ELLIPSE: "Ellipse 22079" (623x623) at (-464,1660)
+      Fill: #DF440E alpha=0.20
+      Effect: LAYER_BLUR color=#000000 a=0.000 offset=(0,0) blur=300 spread=0
+  FRAME: "Frame 2147229597" (1710x959) at (105,2235)
+    Layout: VERTICAL gap=-75 counterAxis=CENTER primaryAxis=
+    FRAME: "Frame 2147229576" (136x136) at (892,2235)
+      Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+      Padding: L=28 R=28 T=28 B=28
+      FRAME: "Frame 133" (80x80) at (920,2263)
+        Fill: #DF440E alpha=1.00
+        Effect: DROP_SHADOW color=#000000 a=0.120 offset=(0,2) blur=10.600000381469727 spread=0
+        BorderRadius: 50
+        Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+        Padding: L=27 R=27 T=20 B=20
+        TEXT: "100%" (56x28) at (932,2289)
+          Fill: #FFFFFF alpha=1.00
+          Text: "100%"
+          Font: Space Grotesk weight=700 size=22px
+          LineHeight: 28.07200050354004px letterSpacing=0 align=LEFT
+          TextCase: ORIGINAL Decoration: NONE
+      TEXT_PATH: "Quality • Comfort • Quality • Comfort • Quality" (117x117) at (901,2244)
+        Fill: #DF440E alpha=1.00
+    FRAME: "Frame 138" (1710x898) at (105,2296)
+      Fill: #FFF8F5 alpha=1.00
+      BorderRadius: 32
+      Layout: VERTICAL gap=40 counterAxis=CENTER primaryAxis=CENTER
+      Padding: L=32 R=32 T=110 B=50
+      Stroke: #DF440E weight=5 align=INSIDE
+      FRAME: "Frame 143" (1646x51) at (137,2406)
+        Layout: HORIZONTAL gap=24 counterAxis=CENTER primaryAxis=CENTER
+        FRAME: "Frame 116" (340x51) at (790,2406)
+          Layout: VERTICAL gap=16 counterAxis=CENTER primaryAxis=
+          TEXT: "Project Showcase" (340x51) at (790,2406)
+            Fill: #160F72 alpha=1.00
+            Text: "Project Showcase"
+            Font: Space Grotesk weight=500 size=40px
+            LineHeight: 51.040000915527344px letterSpacing=-0.3199999928474426 align=LEFT
+            TextCase: ORIGINAL Decoration: NONE
+      FRAME: "Frame 2147229586" (1646x551) at (137,2497)
+        Layout: VERTICAL gap=10 counterAxis= primaryAxis=
+        ClipsContent: true
+        INSTANCE: "Component 2" (1710x551) at (137,2497)
+          ClipsContent: true
+          FRAME: "Frame 136" (404x551) at (137,2497)
+            Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+            Padding: L=22 R=22 T=22 B=22
+            BOOLEAN_OPERATION: "Subtract" (398x551) at (137,2497)
+              Fill: #242424 alpha=1.00
+              BooleanOp: SUBTRACT
+              FillGeometry: M366 0C383.673 1.41737e-06 398 14.3269 398 32L398 477C398 483.627 392.627 489 386 489L348 489C341.373 489 336 494.373 336 501L336 539C336 545.627 330.627 551 324 551L32 551C14.3269 551 5.23494e-08 536.673 0 519L0 32C0 14.3269 14.3269 0 32 0L366 0Z
+              RECTANGLE: "Rectangle 6" (398x551) at (137,2497)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 32
+              VECTOR: "Rectangle 7" (62x62) at (473,2986)
+                Fill: #D9D9D9 alpha=1.00
+                FillGeometry: M0 0L62 0L62 62L0 62L0 0Z
+            FRAME: "Frame 135" (354x505) at (159,2520)
+              Layout: VERTICAL gap=20 counterAxis= primaryAxis=
+              RECTANGLE: "Skyline Tower" (354x354) at (159,2520)
+                Fill: IMAGE ref=d767e1e8c3e10c44948ae4abf25d4d120a51de29 scaleMode=FILL
+                BorderRadius: 10
+              GROUP: "Group 6" (323x131) at (159,2894)
+                TEXT: "Skyline Tower" (181x36) at (159,2894)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Skyline Tower"
+                  Font: Space Grotesk weight=700 size=28px
+                  LineHeight: 35.72800064086914px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "A 35-story business hub with modern workspaces and a rooftop garden." (323x48) at (159,2936)
+                  Fill: #696969 alpha=1.00
+                  Text: "A 35-story business hub with modern workspaces and a rooftop garden."
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Learn more" (84x20) at (159,3005)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Learn more"
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 20px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: UNDERLINE
+            FRAME: "Frame 137" (46x46) at (482,2998)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 10.447760581970215
+              Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+              Padding: L=4 R=4 T=4 B=4
+              FRAME: "6" (30.000004530031788x30.000000715334863) at (489.99999809265137,3005.999999284665)
+                VECTOR: "Vector" (27.04653978655824x27.046534620822058) at (491.6669921875,3007.3473237702283)
+                  Stroke: #FFFFFF weight=1.5 align=INSIDE
+          FRAME: "Frame 137" (404x551) at (557,2497)
+            Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+            Padding: L=22 R=22 T=22 B=22
+            BOOLEAN_OPERATION: "Subtract" (398x551) at (557,2497)
+              Fill: #242424 alpha=1.00
+              BooleanOp: SUBTRACT
+              FillGeometry: M366 0C383.673 1.41737e-06 398 14.3269 398 32L398 477C398 483.627 392.627 489 386 489L348 489C341.373 489 336 494.373 336 501L336 539C336 545.627 330.627 551 324 551L32 551C14.3269 551 5.23494e-08 536.673 0 519L0 32C0 14.3269 14.3269 0 32 0L366 0Z
+              RECTANGLE: "Rectangle 6" (398x551) at (557,2497)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 32
+              VECTOR: "Rectangle 7" (62x62) at (893,2986)
+                Fill: #D9D9D9 alpha=1.00
+                FillGeometry: M0 0L62 0L62 62L0 62L0 0Z
+            FRAME: "Frame 135" (354x505) at (579,2520)
+              Layout: VERTICAL gap=20 counterAxis= primaryAxis=
+              RECTANGLE: "Vertex Center" (354x354) at (579,2520)
+                Fill: IMAGE ref=45e3ac00589296c654a71c9f2ed917caafc2b4f7 scaleMode=FILL
+                BorderRadius: 10
+              GROUP: "Group 6" (323x131) at (579,2894)
+                TEXT: "Oceanview Plaza" (220x36) at (579,2894)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Oceanview Plaza"
+                  Font: Space Grotesk weight=700 size=28px
+                  LineHeight: 35.72800064086914px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "A 35-story business hub with modern workspaces and a rooftop garden." (323x48) at (579,2936)
+                  Fill: #696969 alpha=1.00
+                  Text: "A 35-story business hub with modern workspaces and a rooftop garden."
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Learn more" (84x20) at (579,3005)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Learn more"
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 20px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: UNDERLINE
+            FRAME: "Frame 137" (46x46) at (902,2998)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 10.447760581970215
+              Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+              Padding: L=4 R=4 T=4 B=4
+              FRAME: "6" (30.000004530031788x30.000000715334863) at (909.9999980926514,3005.999999284665)
+                VECTOR: "Vector" (27.04653978655824x27.046534620822058) at (911.6669921875,3007.3473237702283)
+                  Stroke: #FFFFFF weight=1.5 align=INSIDE
+          FRAME: "Frame 138" (404x551) at (977,2497)
+            Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+            Padding: L=22 R=22 T=22 B=22
+            BOOLEAN_OPERATION: "Subtract" (398x551) at (977,2497)
+              Fill: #242424 alpha=1.00
+              BooleanOp: SUBTRACT
+              FillGeometry: M366 0C383.673 1.41737e-06 398 14.3269 398 32L398 477C398 483.627 392.627 489 386 489L348 489C341.373 489 336 494.373 336 501L336 539C336 545.627 330.627 551 324 551L32 551C14.3269 551 5.23494e-08 536.673 0 519L0 32C0 14.3269 14.3269 0 32 0L366 0Z
+              RECTANGLE: "Rectangle 6" (398x551) at (977,2497)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 32
+              VECTOR: "Rectangle 7" (62x62) at (1313,2986)
+                Fill: #D9D9D9 alpha=1.00
+                FillGeometry: M0 0L62 0L62 62L0 62L0 0Z
+            FRAME: "Frame 135" (354x505) at (999,2520)
+              Layout: VERTICAL gap=20 counterAxis= primaryAxis=
+              RECTANGLE: "63e54b5decdd40d7b5092b4c37a4b5e1 1" (354x354) at (999,2520)
+                Fill: IMAGE ref=8b87c8f325e93d479fddbe7bf702f1673844da0b scaleMode=FILL
+                BorderRadius: 10
+              GROUP: "Group 6" (323x131) at (999,2894)
+                TEXT: "Vertex Center" (182x36) at (999,2894)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Vertex Center"
+                  Font: Space Grotesk weight=700 size=28px
+                  LineHeight: 35.72800064086914px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "A 35-story business hub with modern workspaces and a rooftop garden." (323x48) at (999,2936)
+                  Fill: #696969 alpha=1.00
+                  Text: "A 35-story business hub with modern workspaces and a rooftop garden."
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Learn more" (84x20) at (999,3005)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Learn more"
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 20px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: UNDERLINE
+            FRAME: "Frame 137" (46x46) at (1322,2998)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 10.447760581970215
+              Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+              Padding: L=4 R=4 T=4 B=4
+              FRAME: "6" (30.000004530031674x30.000000715334863) at (1329.9999980926514,3005.999999284665)
+                VECTOR: "Vector" (27.04653978655824x27.046534620822058) at (1331.6669921875,3007.3473237702283)
+                  Stroke: #FFFFFF weight=1.5 align=INSIDE
+          FRAME: "Frame 139" (404x551) at (1397,2497)
+            Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+            Padding: L=22 R=22 T=22 B=22
+            BOOLEAN_OPERATION: "Subtract" (398x551) at (1397,2497)
+              Fill: #242424 alpha=1.00
+              BooleanOp: SUBTRACT
+              FillGeometry: M366 0C383.673 1.41737e-06 398 14.3269 398 32L398 477C398 483.627 392.627 489 386 489L348 489C341.373 489 336 494.373 336 501L336 539C336 545.627 330.627 551 324 551L32 551C14.3269 551 5.23494e-08 536.673 0 519L0 32C0 14.3269 14.3269 0 32 0L366 0Z
+              RECTANGLE: "Rectangle 6" (398x551) at (1397,2497)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 32
+              VECTOR: "Rectangle 7" (62x62) at (1733,2986)
+                Fill: #D9D9D9 alpha=1.00
+                FillGeometry: M0 0L62 0L62 62L0 62L0 0Z
+            FRAME: "Frame 135" (354x505) at (1419,2520)
+              Layout: VERTICAL gap=20 counterAxis= primaryAxis=
+              RECTANGLE: "Summit Plaza" (354x354) at (1419,2520)
+                Fill: IMAGE ref=eed495805ead365d1c8b82bfc1e3a91ed18d2445 scaleMode=FILL
+                BorderRadius: 10
+              GROUP: "Group 6" (323x131) at (1419,2894)
+                TEXT: "Summit Plaza" (178x36) at (1419,2894)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Summit Plaza"
+                  Font: Space Grotesk weight=700 size=28px
+                  LineHeight: 35.72800064086914px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "A 35-story business hub with modern workspaces and a rooftop garden." (323x48) at (1419,2936)
+                  Fill: #696969 alpha=1.00
+                  Text: "A 35-story business hub with modern workspaces and a rooftop garden."
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Learn more" (84x20) at (1419,3005)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Learn more"
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 20px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: UNDERLINE
+            FRAME: "Frame 137" (46x46) at (1742,2998)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 10.447760581970215
+              Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+              Padding: L=4 R=4 T=4 B=4
+              FRAME: "6" (30.000004530031674x30.000000715334863) at (1749.9999980926514,3005.999999284665)
+                VECTOR: "Vector" (27.04653978655824x27.046534620822058) at (1751.6669921875,3007.3473237702283)
+                  Stroke: #FFFFFF weight=1.5 align=INSIDE
+          FRAME: "Frame 136" (404x551) at (1817,2497)
+            Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+            Padding: L=22 R=22 T=22 B=22
+            BOOLEAN_OPERATION: "Subtract" (398x551) at (1817,2497)
+              Fill: #242424 alpha=1.00
+              BooleanOp: SUBTRACT
+              FillGeometry: M366 0C383.673 1.41737e-06 398 14.3269 398 32L398 477C398 483.627 392.627 489 386 489L348 489C341.373 489 336 494.373 336 501L336 539C336 545.627 330.627 551 324 551L32 551C14.3269 551 5.23494e-08 536.673 0 519L0 32C0 14.3269 14.3269 0 32 0L366 0Z
+              RECTANGLE: "Rectangle 6" (398x551) at (1817,2497)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 32
+              VECTOR: "Rectangle 7" (62x62) at (2153,2986)
+                Fill: #D9D9D9 alpha=1.00
+                FillGeometry: M0 0L62 0L62 62L0 62L0 0Z
+            FRAME: "Frame 135" (354x505) at (1839,2520)
+              Layout: VERTICAL gap=20 counterAxis= primaryAxis=
+              RECTANGLE: "63e54b5decdd40d7b5092b4c37a4b5e1 1" (354x354) at (1839,2520)
+                Fill: IMAGE ref=364d3a300e91905c54b4aa98a5d21020f784f81b scaleMode=FILL
+                BorderRadius: 10
+              GROUP: "Group 6" (323x131) at (1839,2894)
+                TEXT: "Harbor Point" (167x36) at (1839,2894)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Harbor Point"
+                  Font: Space Grotesk weight=700 size=28px
+                  LineHeight: 35.72800064086914px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "A 35-story business hub with modern workspaces and a rooftop garden." (323x48) at (1839,2936)
+                  Fill: #696969 alpha=1.00
+                  Text: "A 35-story business hub with modern workspaces and a rooftop garden."
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Learn more" (84x20) at (1839,3005)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Learn more"
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 20px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: UNDERLINE
+            FRAME: "Frame 137" (46x46) at (2162,2998)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 10.447760581970215
+              Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+              Padding: L=4 R=4 T=4 B=4
+              FRAME: "6" (30.000004530031674x30.000000715334863) at (2169.9999980926514,3005.999999284665)
+                VECTOR: "Vector" (27.04653978655824x27.046534620822058) at (2171.6669921875,3007.3473237702283)
+                  Stroke: #FFFFFF weight=1.5 align=INSIDE
+          FRAME: "Frame 137" (404x551) at (2237,2497)
+            Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+            Padding: L=22 R=22 T=22 B=22
+            BOOLEAN_OPERATION: "Subtract" (398x551) at (2237,2497)
+              Fill: #242424 alpha=1.00
+              BooleanOp: SUBTRACT
+              FillGeometry: M366 0C383.673 1.41737e-06 398 14.3269 398 32L398 477C398 483.627 392.627 489 386 489L348 489C341.373 489 336 494.373 336 501L336 539C336 545.627 330.627 551 324 551L32 551C14.3269 551 5.23494e-08 536.673 0 519L0 32C0 14.3269 14.3269 0 32 0L366 0Z
+              RECTANGLE: "Rectangle 6" (398x551) at (2237,2497)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 32
+              VECTOR: "Rectangle 7" (62x62) at (2573,2986)
+                Fill: #D9D9D9 alpha=1.00
+                FillGeometry: M0 0L62 0L62 62L0 62L0 0Z
+            FRAME: "Frame 135" (354x505) at (2259,2520)
+              Layout: VERTICAL gap=20 counterAxis= primaryAxis=
+              RECTANGLE: "63e54b5decdd40d7b5092b4c37a4b5e1 1" (354x354) at (2259,2520)
+                Fill: IMAGE ref=66fffa8c16ebf355e88857eeaa7bb975230abb1c scaleMode=FILL
+                BorderRadius: 10
+              GROUP: "Group 6" (323x131) at (2259,2894)
+                TEXT: "Apex Tower" (151x36) at (2259,2894)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Apex Tower"
+                  Font: Space Grotesk weight=700 size=28px
+                  LineHeight: 35.72800064086914px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "A 35-story business hub with modern workspaces and a rooftop garden." (323x48) at (2259,2936)
+                  Fill: #696969 alpha=1.00
+                  Text: "A 35-story business hub with modern workspaces and a rooftop garden."
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Learn more" (84x20) at (2259,3005)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Learn more"
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 20px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: UNDERLINE
+            FRAME: "Frame 137" (46x46) at (2582,2998)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 10.447760581970215
+              Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+              Padding: L=4 R=4 T=4 B=4
+              FRAME: "6" (30.000004530031674x30.000000715334863) at (2589.9999980926514,3005.999999284665)
+                VECTOR: "Vector" (27.04653978655824x27.046534620822058) at (2591.6669921875,3007.3473237702283)
+                  Stroke: #FFFFFF weight=1.5 align=INSIDE
+          FRAME: "Frame 138" (404x551) at (2657,2497)
+            Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+            Padding: L=22 R=22 T=22 B=22
+            BOOLEAN_OPERATION: "Subtract" (398x551) at (2657,2497)
+              Fill: #242424 alpha=1.00
+              BooleanOp: SUBTRACT
+              FillGeometry: M366 0C383.673 1.41737e-06 398 14.3269 398 32L398 477C398 483.627 392.627 489 386 489L348 489C341.373 489 336 494.373 336 501L336 539C336 545.627 330.627 551 324 551L32 551C14.3269 551 5.23494e-08 536.673 0 519L0 32C0 14.3269 14.3269 0 32 0L366 0Z
+              RECTANGLE: "Rectangle 6" (398x551) at (2657,2497)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 32
+              VECTOR: "Rectangle 7" (62x62) at (2993,2986)
+                Fill: #D9D9D9 alpha=1.00
+                FillGeometry: M0 0L62 0L62 62L0 62L0 0Z
+            FRAME: "Frame 135" (354x505) at (2679,2520)
+              Layout: VERTICAL gap=20 counterAxis= primaryAxis=
+              RECTANGLE: "63e54b5decdd40d7b5092b4c37a4b5e1 1" (354x354) at (2679,2520)
+                Fill: IMAGE ref=deb06cbcc41ebe1c4a68468a91d427e2432eb64c scaleMode=FILL
+                BorderRadius: 10
+              GROUP: "Group 6" (323x131) at (2679,2894)
+                TEXT: "Skyline Tower" (181x36) at (2679,2894)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Skyline Tower"
+                  Font: Space Grotesk weight=700 size=28px
+                  LineHeight: 35.72800064086914px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "A 35-story business hub with modern workspaces and a rooftop garden." (323x48) at (2679,2936)
+                  Fill: #696969 alpha=1.00
+                  Text: "A 35-story business hub with modern workspaces and a rooftop garden."
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Learn more" (84x20) at (2679,3005)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Learn more"
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 20px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: UNDERLINE
+            FRAME: "Frame 137" (46x46) at (3002,2998)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 10.447760581970215
+              Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+              Padding: L=4 R=4 T=4 B=4
+              FRAME: "6" (30.000004530031674x30.000000715334863) at (3009.9999980926514,3005.999999284665)
+                VECTOR: "Vector" (27.04653978655824x27.046534620822058) at (3011.6669921875,3007.3473237702283)
+                  Stroke: #FFFFFF weight=1.5 align=INSIDE
+          FRAME: "Frame 139" (404x551) at (3077,2497)
+            Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+            Padding: L=22 R=22 T=22 B=22
+            BOOLEAN_OPERATION: "Subtract" (398x551) at (3077,2497)
+              Fill: #242424 alpha=1.00
+              BooleanOp: SUBTRACT
+              FillGeometry: M366 0C383.673 1.41737e-06 398 14.3269 398 32L398 477C398 483.627 392.627 489 386 489L348 489C341.373 489 336 494.373 336 501L336 539C336 545.627 330.627 551 324 551L32 551C14.3269 551 5.23494e-08 536.673 0 519L0 32C0 14.3269 14.3269 0 32 0L366 0Z
+              RECTANGLE: "Rectangle 6" (398x551) at (3077,2497)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 32
+              VECTOR: "Rectangle 7" (62x62) at (3413,2986)
+                Fill: #D9D9D9 alpha=1.00
+                FillGeometry: M0 0L62 0L62 62L0 62L0 0Z
+            FRAME: "Frame 135" (354x505) at (3099,2520)
+              Layout: VERTICAL gap=20 counterAxis= primaryAxis=
+              RECTANGLE: "63e54b5decdd40d7b5092b4c37a4b5e1 1" (354x354) at (3099,2520)
+                Fill: IMAGE ref=deb06cbcc41ebe1c4a68468a91d427e2432eb64c scaleMode=FILL
+                BorderRadius: 10
+              GROUP: "Group 6" (323x131) at (3099,2894)
+                TEXT: "Skyline Tower" (181x36) at (3099,2894)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Skyline Tower"
+                  Font: Space Grotesk weight=700 size=28px
+                  LineHeight: 35.72800064086914px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "A 35-story business hub with modern workspaces and a rooftop garden." (323x48) at (3099,2936)
+                  Fill: #696969 alpha=1.00
+                  Text: "A 35-story business hub with modern workspaces and a rooftop garden."
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Learn more" (84x20) at (3099,3005)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Learn more"
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 20px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: UNDERLINE
+            FRAME: "Frame 137" (46x46) at (3422,2998)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 10.447760581970215
+              Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+              Padding: L=4 R=4 T=4 B=4
+              FRAME: "6" (30.000004530031674x30.000000715334863) at (3429.9999980926514,3005.999999284665)
+                VECTOR: "Vector" (27.04653978655824x27.046534620822058) at (3431.6669921875,3007.3473237702283)
+                  Stroke: #FFFFFF weight=1.5 align=INSIDE
+          FRAME: "Frame 140" (404x551) at (3497,2497)
+            Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+            Padding: L=22 R=22 T=22 B=22
+            BOOLEAN_OPERATION: "Subtract" (398x551) at (3497,2497)
+              Fill: #242424 alpha=1.00
+              BooleanOp: SUBTRACT
+              FillGeometry: M366 0C383.673 1.41737e-06 398 14.3269 398 32L398 477C398 483.627 392.627 489 386 489L348 489C341.373 489 336 494.373 336 501L336 539C336 545.627 330.627 551 324 551L32 551C14.3269 551 5.23494e-08 536.673 0 519L0 32C0 14.3269 14.3269 0 32 0L366 0Z
+              RECTANGLE: "Rectangle 6" (398x551) at (3497,2497)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 32
+              VECTOR: "Rectangle 7" (62x62) at (3833,2986)
+                Fill: #D9D9D9 alpha=1.00
+                FillGeometry: M0 0L62 0L62 62L0 62L0 0Z
+            FRAME: "Frame 135" (354x505) at (3519,2520)
+              Layout: VERTICAL gap=20 counterAxis= primaryAxis=
+              RECTANGLE: "63e54b5decdd40d7b5092b4c37a4b5e1 1" (354x354) at (3519,2520)
+                Fill: IMAGE ref=deb06cbcc41ebe1c4a68468a91d427e2432eb64c scaleMode=FILL
+                BorderRadius: 10
+              GROUP: "Group 6" (323x131) at (3519,2894)
+                TEXT: "Skyline Tower" (181x36) at (3519,2894)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Skyline Tower"
+                  Font: Space Grotesk weight=700 size=28px
+                  LineHeight: 35.72800064086914px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "A 35-story business hub with modern workspaces and a rooftop garden." (323x48) at (3519,2936)
+                  Fill: #696969 alpha=1.00
+                  Text: "A 35-story business hub with modern workspaces and a rooftop garden."
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Learn more" (84x20) at (3519,3005)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Learn more"
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 20px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: UNDERLINE
+            FRAME: "Frame 137" (46x46) at (3842,2998)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 10.447760581970215
+              Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+              Padding: L=4 R=4 T=4 B=4
+              FRAME: "6" (30.000004530031674x30.000000715334863) at (3849.9999980926514,3005.999999284665)
+                VECTOR: "Vector" (27.04653978655824x27.046534620822058) at (3851.6669921875,3007.3473237702283)
+                  Stroke: #FFFFFF weight=1.5 align=INSIDE
+          FRAME: "Frame 141" (404x551) at (3917,2497)
+            Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+            Padding: L=22 R=22 T=22 B=22
+            BOOLEAN_OPERATION: "Subtract" (398x551) at (3917,2497)
+              Fill: #242424 alpha=1.00
+              BooleanOp: SUBTRACT
+              FillGeometry: M366 0C383.673 1.41737e-06 398 14.3269 398 32L398 477C398 483.627 392.627 489 386 489L348 489C341.373 489 336 494.373 336 501L336 539C336 545.627 330.627 551 324 551L32 551C14.3269 551 5.23494e-08 536.673 0 519L0 32C0 14.3269 14.3269 0 32 0L366 0Z
+              RECTANGLE: "Rectangle 6" (398x551) at (3917,2497)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 32
+              VECTOR: "Rectangle 7" (62x62) at (4253,2986)
+                Fill: #D9D9D9 alpha=1.00
+                FillGeometry: M0 0L62 0L62 62L0 62L0 0Z
+            FRAME: "Frame 135" (354x505) at (3939,2520)
+              Layout: VERTICAL gap=20 counterAxis= primaryAxis=
+              RECTANGLE: "63e54b5decdd40d7b5092b4c37a4b5e1 1" (354x354) at (3939,2520)
+                Fill: IMAGE ref=45e3ac00589296c654a71c9f2ed917caafc2b4f7 scaleMode=FILL
+                BorderRadius: 10
+              GROUP: "Group 6" (323x131) at (3939,2894)
+                TEXT: "Oceanview Plaza" (220x36) at (3939,2894)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Oceanview Plaza"
+                  Font: Space Grotesk weight=700 size=28px
+                  LineHeight: 35.72800064086914px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "A 35-story business hub with modern workspaces and a rooftop garden." (323x48) at (3939,2936)
+                  Fill: #696969 alpha=1.00
+                  Text: "A 35-story business hub with modern workspaces and a rooftop garden."
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Learn more" (84x20) at (3939,3005)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Learn more"
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 20px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: UNDERLINE
+            FRAME: "Frame 137" (46x46) at (4262,2998)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 10.447760581970215
+              Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+              Padding: L=4 R=4 T=4 B=4
+              FRAME: "6" (30.00000453003213x30.000000715334863) at (4269.999998092651,3005.999999284665)
+                VECTOR: "Vector" (27.04653978655824x27.046534620822058) at (4271.6669921875,3007.3473237702283)
+                  Stroke: #FFFFFF weight=1.5 align=INSIDE
+          FRAME: "Frame 142" (404x551) at (4337,2497)
+            Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+            Padding: L=22 R=22 T=22 B=22
+            BOOLEAN_OPERATION: "Subtract" (398x551) at (4337,2497)
+              Fill: #242424 alpha=1.00
+              BooleanOp: SUBTRACT
+              FillGeometry: M366 0C383.673 1.41737e-06 398 14.3269 398 32L398 477C398 483.627 392.627 489 386 489L348 489C341.373 489 336 494.373 336 501L336 539C336 545.627 330.627 551 324 551L32 551C14.3269 551 5.23494e-08 536.673 0 519L0 32C0 14.3269 14.3269 0 32 0L366 0Z
+              RECTANGLE: "Rectangle 6" (398x551) at (4337,2497)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 32
+              VECTOR: "Rectangle 7" (62x62) at (4673,2986)
+                Fill: #D9D9D9 alpha=1.00
+                FillGeometry: M0 0L62 0L62 62L0 62L0 0Z
+            FRAME: "Frame 135" (354x505) at (4359,2520)
+              Layout: VERTICAL gap=20 counterAxis= primaryAxis=
+              RECTANGLE: "63e54b5decdd40d7b5092b4c37a4b5e1 1" (354x354) at (4359,2520)
+                Fill: IMAGE ref=8b87c8f325e93d479fddbe7bf702f1673844da0b scaleMode=FILL
+                BorderRadius: 10
+              GROUP: "Group 6" (323x131) at (4359,2894)
+                TEXT: "Vertex Center" (182x36) at (4359,2894)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Vertex Center"
+                  Font: Space Grotesk weight=700 size=28px
+                  LineHeight: 35.72800064086914px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "A 35-story business hub with modern workspaces and a rooftop garden." (323x48) at (4359,2936)
+                  Fill: #696969 alpha=1.00
+                  Text: "A 35-story business hub with modern workspaces and a rooftop garden."
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Learn more" (84x20) at (4359,3005)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Learn more"
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 20px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: UNDERLINE
+            FRAME: "Frame 137" (46x46) at (4682,2998)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 10.447760581970215
+              Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+              Padding: L=4 R=4 T=4 B=4
+              FRAME: "6" (30.00000453003213x30.000000715334863) at (4689.999998092651,3005.999999284665)
+                VECTOR: "Vector" (27.04653978655824x27.046534620822058) at (4691.6669921875,3007.3473237702283)
+                  Stroke: #FFFFFF weight=1.5 align=INSIDE
+          FRAME: "Frame 143" (404x551) at (4757,2497)
+            Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+            Padding: L=22 R=22 T=22 B=22
+            BOOLEAN_OPERATION: "Subtract" (398x551) at (4757,2497)
+              Fill: #242424 alpha=1.00
+              BooleanOp: SUBTRACT
+              FillGeometry: M366 0C383.673 1.41737e-06 398 14.3269 398 32L398 477C398 483.627 392.627 489 386 489L348 489C341.373 489 336 494.373 336 501L336 539C336 545.627 330.627 551 324 551L32 551C14.3269 551 5.23494e-08 536.673 0 519L0 32C0 14.3269 14.3269 0 32 0L366 0Z
+              RECTANGLE: "Rectangle 6" (398x551) at (4757,2497)
+                Fill: #F9773B alpha=1.00
+                BorderRadius: 32
+              VECTOR: "Rectangle 7" (62x62) at (5093,2986)
+                Fill: #D9D9D9 alpha=1.00
+                FillGeometry: M0 0L62 0L62 62L0 62L0 0Z
+            FRAME: "Frame 135" (354x505) at (4779,2520)
+              Layout: VERTICAL gap=20 counterAxis= primaryAxis=
+              RECTANGLE: "63e54b5decdd40d7b5092b4c37a4b5e1 1" (354x354) at (4779,2520)
+                Fill: IMAGE ref=eed495805ead365d1c8b82bfc1e3a91ed18d2445 scaleMode=FILL
+                BorderRadius: 10
+              GROUP: "Group 6" (323x131) at (4779,2894)
+                TEXT: "Summit Plaza" (178x36) at (4779,2894)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Summit Plaza"
+                  Font: Space Grotesk weight=700 size=28px
+                  LineHeight: 35.72800064086914px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "A 35-story business hub with modern workspaces and a rooftop garden." (323x48) at (4779,2936)
+                  Fill: #696969 alpha=1.00
+                  Text: "A 35-story business hub with modern workspaces and a rooftop garden."
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: NONE
+                TEXT: "Learn more" (84x20) at (4779,3005)
+                  Fill: #FFFFFF alpha=1.00
+                  Text: "Learn more"
+                  Font: Space Grotesk weight=500 size=16px
+                  LineHeight: 20px letterSpacing=-0.3199999928474426 align=LEFT
+                  TextCase: ORIGINAL Decoration: UNDERLINE
+            FRAME: "Frame 137" (46x46) at (5102,2998)
+              Fill: #DF440E alpha=1.00
+              BorderRadius: 10.447760581970215
+              Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+              Padding: L=4 R=4 T=4 B=4
+              FRAME: "6" (30.00000453003213x30.000000715334863) at (5109.999998092651,3005.999999284665)
+                VECTOR: "Vector" (27.04653978655824x27.046534620822058) at (5111.6669921875,3007.3473237702283)
+                  Stroke: #FFFFFF weight=1.5 align=INSIDE
+      FRAME: "Frame 83" (240x56) at (840,3088)
+        Fill: #DF440E alpha=1.00
+        BorderRadius: 10
+        Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+        Padding: L=30 R=30 T=14 B=14
+        TEXT: "View All Projects" (142x18) at (870,3107)
+          Fill: #FFFFFF alpha=1.00
+          Text: "View All Projects"
+          Font: Space Grotesk weight=500 size=18px
+          LineHeight: 18px letterSpacing=0 align=LEFT
+          TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 86" (28x28) at (1022,3102)
+          Fill: #FFFFFF alpha=1.00
+          BorderRadius: 14
+          Layout: VERTICAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+          Padding: L=2 R=2 T=2 B=2
+          FRAME: "6" (24.000004005495157x24.000000190798346) at (1023.9999980926514,3103.9999998092017)
+            VECTOR: "Vector" (21.637231424636866x21.63722729204801) at (1025.333984375,3105.0755155359225)
+              Stroke: #DF440E weight=1 align=INSIDE
+
+================================================================================
+SECTION: Team/MeetExperts (node 236:472)
+================================================================================
+FRAME: "Frame 2147229597" (1920x571) at (0,3294)
+  Layout: VERTICAL gap=40 counterAxis=CENTER primaryAxis=
+  Padding: L=100 R=100 T=0 B=0
+  FRAME: "Frame 116" (770x87) at (575,3294)
+    Layout: VERTICAL gap=16 counterAxis=CENTER primaryAxis=
+    FRAME: "Frame 117" (228x20) at (846,3294)
+      Layout: HORIZONTAL gap=8 counterAxis=CENTER primaryAxis=
+      ELLIPSE: "Ellipse 7" (9x9) at (846,3299.5)
+        Fill: #DF440E alpha=1.00
+      TEXT: "Meet Our Experts" (211x20) at (863,3294)
+        Fill: #FF6B35 alpha=1.00
+        Text: "Meet Our Experts"
+        Font: Space Grotesk weight=500 size=16px
+        LineHeight: 20px letterSpacing=4.199999809265137 align=CENTER
+        TextCase: UPPER Decoration: NONE
+    TEXT: "Personalized Guidance, Proven Expertise" (770x51) at (575,3330)
+      Fill: #000000 alpha=1.00
+      Text: "Personalized Guidance, Proven Expertise"
+      Font: Space Grotesk weight=500 size=40px
+      LineHeight: 51.040000915527344px letterSpacing=-0.3199999928474426 align=LEFT
+      TextCase: ORIGINAL Decoration: NONE
+  FRAME: "Frame 2147229598" (1920x444) at (0,3421)
+    Layout: HORIZONTAL gap=0 counterAxis=CENTER primaryAxis=SPACE_BETWEEN
+    FRAME: "Frame 154" (909x444) at (0,3421)
+      Gradient Linear: 2 stops
+        Stop 0.00: #DF440E a=1.00
+        Stop 1.00: #FF7342 a=1.00
+        Handles: [{"x":0.01423328795824927,"y":0.8737389906052482},{"x":0.9532547536118727,"y":-0.3440360098227672},{"x":0.04042246673469983,"y":1.34324972343206}]
+      Layout: VERTICAL gap=20 counterAxis= primaryAxis=CENTER
+      Padding: L=105 R=105 T=89 B=89
+      ClipsContent: true
+      FRAME: "Frame 2147229561" (457x497.0614013671875) at (18,3323.96875)
+        Layout: HORIZONTAL gap=41.54542922973633 counterAxis=CENTER primaryAxis=CENTER
+        LINE: "Line 2" (0.000021727252747183456x497.0614013671875) at (17.999999253582214,3323.96875)
+          Stroke: #FFFFFF weight=1.4837653636932373 align=CENTER
+        LINE: "Line 4" (0.000021727252743630743x497.0614013671875) at (59.54545327885077,3323.96875)
+          Stroke: #FFFFFF weight=1.4837653636932373 align=CENTER
+        LINE: "Line 3" (0.000021727252743630743x497.0614013671875) at (101.0909053967707,3323.96875)
+          Stroke: #FFFFFF weight=1.4837653636932373 align=CENTER
+        LINE: "Line 5" (0.000021727252743630743x497.0614013671875) at (142.63636132938788,3323.96875)
+          Stroke: #FFFFFF weight=1.4837653636932373 align=CENTER
+        LINE: "Line 6" (0.000021727252743630743x497.0614013671875) at (184.181802003216,3323.96875)
+          Stroke: #FFFFFF weight=1.4837653636932373 align=CENTER
+        LINE: "Line 7" (0.000021727252743630743x497.0614013671875) at (225.7272579358332,3323.96875)
+          Stroke: #FFFFFF weight=1.4837653636932373 align=CENTER
+        LINE: "Line 8" (0.000021727252772052452x497.0614013671875) at (267.27271386845035,3323.96875)
+          Stroke: #FFFFFF weight=1.4837653636932373 align=CENTER
+        LINE: "Line 9" (0.000021727252772052452x497.0614013671875) at (308.8181850598566,3323.96875)
+          Stroke: #FFFFFF weight=1.4837653636932373 align=CENTER
+        LINE: "Line 10" (0.000021727252772052452x497.0614013671875) at (350.3636257336847,3323.96875)
+          Stroke: #FFFFFF weight=1.4837653636932373 align=CENTER
+        LINE: "Line 11" (0.000021727252772052452x497.0614013671875) at (391.90906640751285,3323.96875)
+          Stroke: #FFFFFF weight=1.4837653636932373 align=CENTER
+        LINE: "Line 12" (0.000021727252772052452x497.0614013671875) at (433.454507081341,3323.96875)
+          Stroke: #FFFFFF weight=1.4837653636932373 align=CENTER
+        LINE: "Line 13" (0.000021727252772052452x497.0614013671875) at (474.9999477551691,3323.96875)
+          Stroke: #FFFFFF weight=1.4837653636932373 align=CENTER
+        FRAME: "Frame 2147229562" (532.6717529296875x457) at (-19.0936279296875,3344.7421875)
+          Layout: HORIZONTAL gap=41.54542922973633 counterAxis=CENTER primaryAxis=CENTER
+          LINE: "Line 2" (532.6717529296875x0.000023283831069420557) at (-19.0936279296875,3344.742164216169)
+          LINE: "Line 4" (532.6717529296875x0.000023283831069420557) at (-19.0936279296875,3386.287574372419)
+          LINE: "Line 3" (532.6717529296875x0.000023283831069420557) at (-19.0936279296875,3427.832984528669)
+          LINE: "Line 5" (532.6717529296875x0.000023283831069420557) at (-19.0936279296875,3469.378638825544)
+          LINE: "Line 6" (532.6717529296875x0.000023283831069420557) at (-19.0936279296875,3510.924048981794)
+          LINE: "Line 7" (532.6717529296875x0.000023283831069420557) at (-19.0936279296875,3552.469459138044)
+          LINE: "Line 8" (532.6717529296875x0.000023283831069420557) at (-19.0936279296875,3594.014869294294)
+          LINE: "Line 9" (532.6717529296875x0.000023283831069420557) at (-19.0936279296875,3635.560279450544)
+          LINE: "Line 10" (532.6717529296875x0.000023283831069420557) at (-19.0936279296875,3677.105933747419)
+          LINE: "Line 11" (532.6717529296875x0.000023283831069420557) at (-19.0936279296875,3718.651343903669)
+          LINE: "Line 12" (532.6717529296875x0.000023283831069420557) at (-19.0936279296875,3760.196754059919)
+          LINE: "Line 13" (532.6717529296875x0.000023283831069420557) at (-19.0936279296875,3801.742164216169)
+      RECTANGLE: "image 22" (328x328) at (1713,3408.5)
+        Fill: IMAGE ref=57a83d6b48f2106bd0a5665a3db851b8905bda4e scaleMode=FILL
+      TEXT: "Let's Build Strong, Reliable, and Lasting Structur" (699x116) at (105,3544)
+        Fill: #FFFFFF alpha=1.00
+        Text: "Let's Build Strong, Reliable, and Lasting Structures Together."
+        Font: Space Grotesk weight=700 size=40px
+        LineHeight: 57.599998474121094px letterSpacing=-0.47999998927116394 align=LEFT
+        TextCase: ORIGINAL Decoration: NONE
+      FRAME: "Frame 2147229560" (699x62) at (105,3680)
+        Layout: VERTICAL gap=30 counterAxis= primaryAxis=CENTER
+        TEXT: "Ready to start your next construction or engineeri" (699x62) at (105,3680)
+          Fill: #FFFFFF alpha=1.00
+          Text: "Ready to start your next construction or engineering project? Our team is here to deliver excellence from concept to completion."
+          Font: Space Grotesk weight=400 size=20px
+          LineHeight: 30.600000381469727px letterSpacing=0 align=LEFT
+          TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 84" (195x56) at (105,3772)
+          Fill: #160F72 alpha=1.00
+          BorderRadius: 10
+          Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+          Padding: L=30 R=30 T=14 B=14
+          TEXT: "Contact Us" (97x18) at (135,3791)
+            Fill: #FFFFFF alpha=1.00
+            Text: "Contact Us"
+            Font: Space Grotesk weight=500 size=18px
+            LineHeight: 18px letterSpacing=0 align=LEFT
+            TextCase: ORIGINAL Decoration: NONE
+          FRAME: "Frame 86" (28x28) at (242,3786)
+            Fill: #FFFFFF alpha=1.00
+            BorderRadius: 14
+            Layout: VERTICAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+            Padding: L=2 R=2 T=2 B=2
+            FRAME: "6" (24.0000040054951x24.000000190798346) at (243.99999809265137,3787.9999998092017)
+              VECTOR: "Vector" (21.63723142463681x21.63722729204801) at (245.333984375,3789.0755155359225)
+                Stroke: #DF440E weight=1 align=INSIDE
+    FRAME: "Frame 119" (1011x429) at (909,3428.5)
+      Fill: #F6F6F6 alpha=1.00
+      Layout: VERTICAL gap=40 counterAxis= primaryAxis=
+      Padding: L=20 R=20 T=20 B=20
+      FRAME: "Frame 116" (770x87) at (1009,3428.5)
+        Layout: VERTICAL gap=16 counterAxis=CENTER primaryAxis=
+        FRAME: "Frame 117" (228x20) at (1277,3428.5)
+          Layout: HORIZONTAL gap=8 counterAxis=CENTER primaryAxis=
+          ELLIPSE: "Ellipse 7" (9x9) at (1277,3434)
+            Fill: #DF440E alpha=1.00
+          TEXT: "Meet Our Experts" (211x20) at (1294,3428.5)
+            Fill: #FF6B35 alpha=1.00
+            Text: "Meet Our Experts"
+            Font: Space Grotesk weight=500 size=16px
+            LineHeight: 20px letterSpacing=4.199999809265137 align=CENTER
+            TextCase: UPPER Decoration: NONE
+        TEXT: "Personalized Guidance, Proven Expertise" (770x51) at (1009,3464.5)
+          Fill: #000000 alpha=1.00
+          Text: "Personalized Guidance, Proven Expertise"
+          Font: Space Grotesk weight=500 size=40px
+          LineHeight: 51.040000915527344px letterSpacing=-0.3199999928474426 align=LEFT
+          TextCase: ORIGINAL Decoration: NONE
+      INSTANCE: "Component 4" (971x389) at (929,3448.5)
+        ClipsContent: true
+        FRAME: "Frame 145" (319.0643310546875x389.20819091796875) at (929,3448.5)
+          Layout: VERTICAL gap=12.7625732421875 counterAxis= primaryAxis=MAX
+          RECTANGLE: "Rectangle 31" (319.0643310546875x319.0643310546875) at (929,3448.5)
+            Fill: IMAGE ref=733999a9c77e2acef1084d1e69801e993d3c2b3f scaleMode=FILL
+            BorderRadius: 19.14385986328125
+          FRAME: "Frame 144" (85.3497085571289x57.38128662109375) at (929,3780.326904296875)
+            Layout: VERTICAL gap=6.38128662109375 counterAxis= primaryAxis=
+            TEXT: "Wade" (64x31) at (929,3780.326904296875)
+              Fill: #161616 alpha=1.00
+              Text: "Wade"
+              Font: Space Grotesk weight=500 size=24px
+              LineHeight: 30.624000549316406px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+            TEXT: "Trust Administrator" (144x20) at (929,3817.708251953125)
+              Fill: #161616 alpha=1.00
+              Text: "Trust Administrator"
+              Font: Space Grotesk weight=400 size=16px
+              LineHeight: 20.416000366210938px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 148" (319.0643310546875x389.20819091796875) at (1267.064453125,3448.5)
+          Layout: VERTICAL gap=12.7625732421875 counterAxis= primaryAxis=MAX
+          RECTANGLE: "Rectangle 31" (319.0643310546875x319.0643310546875) at (1267.064453125,3448.5)
+            Fill: IMAGE ref=59b484bd7e8a73fcb876087ced973c5c9bccbde1 scaleMode=FILL
+            BorderRadius: 19.14385986328125
+          FRAME: "Frame 144" (85.3497085571289x57.38128662109375) at (1267.064453125,3780.326904296875)
+            Layout: VERTICAL gap=6.38128662109375 counterAxis= primaryAxis=
+            TEXT: "Darrell" (73x31) at (1267.064453125,3780.326904296875)
+              Fill: #161616 alpha=1.00
+              Text: "Darrell"
+              Font: Space Grotesk weight=500 size=24px
+              LineHeight: 30.624000549316406px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+            TEXT: "Accountant" (90x20) at (1267.064453125,3817.708251953125)
+              Fill: #161616 alpha=1.00
+              Text: "Accountant"
+              Font: Space Grotesk weight=400 size=16px
+              LineHeight: 20.416000366210938px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 147" (319.0643310546875x389.20819091796875) at (1605.12890625,3448.5)
+          Layout: VERTICAL gap=12.7625732421875 counterAxis= primaryAxis=MAX
+          RECTANGLE: "Rectangle 31" (319.0643310546875x319.0643310546875) at (1605.12890625,3448.5)
+            Fill: IMAGE ref=f7eeb9650407169794c157715dd66074a42b7d24 scaleMode=FILL
+            BorderRadius: 19.14385986328125
+          FRAME: "Frame 144" (85.3497085571289x57.38128662109375) at (1605.12890625,3780.326904296875)
+            Layout: VERTICAL gap=6.38128662109375 counterAxis= primaryAxis=
+            TEXT: "Dustin" (74x31) at (1605.12890625,3780.326904296875)
+              Fill: #161616 alpha=1.00
+              Text: "Dustin"
+              Font: Space Grotesk weight=500 size=24px
+              LineHeight: 30.624000549316406px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+            TEXT: "Regional Manager" (135x20) at (1605.12890625,3817.708251953125)
+              Fill: #161616 alpha=1.00
+              Text: "Regional Manager"
+              Font: Space Grotesk weight=400 size=16px
+              LineHeight: 20.416000366210938px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 149" (319.0643310546875x389.20819091796875) at (1943.19140625,3448.5)
+          Layout: VERTICAL gap=12.7625732421875 counterAxis= primaryAxis=MAX
+          RECTANGLE: "Rectangle 31" (319.0643310546875x319.0643310546875) at (1943.19140625,3448.5)
+            Fill: IMAGE ref=9ac8fb3908e19c72cd4a6ba2dc2e02b5d611f116 scaleMode=FILL
+            BorderRadius: 19.14385986328125
+          FRAME: "Frame 144" (85.3497085571289x57.38128662109375) at (1943.19140625,3780.326904296875)
+            Layout: VERTICAL gap=6.38128662109375 counterAxis= primaryAxis=
+            TEXT: "Mitchell" (92x31) at (1943.19140625,3780.326904296875)
+              Fill: #161616 alpha=1.00
+              Text: "Mitchell"
+              Font: Space Grotesk weight=500 size=24px
+              LineHeight: 30.624000549316406px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+            TEXT: "Vice President" (108x20) at (1943.19140625,3817.708251953125)
+              Fill: #161616 alpha=1.00
+              Text: "Vice President"
+              Font: Space Grotesk weight=400 size=16px
+              LineHeight: 20.416000366210938px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 146" (319.0643310546875x389.20819091796875) at (2281.2578125,3448.5)
+          Layout: VERTICAL gap=12.7625732421875 counterAxis= primaryAxis=MAX
+          RECTANGLE: "Rectangle 31" (319.0643310546875x319.0643310546875) at (2281.2578125,3448.5)
+            Fill: IMAGE ref=8c0340294204fda9797f6f93041cafbf850cae66 scaleMode=FILL
+            BorderRadius: 19.14385986328125
+          FRAME: "Frame 144" (85.3497085571289x57.38128662109375) at (2281.2578125,3780.326904296875)
+            Layout: VERTICAL gap=6.38128662109375 counterAxis= primaryAxis=
+            TEXT: "Ronald" (79x31) at (2281.2578125,3780.326904296875)
+              Fill: #161616 alpha=1.00
+              Text: "Ronald"
+              Font: Space Grotesk weight=500 size=24px
+              LineHeight: 30.624000549316406px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+            TEXT: "Branch Manager" (124x20) at (2281.2578125,3817.708251953125)
+              Fill: #161616 alpha=1.00
+              Text: "Branch Manager"
+              Font: Space Grotesk weight=400 size=16px
+              LineHeight: 20.416000366210938px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 150" (319.0643310546875x389.20819091796875) at (2619.3203125,3448.5)
+          Layout: VERTICAL gap=12.7625732421875 counterAxis= primaryAxis=MAX
+          RECTANGLE: "Rectangle 31" (319.0643310546875x319.0643310546875) at (2619.3203125,3448.5)
+            Fill: IMAGE ref=f7eeb9650407169794c157715dd66074a42b7d24 scaleMode=FILL
+            BorderRadius: 19.14385986328125
+          FRAME: "Frame 144" (85.3497085571289x57.38128662109375) at (2619.3203125,3780.326904296875)
+            Layout: VERTICAL gap=6.38128662109375 counterAxis= primaryAxis=
+            TEXT: "Dustin" (74x31) at (2619.3203125,3780.326904296875)
+              Fill: #161616 alpha=1.00
+              Text: "Dustin"
+              Font: Space Grotesk weight=500 size=24px
+              LineHeight: 30.624000549316406px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+            TEXT: "Regional Manager" (135x20) at (2619.3203125,3817.708251953125)
+              Fill: #161616 alpha=1.00
+              Text: "Regional Manager"
+              Font: Space Grotesk weight=400 size=16px
+              LineHeight: 20.416000366210938px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 151" (319.0643310546875x389.20819091796875) at (2957.38671875,3448.5)
+          Layout: VERTICAL gap=12.7625732421875 counterAxis= primaryAxis=MAX
+          RECTANGLE: "Rectangle 31" (319.0643310546875x319.0643310546875) at (2957.38671875,3448.5)
+            Fill: IMAGE ref=733999a9c77e2acef1084d1e69801e993d3c2b3f scaleMode=FILL
+            BorderRadius: 19.14385986328125
+          FRAME: "Frame 144" (85.3497085571289x57.38128662109375) at (2957.38671875,3780.326904296875)
+            Layout: VERTICAL gap=6.38128662109375 counterAxis= primaryAxis=
+            TEXT: "Wade" (64x31) at (2957.38671875,3780.326904296875)
+              Fill: #161616 alpha=1.00
+              Text: "Wade"
+              Font: Space Grotesk weight=500 size=24px
+              LineHeight: 30.624000549316406px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+            TEXT: "Trust Administrator" (144x20) at (2957.38671875,3817.708251953125)
+              Fill: #161616 alpha=1.00
+              Text: "Trust Administrator"
+              Font: Space Grotesk weight=400 size=16px
+              LineHeight: 20.416000366210938px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 152" (319.0643310546875x389.20819091796875) at (3295.44921875,3448.5)
+          Layout: VERTICAL gap=12.7625732421875 counterAxis= primaryAxis=MAX
+          RECTANGLE: "Rectangle 31" (319.0643310546875x319.0643310546875) at (3295.44921875,3448.5)
+            Fill: IMAGE ref=59b484bd7e8a73fcb876087ced973c5c9bccbde1 scaleMode=FILL
+            BorderRadius: 19.14385986328125
+          FRAME: "Frame 144" (85.3497085571289x57.38128662109375) at (3295.44921875,3780.326904296875)
+            Layout: VERTICAL gap=6.38128662109375 counterAxis= primaryAxis=
+            TEXT: "Darrell" (73x31) at (3295.44921875,3780.326904296875)
+              Fill: #161616 alpha=1.00
+              Text: "Darrell"
+              Font: Space Grotesk weight=500 size=24px
+              LineHeight: 30.624000549316406px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+            TEXT: "Accountant" (90x20) at (3295.44921875,3817.708251953125)
+              Fill: #161616 alpha=1.00
+              Text: "Accountant"
+              Font: Space Grotesk weight=400 size=16px
+              LineHeight: 20.416000366210938px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 153" (319.0643310546875x389.20819091796875) at (3633.515625,3448.5)
+          Layout: VERTICAL gap=12.7625732421875 counterAxis= primaryAxis=MAX
+          RECTANGLE: "Rectangle 31" (319.0643310546875x319.0643310546875) at (3633.515625,3448.5)
+            Fill: IMAGE ref=f7eeb9650407169794c157715dd66074a42b7d24 scaleMode=FILL
+            BorderRadius: 19.14385986328125
+          FRAME: "Frame 144" (85.3497085571289x57.38128662109375) at (3633.515625,3780.326904296875)
+            Layout: VERTICAL gap=6.38128662109375 counterAxis= primaryAxis=
+            TEXT: "Dustin" (74x31) at (3633.515625,3780.326904296875)
+              Fill: #161616 alpha=1.00
+              Text: "Dustin"
+              Font: Space Grotesk weight=500 size=24px
+              LineHeight: 30.624000549316406px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+            TEXT: "Regional Manager" (135x20) at (3633.515625,3817.708251953125)
+              Fill: #161616 alpha=1.00
+              Text: "Regional Manager"
+              Font: Space Grotesk weight=400 size=16px
+              LineHeight: 20.416000366210938px letterSpacing=-0.2552514672279358 align=LEFT
+              TextCase: ORIGINAL Decoration: NONE
+
+================================================================================
+SECTION: CTA/Contact (node 236:522)
+================================================================================
+FRAME: "Frame 151" (1920x622) at (0,3965)
+  Layout: HORIZONTAL gap=43 counterAxis=CENTER primaryAxis=CENTER
+  Padding: L=200 R=200 T=0 B=0
+  FRAME: "Frame 152" (1520x622) at (200,3965)
+    Gradient Linear: 2 stops
+      Stop 0.00: #DF440E a=1.00
+      Stop 1.00: #FF7342 a=1.00
+      Handles: [{"x":0.01423328795824927,"y":0.8737389906052482},{"x":0.9532547536118727,"y":-0.3440360098227672},{"x":0.04042246673469983,"y":1.34324972343206}]
+    BorderRadius: 24
+    Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=SPACE_BETWEEN
+    Padding: L=50 R=24 T=25 B=25
+    ClipsContent: true
+    RECTANGLE: "image 23" (1037x1036) at (116,3758)
+      Fill: IMAGE ref=d2efa55d414de81f93d37c2997aa7cfa846ccc72 scaleMode=FILL
+      Gradient Linear: 2 stops
+        Stop 0.00: #F05E2A a=1.00
+        Stop 1.00: #F05E2A a=1.00
+        Handles: [{"x":1,"y":0.4999999999999999},{"x":0,"y":0.49999999999999994},{"x":0.9999999999999999,"y":-1.1102230246251565e-16}]
+    FRAME: "Frame 2147229563" (624x286) at (250,4133)
+      Layout: VERTICAL gap=50 counterAxis= primaryAxis=
+      FRAME: "Frame 150" (624x186) at (250,4133)
+        Layout: VERTICAL gap=16 counterAxis= primaryAxis=
+        TEXT: "Let’s build something great together!" (624x122) at (250,4133)
+          Fill: #FFFFFF alpha=1.00
+          Text: "Let’s build something great together!"
+          Font: Space Grotesk weight=700 size=48px
+          LineHeight: 61.24800109863281px letterSpacing=-0.3199999928474426 align=LEFT
+          TextCase: ORIGINAL Decoration: NONE
+        TEXT: "Get in touch with us for a consultation or quote on your next commercial project." (549x48) at (250,4271)
+          Fill: #FFFFFF alpha=1.00
+          Text: "Get in touch with us for a consultation or quote on your next commercial project."
+          Font: Space Grotesk weight=500 size=16px
+          LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+          TextCase: ORIGINAL Decoration: NONE
+      FRAME: "Frame 2147229568" (170x50) at (250,4369)
+        Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+        FRAME: "Frame 2147229565" (50x50) at (250,4369)
+          Fill: #FF5A21 alpha=1.00
+          Effect: DROP_SHADOW color=#B94817 a=0.160 offset=(0,1) blur=5.5 spread=0
+          BorderRadius: 25
+          Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+          Padding: L=13 R=13 T=13 B=13
+          FRAME: "iconsax-instagram" (24x24) at (263,4382)
+            ClipsContent: true
+            GROUP: "Clip path group" (24x24) at (263,4382)
+              GROUP: "clip0_4418_9861" (24x24) at (263,4382)
+                VECTOR: "Vector" (24x24) at (263,4382)
+                  Fill: #000000 alpha=1.00
+                  FillGeometry: M24 0L0 0L0 24L24 24L24 0Z
+              GROUP: "Group" (20x20) at (265,4384)
+                VECTOR: "Vector" (20x20) at (265,4384)
+                  Stroke: #FFFFFF weight=1.5 align=CENTER
+                VECTOR: "Vector" (7x7) at (271.5,4390.5)
+                  Stroke: #FFFFFF weight=1.5 align=CENTER
+                VECTOR: "Vector" (0.011598587036132812x0) at (280.63671875,4389)
+                  Stroke: #FFFFFF weight=2 align=CENTER
+        FRAME: "Frame 2147229566" (50x50) at (310,4369)
+          Fill: #FF5A21 alpha=1.00
+          Effect: DROP_SHADOW color=#B94817 a=0.160 offset=(0,1) blur=5.5 spread=0
+          BorderRadius: 25
+          Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+          Padding: L=13 R=13 T=13 B=13
+          FRAME: "iconsax-youtube" (24x24) at (323,4382)
+            ClipsContent: true
+            GROUP: "Clip path group" (24x24) at (323,4382)
+              GROUP: "clip0_4418_10214" (24x24) at (323,4382)
+                VECTOR: "Vector" (24x24) at (323,4382)
+                  Fill: #000000 alpha=1.00
+                  FillGeometry: M24 0L0 0L0 24L24 24L24 0Z
+              GROUP: "Group" (20x16) at (325,4386)
+                VECTOR: "Vector" (20x16) at (325,4386)
+                  Stroke: #FFFFFF weight=1.5 align=CENTER
+                VECTOR: "Vector" (4.975019454956055x5.629411697387695) at (332.599609375,4391.2265625)
+                  Stroke: #FFFFFF weight=1.5 align=CENTER
+        FRAME: "Frame 2147229567" (50x50) at (370,4369)
+          Fill: #FF5A21 alpha=1.00
+          Effect: DROP_SHADOW color=#B94817 a=0.160 offset=(0,1) blur=5.5 spread=0
+          BorderRadius: 25
+          Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+          Padding: L=13 R=13 T=13 B=13
+          FRAME: "iconsax-whatsapp" (24x24) at (383,4382)
+            ClipsContent: true
+            GROUP: "Clip path group" (24x24) at (383,4382)
+              GROUP: "clip0_4418_10215" (24x24) at (383,4382)
+                VECTOR: "Vector" (24x24) at (383,4382)
+                  Fill: #000000 alpha=1.00
+                  FillGeometry: M24 0L0 0L0 24L24 24L24 0Z
+              GROUP: "Group" (20x20) at (385,4384)
+                VECTOR: "Vector" (20x20) at (385,4384)
+                  Stroke: #FFFFFF weight=1.5 align=CENTER
+                VECTOR: "Vector" (9x9) at (390.5,4389.5)
+                  Stroke: #FFFFFF weight=1.5 align=CENTER
+    FRAME: "Frame 23" (600x566) at (1096,3993)
+      Fill: #FFFFFF alpha=1.00
+      BorderRadius: 20
+      Layout: VERTICAL gap=29 counterAxis= primaryAxis=
+      Padding: L=30 R=30 T=30 B=30
+      FRAME: "Frame 19" (540x72) at (1126,4023)
+        Layout: VERTICAL gap=4 counterAxis= primaryAxis=
+        TEXT: "Home" (43x24) at (1126,4023)
+          Fill: #696969 alpha=1.00
+          Text: "Home"
+          Font: Space Grotesk weight=500 size=16px
+          LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+          TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 18" (540x44) at (1126,4051)
+          Fill: #FFFFFF alpha=1.00
+          BorderRadius: 10
+          Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+          Padding: L=21 R=21 T=11 B=11
+          Stroke: #F9773B weight=1 align=CENTER
+          TEXT: "Michael Carter" (95x21) at (1147,4062.5)
+            Fill: #000000 alpha=1.00
+            Text: "Michael Carter"
+            Font: Space Grotesk weight=700 size=14px
+            LineHeight: 21px letterSpacing=-0.3199999928474426 align=LEFT
+            TextCase: ORIGINAL Decoration: NONE
+      FRAME: "Frame 20" (540x72) at (1126,4124)
+        Layout: VERTICAL gap=4 counterAxis= primaryAxis=
+        TEXT: "Email" (39x24) at (1126,4124)
+          Fill: #696969 alpha=1.00
+          Text: "Email"
+          Font: Space Grotesk weight=500 size=16px
+          LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+          TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 18" (540x44) at (1126,4152)
+          Fill: #F8F8F8 alpha=1.00
+          BorderRadius: 10
+          Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+          Padding: L=21 R=21 T=11 B=11
+          TEXT: "michaelcarter@gmail.com" (171x21) at (1147,4163.5)
+            Fill: #000000 alpha=1.00
+            Text: "michaelcarter@gmail.com"
+            Font: Space Grotesk weight=700 size=14px
+            LineHeight: 21px letterSpacing=-0.3199999928474426 align=LEFT
+            TextCase: ORIGINAL Decoration: NONE
+      FRAME: "Frame 21" (540x72) at (1126,4225)
+        Layout: VERTICAL gap=4 counterAxis= primaryAxis=
+        TEXT: "Phone number" (109x24) at (1126,4225)
+          Fill: #696969 alpha=1.00
+          Text: "Phone number"
+          Font: Space Grotesk weight=500 size=16px
+          LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+          TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 18" (540x44) at (1126,4253)
+          Fill: #F8F8F8 alpha=1.00
+          BorderRadius: 10
+          Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=
+          Padding: L=21 R=21 T=11 B=11
+          TEXT: "+1 650 213 7379" (104x21) at (1147,4264.5)
+            Fill: #000000 alpha=1.00
+            Text: "+1 650 213 7379"
+            Font: Space Grotesk weight=700 size=14px
+            LineHeight: 21px letterSpacing=-0.3199999928474426 align=LEFT
+            TextCase: ORIGINAL Decoration: NONE
+      FRAME: "Frame 22" (540x118) at (1126,4326)
+        Layout: VERTICAL gap=4 counterAxis= primaryAxis=
+        TEXT: "Message" (67x24) at (1126,4326)
+          Fill: #696969 alpha=1.00
+          Text: "Message"
+          Font: Space Grotesk weight=500 size=16px
+          LineHeight: 24px letterSpacing=-0.3199999928474426 align=LEFT
+          TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 18" (540x90) at (1126,4354)
+          Fill: #F8F8F8 alpha=1.00
+          BorderRadius: 10
+          Layout: HORIZONTAL gap=10 counterAxis= primaryAxis=
+          Padding: L=21 R=21 T=11 B=11
+          TEXT: "Tell us about your project needs..." (220x21) at (1147,4365)
+            Fill: #000000 alpha=1.00
+            Text: "Tell us about your project needs..."
+            Font: Space Grotesk weight=700 size=14px
+            LineHeight: 21px letterSpacing=-0.3199999928474426 align=LEFT
+            TextCase: ORIGINAL Decoration: NONE
+      FRAME: "Frame 10" (540x56) at (1126,4473)
+        Fill: #DF440E alpha=1.00
+        BorderRadius: 10
+        Layout: HORIZONTAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+        Padding: L=30 R=30 T=14 B=14
+        TEXT: "Submit" (69x20) at (1342.5,4491)
+          Fill: #FFFFFF alpha=1.00
+          Text: "Submit"
+          Font: Space Grotesk weight=500 size=20px
+          LineHeight: 20px letterSpacing=0 align=LEFT
+          TextCase: ORIGINAL Decoration: NONE
+        FRAME: "Frame 86" (28x28) at (1421.5,4487)
+          Fill: #FFFFFF alpha=1.00
+          BorderRadius: 14
+          Layout: VERTICAL gap=10 counterAxis=CENTER primaryAxis=CENTER
+          Padding: L=2 R=2 T=2 B=2
+          FRAME: "6" (24.000004005495157x24.000000190798346) at (1423.4999980926514,4488.999999809202)
+            VECTOR: "Vector" (21.637231424636866x21.63722729204801) at (1424.833984375,4490.075515535923)
+              Stroke: #DF440E weight=1 align=INSIDE
+
+================================================================================
+SECTION: Footer (node 236:577)
+================================================================================
+FRAME: "Frame 2147229553" (1920x467) at (0,4687)
+  Fill: #101828 alpha=1.00
+  Layout: VERTICAL gap=66.66667175292969 counterAxis=CENTER primaryAxis=
+  Padding: L=133.33334350585938 R=133.33334350585938 T=53.333335876464844 B=53.333335876464844
+  ClipsContent: true
+  FRAME: "Container" (1653.3333740234375x266.6666564941406) at (133.3333282470703,4740.33349609375)
+    FRAME: "Container" (778.6666870117188x266.6666564941406) at (133.3333282470703,4740.33349609375)
+      FRAME: "Container" (778.6666870117188x64) at (133.3333282470703,4740.33349609375)
+        RECTANGLE: "seyon 1" (147.88592529296875x53.33333206176758) at (133.3333282470703,4740.33349609375)
+          Fill: IMAGE ref=b2662137210109b16813952eda0da425c260042a scaleMode=FILL
+      FRAME: "Paragraph" (597.3333129882812x104) at (133.33316040039062,4836.33349609375)
+        TEXT: "A multidisciplinary engineering and contracting co" (570.6666870117188x104) at (133.3330078125,4833.66552734375)
+          Fill: #99A1AF alpha=1.00
+          Text: "A multidisciplinary engineering and contracting company delivering civil, MEP, mechanical, and infrastructure solutions with excellence."
+          Font: Space Grotesk weight=400 size=21.33333396911621px
+          LineHeight: 34.66666793823242px letterSpacing=0 align=LEFT
+          TextCase: ORIGINAL Decoration: NONE
+      FRAME: "Container" (778.6666870117188x10.666666984558105) at (133.33316040039062,4972.33349609375)
+        Layout: HORIZONTAL gap=10.666666984558105 counterAxis= primaryAxis=
+        FRAME: "Container" (10.666666984558105x10.666666984558105) at (133.33316040039062,4972.33349609375)
+          Gradient Linear: 2 stops
+            Stop 0.00: #FF6900 a=1.00
+            Stop 1.00: #FB2C36 a=1.00
+            Handles: [{"x":0,"y":0.5},{"x":1,"y":0.5},{"x":0,"y":1.5}]
+          BorderRadius: 44739200
+        FRAME: "Container" (10.666666984558105x10.666666984558105) at (154.6663360595703,4972.33349609375)
+          Gradient Linear: 2 stops
+            Stop 0.00: #FF6900 a=1.00
+            Stop 1.00: #FB2C36 a=1.00
+            Handles: [{"x":0,"y":0.5},{"x":1,"y":0.5},{"x":0,"y":1.5}]
+          BorderRadius: 44739200
+        FRAME: "Container" (10.666666984558105x10.666666984558105) at (175.99966430664062,4972.33349609375)
+          Gradient Linear: 2 stops
+            Stop 0.00: #FF6900 a=1.00
+            Stop 1.00: #FB2C36 a=1.00
+            Handles: [{"x":0,"y":0.5},{"x":1,"y":0.5},{"x":0,"y":1.5}]
+          BorderRadius: 44739200
+    FRAME: "Heading 4" (357.3333435058594x37.33333206176758) at (975.9993286132812,4740.33349609375)
+      TEXT: "Quick Links" (132x38) at (975.9993286132812,4739.00146484375)
+        Fill: #FFFFFF alpha=1.00
+        Text: "Quick Links"
+        Font: Space Grotesk weight=700 size=24px
+        LineHeight: 37.333335876464844px letterSpacing=0 align=LEFT
+        TextCase: ORIGINAL Decoration: NONE
+    FRAME: "List" (357.3333435058594x176) at (975.9993286132812,4809.66552734375)
+      Layout: VERTICAL gap=16 counterAxis= primaryAxis=
+      TEXT: "About Us" (95x32) at (975.9993286132812,4809.66552734375)
+        Fill: #99A1AF alpha=1.00
+        Text: "About Us"
+        Font: Space Grotesk weight=400 size=21.33333396911621px
+        LineHeight: 32px letterSpacing=0 align=CENTER
+        TextCase: ORIGINAL Decoration: NONE
+      TEXT: "Services" (88x32) at (975.9993286132812,4857.66552734375)
+        Fill: #99A1AF alpha=1.00
+        Text: "Services"
+        Font: Space Grotesk weight=400 size=21.33333396911621px
+        LineHeight: 32px letterSpacing=0 align=CENTER
+        TextCase: ORIGINAL Decoration: NONE
+      TEXT: "Our Approach" (141x32) at (975.9993286132812,4905.66552734375)
+        Fill: #99A1AF alpha=1.00
+        Text: "Our Approach"
+        Font: Space Grotesk weight=400 size=21.33333396911621px
+        LineHeight: 32px letterSpacing=0 align=CENTER
+        TextCase: ORIGINAL Decoration: NONE
+      TEXT: "Quality & Safety" (166x32) at (975.9993286132812,4953.66552734375)
+        Fill: #99A1AF alpha=1.00
+        Text: "Quality & Safety"
+        Font: Space Grotesk weight=400 size=21.33333396911621px
+        LineHeight: 32px letterSpacing=0 align=CENTER
+        TextCase: ORIGINAL Decoration: NONE
+    FRAME: "Heading 4" (357.3333435058594x37.33333206176758) at (1397.333251953125,4740.33349609375)
+      TEXT: "Services" (98x38) at (1397.3330078125,4739.00146484375)
+        Fill: #FFFFFF alpha=1.00
+        Text: "Services"
+        Font: Space Grotesk weight=700 size=24px
+        LineHeight: 37.333335876464844px letterSpacing=0 align=LEFT
+        TextCase: ORIGINAL Decoration: NONE
+    FRAME: "List" (357.3333435058594x197.3333282470703) at (1397.333251953125,4809.66552734375)
+      Layout: VERTICAL gap=16 counterAxis= primaryAxis=
+      TEXT: "Civil & Infrastructure" (357.3333435058594x27) at (1397.333251953125,4809.66552734375)
+        Fill: #99A1AF alpha=1.00
+        Text: "Civil & Infrastructure"
+        Font: Space Grotesk weight=400 size=18.666667938232422px
+        LineHeight: 26.666667938232422px letterSpacing=0 align=LEFT
+        TextCase: ORIGINAL Decoration: NONE
+      TEXT: "MEP & Building Services" (357.3333435058594x27) at (1397.333251953125,4852.66552734375)
+        Fill: #99A1AF alpha=1.00
+        Text: "MEP & Building Services"
+        Font: Space Grotesk weight=400 size=18.666667938232422px
+        LineHeight: 26.666667938232422px letterSpacing=0 align=LEFT
+        TextCase: ORIGINAL Decoration: NONE
+      TEXT: "HVAC Installations" (357.3333435058594x27) at (1397.333251953125,4895.66552734375)
+        Fill: #99A1AF alpha=1.00
+        Text: "HVAC Installations"
+        Font: Space Grotesk weight=400 size=18.666667938232422px
+        LineHeight: 26.666667938232422px letterSpacing=0 align=LEFT
+        TextCase: ORIGINAL Decoration: NONE
+      TEXT: "Structural & Industrial" (357.3333435058594x27) at (1397.333251953125,4938.66552734375)
+        Fill: #99A1AF alpha=1.00
+        Text: "Structural & Industrial"
+        Font: Space Grotesk weight=400 size=18.666667938232422px
+        LineHeight: 26.666667938232422px letterSpacing=0 align=LEFT
+        TextCase: ORIGINAL Decoration: NONE
+      TEXT: "Interior & Fit-out" (357.3333435058594x27) at (1397.333251953125,4981.66552734375)
+        Fill: #99A1AF alpha=1.00
+        Text: "Interior & Fit-out"
+        Font: Space Grotesk weight=400 size=18.666667938232422px
+        LineHeight: 26.666667938232422px letterSpacing=0 align=LEFT
+        TextCase: ORIGINAL Decoration: NONE
+  FRAME: "Container" (1621.3333740234375x26.66666603088379) at (149.3333282470703,5073.6669921875)
+    Layout: HORIZONTAL gap=834.9375 counterAxis=CENTER primaryAxis=SPACE_BETWEEN
+    TEXT: "© 2026 Seyon Constrotech Private Limited. All righ" (558x27) at (149.3333282470703,5073.50048828125)
+      Fill: #99A1AF alpha=1.00
+      Text: "© 2026 Seyon Constrotech Private Limited. All rights reserved."
+      Font: Space Grotesk weight=400 size=18.666667938232422px
+      LineHeight: 26.666667938232422px letterSpacing=0 align=LEFT
+      TextCase: ORIGINAL Decoration: NONE
+    FRAME: "Container" (275.3125x26.66666603088379) at (1495.35400390625,5073.6669921875)
+      Layout: HORIZONTAL gap=32 counterAxis= primaryAxis=
+      FRAME: "Button" (110.08333587646484x26.66666603088379) at (1495.35400390625,5073.6669921875)
+        Layout: HORIZONTAL gap=0 counterAxis= primaryAxis=
+        TEXT: "Privacy Policy" (125x27) at (1495.35400390625,5073.6669921875)
+          Fill: #99A1AF alpha=1.00
+          Text: "Privacy Policy"
+          Font: Space Grotesk weight=400 size=18.666667938232422px
+          LineHeight: 26.666667938232422px letterSpacing=0 align=CENTER
+          TextCase: ORIGINAL Decoration: NONE
+      FRAME: "Button" (133.2291717529297x26.66666603088379) at (1637.4375,5073.6669921875)
+        Layout: HORIZONTAL gap=0 counterAxis= primaryAxis=
+        TEXT: "Terms of Service" (149x27) at (1637.4375,5073.6669921875)
+          Fill: #99A1AF alpha=1.00
+          Text: "Terms of Service"
+          Font: Space Grotesk weight=400 size=18.666667938232422px
+          LineHeight: 26.666667938232422px letterSpacing=0 align=CENTER
+          TextCase: ORIGINAL Decoration: NONE
+  FRAME: "Footer" (64x64) at (1722.666015625,4741.66796875)
+    FRAME: "Container" (64x64) at (1722.666015625,4741.66796875)
+      Gradient Linear: 2 stops
+        Stop 0.00: #F54900 a=1.00
+        Stop 1.00: #FF6900 a=1.00
+        Handles: [{"x":0,"y":0},{"x":1,"y":1},{"x":-1,"y":1}]
+      Effect: LAYER_BLUR color=#000000 a=0.000 offset=(0,0) blur=21.33333396911621 spread=0
+      BorderRadius: 44739200
+      Opacity: 0.5
+    FRAME: "Container" (64x64) at (1722.666015625,4741.66796875)
+      Gradient Linear: 2 stops
+        Stop 0.00: #F54900 a=1.00
+        Stop 1.00: #FF6900 a=1.00
+        Handles: [{"x":0,"y":0},{"x":1,"y":1},{"x":-1,"y":1}]
+      Effect: DROP_SHADOW color=#000000 a=0.100 offset=(0,10.666666984558105) blur=13.333333969116211 spread=-8
+      Effect: DROP_SHADOW color=#000000 a=0.100 offset=(0,26.666667938232422) blur=33.333335876464844 spread=-6.6666669845581055
+      BorderRadius: 44739200
+      Layout: HORIZONTAL gap=0 counterAxis=CENTER primaryAxis=CENTER
+      FRAME: "Icon" (26.66666603088379x26.66666603088379) at (1741.3328857421875,4760.33447265625)
+        ClipsContent: true
+        VECTOR: "Vector" (15.555556297302246x7.777778148651123) at (1746.8875732421875,4765.88916015625)
+          Stroke: #FFFFFF weight=2.222222328186035 align=CENTER
+        VECTOR: "Vector" (0x15.555556297302246) at (1754.6668701171875,4765.88916015625)
+          Stroke: #FFFFFF weight=2.222222328186035 align=CENTER
