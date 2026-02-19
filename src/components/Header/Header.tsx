@@ -24,7 +24,7 @@ export function Header(): React.ReactElement {
 
   return (
     <header
-      className="sticky top-0 left-0 right-0 z-50 bg-transparent"
+      className="header-nav-container sticky top-0 left-0 right-0 z-50 bg-transparent"
       style={{ height: "100px" }}
     >
       {/* Navy background behind the clip shape */}
