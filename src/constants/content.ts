@@ -1,4 +1,7 @@
 import type { Feature, Service, TeamMember, ContactInfo } from '@/types'
+import quality from '@/assets/images/services/icons/quality.svg'
+import tick from "@/assets/images/services/icons/tick.svg";
+import warning from "@/assets/images/services/icons/danger.svg";  
 
 export const heroContent = {
   headline: 'Innovative Solutions for a Digital World',
@@ -211,3 +214,30 @@ export const notFoundContent = {
   buttonText: 'Go Home',
   buttonLink: '/',
 }
+
+
+export const qualityPoints = [
+  "Standardised installation methods and material approval processes",
+  "In-process inspection test plans (ITP) at every critical stage",
+  "Dedicated HSE officers on all active project sites",
+  "Full testing and commissioning documentation before handover",
+  "Third-party audit and certification support where required",
+];
+
+export const qualityCards = [
+  {
+    icon: quality,
+    title: "QUALITY ASSURANCE",
+    desc: "Standardised methods, material controls, and ITP-driven inspections across every trade",
+  },
+  {
+    icon: tick,
+    title: "SAFETY COMPLIANCE",
+    desc: "Trained safety officers, method statements, and statutory HSE compliance on every project",
+  },
+  {
+    icon: warning,
+    title: "RISK MANAGEMENT",
+    desc: "Proactive risk registers, hazard controls, and incident prevention protocols embedded in delivery",
+  },
+];

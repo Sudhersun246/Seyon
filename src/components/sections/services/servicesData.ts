@@ -14,6 +14,18 @@ import mepImage from "@/assets/images/services/mep.png";
 import mechanicalImage from "@/assets/images/services/mechanical.png";
 import structuralImage from "@/assets/images/services/structural.png";
 import fitoutImage from "@/assets/images/services/fit-out.png";
+import requirement from "@/assets/images/services/icons/requirement.png";
+import evaluation from "@/assets/images/services/icons/evaluation.png";
+import resource from "@/assets/images/services/icons/resource.png";
+import expert from "@/assets/images/services/icons/expert.png";
+import multi from "@/assets/images/services/icons/multi.png";
+import safety from "@/assets/images/services/icons/safety.png";
+import testing from "@/assets/images/services/icons/testing.png";
+import final from "@/assets/images/services/icons/final.png";
+import expert1 from "@/assets/images/services/icons/expert1.png";
+import precision from "@/assets/images/services/icons/precision.png";
+import scope from "@/assets/images/services/icons/scope.png";
+import shake from "@/assets/images/services/icons/shake.png";
 
 export const serviceDetails = [
   {
@@ -120,49 +132,49 @@ export const deliveryStages = [
     number: "01",
     title: "REQUIREMENT & ENGINEERING REVIEW",
     description: "Understanding project scope, technical requirements, and client objectives before mobilisation",
-    icon: "📋",
+    icon: requirement,
   },
   {
     number: "02",
     title: "SITE EVALUATION & FEASIBILITY",
     description: "On-site assessment, geotechnical inputs, and feasibility review to inform execution planning",
-    icon: "🗺️",
+    icon: evaluation,
   },
   {
     number: "03",
     title: "RESOURCE PLANNING",
     description: "Material procurement, manpower scheduling, and equipment allocation aligned to project programme",
-    icon: "📦",
+    icon: resource,
   },
   {
     number: "04",
     title: "EXPERT-LED EXECUTION",
     description: "On-site supervision by experienced engineers with real-time progress tracking and issue resolution",
-    icon: "⚙️",
+    icon: expert,
   },
   {
     number: "05",
     title: "MULTI-LEVEL QUALITY INSPECTIONS",
     description: "Staged QA/QC inspections at every critical milestone to ensure workmanship and specification compliance",
-    icon: "🔍",
+    icon: multi,
   },
   {
     number: "06",
     title: "SAFETY COMPLIANCE",
     description: "Dedicated safety officers enforcing HSE protocols, method statements, and regulatory requirements on site",
-    icon: "🦺",
+    icon: safety,
   },
   {
     number: "07",
     title: "TESTING, COMMISSIONING & DOCUMENTATION",
     description: "System commissioning, performance testing, and full documentation package for every discipline",
-    icon: "✏️",
+    icon: testing,
   },
   {
     number: "08",
     title: "FINAL HANDOVER",
     description: "Structured handover with operation & maintenance manuals, as-built drawings, and performance reports",
-    icon: "🏁",
+    icon: final,
   },
 ];
 
@@ -175,10 +187,8 @@ export const disciplineCards = [
 ];
 
 export const whyStandOutItems = [
-  { title: "Multi-Discipline Capability", description: "Civil, MEP, structural, mechanical, and fit-out under one roof — no fragmented subcontracting." },
-  { title: "Engineering-Led Delivery", description: "Every project is managed by qualified engineers, not just project administrators." },
-  { title: "Integrated QA Framework", description: "ITP-driven inspection plans at every trade stage, not just at completion." },
-  { title: "HSE-First Culture", description: "Statutory compliance embedded in daily site operations, not treated as an afterthought." },
-  { title: "Documentation Rigour", description: "Full as-built, O&M, and commissioning documentation delivered as standard." },
-  { title: "Client-Facing Reporting", description: "Regular progress reporting and transparent communication throughout project lifecycle." },
+  { number: "01", icon: expert1, title: "Expert Teams", description: "Qualified engineers, certified supervisors, and specialist tradespeople across all disciplines — not generalists, but domain experts on every site." },
+  { number: "02", icon: precision, title: "Engineering Precision", description: "Every installation, structure, and system is planned, calculated, and executed with the rigour that engineering standards demand — no shortcuts, no guesswork." },
+  { number: "03", icon: scope, title: "Modern Practices", description: "Adoption of contemporary construction methodologies, digital coordination, and modern project management tools for efficient, transparent delivery." },
+  { number: "04", icon: shake, title: "Full Accountability", description: "We take ownership from mobilization to handover — disciplined execution, clear reporting, and dependable partnerships built on delivery." },
 ];

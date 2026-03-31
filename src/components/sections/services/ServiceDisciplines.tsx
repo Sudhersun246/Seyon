@@ -95,7 +95,7 @@ export function ServiceDisciplines(): React.ReactElement {
       style={{ backgroundColor: "#111111" }}
       aria-labelledby="disciplines-heading"
     >
-      <div ref={ref} className="max-w-[1200px] mx-auto px-4 md:px-8">
+      <div ref={ref} className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex flex-col lg:flex-row lg:items-end justify-between mb-[50px] gap-[20px]">
           <div className={`scroll-fade-left ${isVisible ? "visible" : ""}`}>
             <div className="flex items-center gap-[8px] mb-[12px]">

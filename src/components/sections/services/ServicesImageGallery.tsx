@@ -14,7 +14,7 @@ export function ServicesImageGallery(): React.ReactElement {
 
   return (
     <section className="w-full py-[60px] bg-white overflow-hidden">
-      <div className="max-w-[1200px] mx-auto px-4 md:px-8 mb-[30px] flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 mb-7.5 flex items-center justify-between">
         <div>
           <div className="flex items-center gap-[8px] mb-[8px]">
             <span className="w-[9px] h-[9px] rounded-full bg-[#DF440E]" />

@@ -1,4 +1,4 @@
-import dot from "@/assets/images/services/icons/dot.png";
+import dot from "@/assets/images/services/icons/dot.svg";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { serviceDetails } from "./servicesData";
 
@@ -77,7 +77,7 @@ function ServiceDetailItem({
 export function ServiceDetailSections(): React.ReactElement {
   return (
     <section className="w-full bg-white">
-      <div className="max-w-[1200px] mx-auto px-4 md:px-8 divide-y divide-[#F0F0F0]">
+      <div className="max-w-7xl mx-auto px-4 md:px-8">
         {serviceDetails.map((service, index) => (
           <ServiceDetailItem key={service.id} service={service} index={index} />
         ))}
