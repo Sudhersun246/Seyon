@@ -1,35 +1,35 @@
 import { Link } from "react-router-dom";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import project1 from "@/assets/images/projects/project-1.jpg";
-import project2 from "@/assets/images/projects/project-2.jpg";
-import project3 from "@/assets/images/projects/project-3.jpg";
-import project4 from "@/assets/images/projects/project-4.jpg";
+import skyLine from "@/assets/images/projects/skyline.jpg";
+import oceanView from "@/assets/images/projects/oceanview.jpg";
+import vertex from "@/assets/images/projects/vertex.jpg";
+import summit from "@/assets/images/projects/summit.jpg";
 
 const projects = [
   {
     id: "project-1",
-    image: project1,
+    image: skyLine,
     title: "Skyline Tower",
     description:
       "A 35-story business hub with modern workspaces and a rooftop garden.",
   },
   {
     id: "project-2",
-    image: project2,
+    image: oceanView,
     title: "Oceanview Plaza",
     description:
       "A 35-story business hub with modern workspaces and a rooftop garden.",
   },
   {
     id: "project-3",
-    image: project3,
+    image: vertex,
     title: "Vertex Center",
     description:
       "A 35-story business hub with modern workspaces and a rooftop garden.",
   },
   {
     id: "project-4",
-    image: project4,
+    image: summit,
     title: "Summit Plaza",
     description:
       "A 35-story business hub with modern workspaces and a rooftop garden.",

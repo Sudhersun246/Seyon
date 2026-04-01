@@ -74,12 +74,12 @@ export function ProjectsHero(): React.ReactElement {
 
           <a
             href="#ongoing-projects"
-            className="inline-flex items-center gap-[10px] border border-white rounded-[10px] px-[30px] py-[14px]"
+            className="inline-flex items-center gap-[10px] border border-white bg-white rounded-[10px] px-[30px] py-[14px]"
           >
-            <span className="font-['Space_Grotesk'] font-medium text-[16px] text-white">
+            <span className="font-['Space_Grotesk'] font-medium text-[16px] text-primary-600">
               View Ongoing Projects
             </span>
-            <div className="w-[28px] h-[28px] rounded-full border border-white flex items-center justify-center">
+            <div className="w-[28px] h-[28px] rounded-full bg-primary-600 flex items-center justify-center">
               <svg
                 width="14"
                 height="14"

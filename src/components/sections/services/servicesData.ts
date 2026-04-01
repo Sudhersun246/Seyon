@@ -1,9 +1,9 @@
-import project1 from "@/assets/images/projects/project-1.jpg";
-import project2 from "@/assets/images/projects/project-2.jpg";
-import project3 from "@/assets/images/projects/project-3.jpg";
-import project4 from "@/assets/images/projects/project-4.jpg";
-import project5 from "@/assets/images/projects/project-5.jpg";
-import project6 from "@/assets/images/projects/project-6.jpg";
+import skyLine from "@/assets/images/projects/skyline.jpg";
+import oceanView from "@/assets/images/projects/oceanview.jpg";
+import summit from "@/assets/images/projects/summit.jpg";
+import vertex from "@/assets/images/projects/vertex.jpg";
+import project5 from "@/assets/images/projects/harbor-point.jpg";
+import project6 from "@/assets/images/projects/apex-tower.jpg";
 import civil from "@/assets/images/services/icons/civil.png";
 import mechanical from "@/assets/images/services/icons/mechanical.png";
 import mep from "@/assets/images/services/icons/mcp.png";
@@ -119,10 +119,10 @@ export const serviceDetails = [
 ];
 
 export const scrollImages = [
-  { image: project1, label: "CIVIL WORKS" },
-  { image: project2, label: "MEP SYSTEMS" },
-  { image: project3, label: "HVAC SYSTEMS" },
-  { image: project4, label: "STRUCTURAL" },
+  { image: skyLine, label: "CIVIL WORKS" },
+  { image: oceanView, label: "MEP SYSTEMS" },
+  { image: summit, label: "HVAC SYSTEMS" },
+  { image: vertex, label: "STRUCTURAL" },
   { image: project5, label: "FIT-OUT" },
   { image: project6, label: "PROJECTS" },
 ];

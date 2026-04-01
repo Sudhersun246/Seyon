@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom'
-import project1 from '@/assets/images/projects/project-1.jpg'
-import project2 from '@/assets/images/projects/project-2.jpg'
-import project3 from '@/assets/images/projects/project-3.jpg'
+import skyLine from '@/assets/images/projects/skyline.jpg'
+import oceanView from '@/assets/images/projects/oceanview.jpg'
+import vertex from '@/assets/images/projects/vertex.jpg'
 
 const projects = [
   {
     id: 'project-1',
-    image: project1,
+    image: skyLine,
     title: 'Skyline Office Tower',
     category: 'Commercial',
     location: 'Downtown Miami',
@@ -14,7 +14,7 @@ const projects = [
   },
   {
     id: 'project-2',
-    image: project2,
+    image: oceanView,
     title: 'Ocean View Residences',
     category: 'Residential',
     location: 'Miami Beach',
@@ -22,7 +22,7 @@ const projects = [
   },
   {
     id: 'project-3',
-    image: project3,
+    image: vertex,
     title: 'Metro Shopping Center',
     category: 'Retail',
     location: 'Coral Gables',

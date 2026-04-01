@@ -2,6 +2,18 @@ import type { Feature, Service, TeamMember, ContactInfo } from '@/types'
 import quality from '@/assets/images/services/icons/quality.svg'
 import tick from "@/assets/images/services/icons/tick.svg";
 import warning from "@/assets/images/services/icons/danger.svg";  
+import skyLine from "@/assets/images/projects/skyLine.jpg";
+import oceanView from "@/assets/images/projects/oceanView.jpg";
+import vertex from "@/assets/images/projects/vertex.jpg";
+import summit from "@/assets/images/projects/summit.jpg";
+import step1 from "@/assets/images/projects/icons/step1.png";
+import step2 from "@/assets/images/projects/icons/step2.png";
+import step3 from "@/assets/images/projects/icons/step3.png";
+import step4 from "@/assets/images/projects/icons/step4.png";
+import iso from "@/assets/images/projects/icons/iso.png";
+import safety from "@/assets/images/projects/icons/safety.png";
+import sustain from "@/assets/images/projects/icons/sustain.png";
+
 
 export const heroContent = {
   headline: 'Innovative Solutions for a Digital World',
@@ -239,5 +251,190 @@ export const qualityCards = [
     icon: warning,
     title: "RISK MANAGEMENT",
     desc: "Proactive risk registers, hazard controls, and incident prevention protocols embedded in delivery",
+  },
+];
+
+export const featureProjects = [
+  {
+    title: "Multi-Sector Projects",
+    desc: "Industrial, Commercial, Residential & Institutional Developments",
+  },
+  {
+    title: "Integrated Engineering",
+    desc: "Civil | MEP | Mechanical | Structural",
+  },
+  {
+    title: "Quality Execution",
+    desc: "Structured planning, supervision, and safety compliance",
+  },
+  {
+    title: "Trusted Delivery",
+    desc: "Reliable outcomes through disciplined project management",
+  },
+];
+
+export const ongoingProjects = [
+  {
+    id: "op-1",
+    image: skyLine,
+    title: "Skyline Tower",
+    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
+  },
+  {
+    id: "op-2",
+    image: skyLine,
+    title: "Skyline Tower",
+    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
+  },
+  {
+    id: "op-3",
+    image: skyLine,
+    title: "Skyline Tower",
+    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
+  },
+  {
+    id: "op-4",
+    image: skyLine,
+    title: "Skyline Tower",
+    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
+  },
+  {
+    id: "op-5",
+    image: skyLine,
+    title: "Skyline Tower",
+    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
+  },
+  {
+    id: "op-6",
+    image: skyLine,
+    title: "Skyline Tower",
+    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
+  },
+  {
+    id: "op-7",
+    image: skyLine,
+    title: "Skyline Tower",
+    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
+  },
+  {
+    id: "op-8",
+    image: skyLine,
+    title: "Skyline Tower",
+    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
+  },
+];
+
+export const completedProjects = [
+  {
+    id: "cp-1",
+    image: skyLine,
+    title: "Skyline Tower",
+    location: "Chennai",
+    area: "25,000 Sqft",
+    tags: ["Civil", "PHE", "Fire Protection Systems", "Electrical", "HVAC"],
+  },
+  {
+    id: "cp-2",
+    image: oceanView,
+    title: "Oceanview Plaza",
+    location: "Chennai",
+    area: "25,000 Sqft",
+    tags: ["Civil", "PHE", "Fire Protection Systems", "Electrical", "HVAC"],
+  },
+  {
+    id: "cp-3",
+    image: vertex,
+    title: "Vertex Center",
+    location: "Chennai",
+    area: "25,000 Sqft",
+    tags: ["Civil", "PHE", "Fire Protection Systems", "Electrical", "HVAC"],
+  },
+  {
+    id: "cp-4",
+    image: summit,
+    title: "Summit Plaza",
+    location: "Chennai",
+    area: "25,000 Sqft",
+    tags: ["Civil", "PHE", "Fire Protection Systems", "Electrical", "HVAC"],
+  },
+  {
+    id: "cp-5",
+    image: vertex,
+    title: "Vertex Center",
+    location: "Chennai",
+    area: "25,000 Sqft",
+    tags: ["Civil", "PHE", "Fire Protection Systems", "Electrical", "HVAC"],
+  },
+  {
+    id: "cp-6",
+    image: summit,
+    title: "Summit Plaza",
+    location: "Chennai",
+    area: "25,000 Sqft",
+    tags: ["Civil", "PHE", "Fire Protection Systems", "Electrical", "HVAC"],
+  },
+  {
+    id: "cp-7",
+    image: oceanView,
+    title: "Oceanview Plaza",
+    location: "Chennai",
+    area: "25,000 Sqft",
+    tags: ["Civil", "PHE", "Fire Protection Systems", "Electrical", "HVAC"],
+  },
+  {
+    id: "cp-8",
+    image: skyLine,
+    title: "Skyline Tower",
+    location: "Chennai",
+    area: "25,000 Sqft",
+    tags: ["Civil", "PHE", "Fire Protection Systems", "Electrical", "HVAC"],
+  },
+];
+
+export const deliveryStages = [
+  {
+    number: "01.",
+    title: "ENGINEERING REVIEW",
+    description: "Detailed assessment of blueprints and structural feasibility.",
+    icon: step1,
+  },
+  {
+    number: "02.",
+    title: "EXECUTION PHASE",
+    description: "Core civil works and core structural implementation.",
+    icon: step2,
+  },
+  {
+    number: "03.",
+    title: "SYSTEMS INTEGRATION",
+    description: "PHE, electrical, and mechanical infrastructure installation.",
+    icon: step3,
+  },
+  {
+    number: "04.",
+    title: "PROJECT HANDOVER",
+    description: "Final quality audits and client asset transfer.",
+    icon: step4,
+  },
+];
+
+export const items = [
+  {
+    title: "ISO CERTIFIED QUALITY",
+    description:
+      "Strict adherence to international construction standards and quality benchmarks.",
+    icon: iso,
+  },
+  {
+    title: "SAFETY FIRST PROTOCOL",
+    description:
+      "Zero-incident goal driven by rigorous site safety management systems.",
+    icon: safety,
+  },
+  {
+    title: "SUSTAINABLE BUILDING",
+    description:
+      "Eco-conscious engineering to minimize carbon footprint across project lifecycles.",
+    icon: sustain,
   },
 ];

@@ -5,6 +5,7 @@ import { ServiceDetailSections } from "@/components/sections/services/ServiceDet
 import { DeliveryApproach } from "@/components/sections/services/DeliveryApproach";
 import { QualitySafety } from "@/components/sections/services/QualitySafety";
 import { WhyServicesStandOut } from "@/components/sections/services/WhyServicesStandOut";
+import { CTASection } from "@/components/sections/CTASection";
 
 export function ServicesPage(): React.ReactElement {
   return (
@@ -20,6 +21,7 @@ export function ServicesPage(): React.ReactElement {
       <DeliveryApproach />
       <QualitySafety />
       <WhyServicesStandOut />
+      <CTASection />
     </>
   );
 }

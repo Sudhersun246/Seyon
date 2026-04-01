@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { Header } from "@/components/Header";
 import { Footer } from "./Footer";
-import { CTASection } from "@/components/sections/CTASection";
 
 export function Layout(): React.ReactElement {
   return (
@@ -11,7 +10,6 @@ export function Layout(): React.ReactElement {
       <main className="flex-1" id="main-content" style={{ overflowX: 'clip' }}>
         <Outlet />
       </main>
-      <CTASection />
       <Footer />
     </div>
   );

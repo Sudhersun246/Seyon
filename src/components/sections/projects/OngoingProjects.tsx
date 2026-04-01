@@ -1,67 +1,102 @@
-import project1 from "@/assets/images/projects/project-1.jpg";
-import project2 from "@/assets/images/projects/project-2.jpg";
-import project3 from "@/assets/images/projects/project-3.jpg";
-import project4 from "@/assets/images/projects/project-4.jpg";
-import project5 from "@/assets/images/projects/project-5.jpg";
-import project6 from "@/assets/images/projects/project-6.jpg";
-import apexTower from "@/assets/images/projects/apex-tower.jpg";
-import harborPoint from "@/assets/images/projects/harbor-point.jpg";
+import React from "react";
+import { ongoingProjects } from "@/constants/content";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
-const ongoingProjects = [
-  {
-    id: "op-1",
-    image: project5,
-    title: "Skyline Tower",
-    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
-  },
-  {
-    id: "op-2",
-    image: project6,
-    title: "Skyline Tower",
-    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
-  },
-  {
-    id: "op-3",
-    image: apexTower,
-    title: "Skyline Tower",
-    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
-  },
-  {
-    id: "op-4",
-    image: harborPoint,
-    title: "Skyline Tower",
-    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
-  },
-  {
-    id: "op-5",
-    image: project1,
-    title: "Skyline Tower",
-    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
-  },
-  {
-    id: "op-6",
-    image: project2,
-    title: "Skyline Tower",
-    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
-  },
-  {
-    id: "op-7",
-    image: project3,
-    title: "Skyline Tower",
-    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
-  },
-  {
-    id: "op-8",
-    image: project4,
-    title: "Skyline Tower",
-    description: "A 35-story business hub with modern workspaces and a rooftop garden.",
-  },
-];
+function ProjectCard({
+  image,
+  title,
+  description,
+}: {
+  image: string;
+  title: string;
+  description: string;
+}) {
+  const cardRef = React.useRef<HTMLDivElement>(null);
+  const [dims, setDims] = React.useState({ width: 300, height: 400 });
+  const [hovered, setHovered] = React.useState(false);
 
-// SVG clip path for the notched project card shape
-const projectCardClipPath =
-  "M366 0C383.673 0 398 14.3269 398 32L398 477C398 483.627 392.627 489 386 489L348 489C341.373 489 336 494.373 336 501L336 539C336 545.627 330.627 551 324 551L32 551C14.3269 551 0 536.673 0 519L0 32C0 14.3269 14.3269 0 32 0L366 0Z";
+  React.useEffect(() => {
+    const update = () => {
+      if (cardRef.current) {
+        const rect = cardRef.current.getBoundingClientRect();
+        if (rect.width > 0 && rect.height > 0) {
+          setDims({ width: rect.width, height: rect.height });
+        }
+      }
+    };
+    update();
+    const observer = new ResizeObserver(update);
+    if (cardRef.current) observer.observe(cardRef.current);
+    return () => observer.disconnect();
+  }, []);
+
+  const W = dims.width;
+  const H = dims.height;
+  const notchW = 52;
+  const notchH = 52;
+  const outerR = 16;
+  const outerNotchR = 12;
+  const innerNotchR = 16;
+
+  const clipPath = `path('M ${outerR},0 L ${W - outerR},0 Q ${W},0 ${W},${outerR} L ${W},${H - notchH - outerNotchR} Q ${W},${H - notchH} ${W - outerNotchR},${H - notchH} L ${W - notchW + innerNotchR},${H - notchH} Q ${W - notchW},${H - notchH} ${W - notchW},${H - notchH + innerNotchR} L ${W - notchW},${H - outerR} Q ${W - notchW},${H} ${W - notchW - outerR},${H} L ${outerR},${H} Q 0,${H} 0,${H - outerR} L 0,${outerR} Q 0,0 ${outerR},0 Z')`;
+
+  const dropShadow = hovered
+    ? "drop-shadow(0 0 1.5px rgba(223,68,14,0.9))"
+    : "drop-shadow(0 0 1px rgba(255,255,255,0.15))";
+
+  return (
+    <div
+      className="relative group cursor-pointer transition-all duration-300"
+      style={{ filter: dropShadow }}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      <div
+        ref={cardRef}
+        className="relative flex flex-col bg-[#242424]"
+        style={{ clipPath, WebkitClipPath: clipPath, aspectRatio: "398/551" }}
+      >
+        {/* Image */}
+        <div className="overflow-hidden rounded-[10px] m-[5.5%] mb-0" style={{ height: "64%" }}>
+          <img
+            src={image}
+            alt={title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
+        </div>
+
+        {/* Text */}
+        <div className="flex flex-col flex-1 px-[5.5%] pt-4 pb-[14%]">
+          <h3 className="font-['Space_Grotesk'] font-bold text-[20px] leading-6.5 tracking-[-0.32px] text-white mb-1.5">
+            {title}
+          </h3>
+          <p className="font-['Space_Grotesk'] font-medium text-[13px] leading-5 tracking-[-0.2px] text-[#696969]">
+            {description}
+          </p>
+        </div>
+      </div>
+
+      {/* Arrow button at notch */}
+      <div className="absolute bottom-1 right-1 w-9.5 h-9.5 rounded-lg bg-[#DF440E] flex items-center justify-center group-hover:bg-[#c63a0c] transition-colors">
+        <svg
+          width="14"
+          height="14"
+          viewBox="0 0 24 24"
+          fill="none"
+          className="transform -rotate-45"
+          aria-hidden="true"
+        >
+          <path
+            d="M5 12H19M19 12L12 5M19 12L12 19"
+            stroke="white"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+          />
+        </svg>
+      </div>
+    </div>
+  );
+}
 
 export function OngoingProjects(): React.ReactElement {
   const { ref, isVisible } = useScrollAnimation();
@@ -69,19 +104,19 @@ export function OngoingProjects(): React.ReactElement {
   return (
     <section
       id="ongoing-projects"
-      className="w-full py-[60px] px-4 md:px-8"
+      className="w-full py-15 px-4 md:px-8"
       aria-labelledby="ongoing-heading"
     >
       <div
         ref={ref}
-        className="max-w-[1200px] mx-auto rounded-[24px] px-[40px] py-[48px]"
+        className="max-w-387.5 mx-auto rounded-3xl px-10 py-12"
         style={{ backgroundColor: "#0F0F1A" }}
       >
         {/* Header row */}
-        <div className={`flex items-start justify-between mb-[40px] scroll-fade-up ${isVisible ? "visible" : ""}`}>
+        <div className={`flex items-start justify-between mb-10 scroll-fade-up ${isVisible ? "visible" : ""}`}>
           <div>
-            <div className="flex items-center gap-[8px] mb-[12px]">
-              <span className="w-[9px] h-[9px] rounded-full bg-[#DF440E]" aria-hidden="true" />
+            <div className="flex items-center gap-2 mb-3">
+              <span className="w-2.25 h-2.25 rounded-full bg-[#DF440E]" aria-hidden="true" />
               <span className="font-['Space_Grotesk'] font-medium text-[12px] uppercase tracking-[4px] text-[#DF440E]">
                 Ongoing Projects
               </span>
@@ -126,80 +161,12 @@ export function OngoingProjects(): React.ReactElement {
           className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[20px] stagger-children ${isVisible ? "visible" : ""}`}
         >
           {ongoingProjects.map((project) => (
-            <div
+            <ProjectCard
               key={project.id}
-              className="relative group overflow-hidden"
-              style={{ aspectRatio: "398/551" }}
-            >
-              {/* Dark notched shape via SVG */}
-              <svg
-                className="absolute inset-0 w-full h-full"
-                viewBox="0 0 398 551"
-                preserveAspectRatio="none"
-                aria-hidden="true"
-              >
-                <path d={projectCardClipPath} fill="#242424" />
-              </svg>
-
-              {/* Content */}
-              <div
-                className="absolute inset-0 flex flex-col"
-                style={{ padding: "5.5%", paddingBottom: "0" }}
-              >
-                {/* Image */}
-                <div
-                  className="relative overflow-hidden rounded-[10px]"
-                  style={{ height: "64%" }}
-                >
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-
-                {/* Text */}
-                <div
-                  className="p-[10px] pt-[16px] flex flex-col flex-1"
-                  style={{ paddingBottom: "14%" }}
-                >
-                  <h3 className="font-['Space_Grotesk'] font-bold text-[20px] leading-[26px] tracking-[-0.32px] text-white mb-[6px]">
-                    {project.title}
-                  </h3>
-                  <p className="font-['Space_Grotesk'] font-medium text-[13px] leading-[20px] tracking-[-0.2px] text-[#696969]">
-                    {project.description}
-                  </p>
-                </div>
-              </div>
-
-              {/* Arrow button at notch */}
-              <div
-                className="absolute flex items-center justify-center bg-[#DF440E] cursor-pointer hover:bg-[#c53a0c] transition-colors"
-                style={{
-                  width: "46px",
-                  height: "46px",
-                  right: "0px",
-                  bottom: "0px",
-                  borderRadius: "10px",
-                }}
-              >
-                <svg
-                  width="14"
-                  height="14"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  className="transform -rotate-45"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M5 12H19M19 12L12 5M19 12L12 19"
-                    stroke="white"
-                    strokeWidth="1.5"
-                    strokeLinecap="square"
-                  />
-                </svg>
-              </div>
-            </div>
+              image={project.image}
+              title={project.title}
+              description={project.description}
+            />
           ))}
         </div>
       </div>
