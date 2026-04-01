@@ -1,4 +1,4 @@
-import servicesBgImage from "@/assets/images/services/bg-services.png";
+import projectsBgImage from "@/assets/images/projects/project-bg.png";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 export function ProjectsHero(): React.ReactElement {
@@ -8,7 +8,7 @@ export function ProjectsHero(): React.ReactElement {
     <section className="relative w-full min-h-212 flex items-center justify-center overflow-hidden -mt-25.5 mb-25">
       <div className="absolute inset-0">
         <img
-          src={servicesBgImage}
+          src={projectsBgImage}
           alt=""
           className="w-full h-full object-cover"
           aria-hidden="true"

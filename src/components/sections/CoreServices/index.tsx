@@ -1,6 +1,11 @@
 import servicesBgImage from "@/assets/images/services/services-bg.jpg";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import "./style.scss";
+import hvacIcon from "@/assets/images/home/mech.png";
+import civilIcon from "@/assets/images/home/civil.png";
+import structuralIcon from "@/assets/images/home/structure.png";
+import mepIcon from "@/assets/images/home/mep.png";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
 const services = [
   {
@@ -8,163 +13,30 @@ const services = [
     title: "Mechanical (HVAC) Installations",
     description:
       "Our integrated design & build approach streamlines construction by handling architectural planning and a smooth workflow from concept to completion.",
-    icon: "hvac",
+    icon: hvacIcon,
   },
   {
     id: "service-2",
     title: "Civil & Infrastructure Works",
     description:
       "Comprehensive civil engineering solutions for residential, commercial, and infrastructure projects.",
-    icon: "civil",
+    icon: civilIcon,
   },
   {
     id: "service-3",
     title: "Structural & Industrial Works",
     description:
       "Robust structural engineering for industrial facilities and heavy-duty applications.",
-    icon: "structural",
+    icon: structuralIcon,
   },
   {
     id: "service-4",
     title: "MEP & Building Services",
     description:
       "Advanced HVAC systems ensuring optimal climate control and energy efficiency.",
-    icon: "mep",
+    icon: mepIcon,
   },
 ];
-
-function ServiceIcon({ icon }: { icon: string }): React.ReactElement {
-  const color = "#DF440E";
-
-  switch (icon) {
-    case "hvac":
-      return (
-        <svg
-          width="48"
-          height="48"
-          viewBox="0 0 24 24"
-          fill="none"
-          aria-hidden="true"
-        >
-          <circle cx="12" cy="12" r="3" stroke={color} strokeWidth="1.5" />
-          <path
-            d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"
-            stroke={color}
-            strokeWidth="1.5"
-            strokeLinecap="round"
-          />
-        </svg>
-      );
-    case "civil":
-      return (
-        <svg
-          width="48"
-          height="48"
-          viewBox="0 0 24 24"
-          fill="none"
-          aria-hidden="true"
-        >
-          <path
-            d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16"
-            stroke={color}
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            d="M1 21h22"
-            stroke={color}
-            strokeWidth="1.5"
-            strokeLinecap="round"
-          />
-          <path
-            d="M9 7h1m-1 4h1m4-4h1m-1 4h1"
-            stroke={color}
-            strokeWidth="1.5"
-            strokeLinecap="round"
-          />
-          <path
-            d="M9 21v-5a1 1 0 011-1h4a1 1 0 011 1v5"
-            stroke={color}
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-      );
-    case "structural":
-      return (
-        <svg
-          width="48"
-          height="48"
-          viewBox="0 0 24 24"
-          fill="none"
-          aria-hidden="true"
-        >
-          <path
-            d="M2 20h20M4 20V8l8-5 8 5v12"
-            stroke={color}
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            d="M9 20v-4h6v4M9 12h6M12 8v4"
-            stroke={color}
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-      );
-    case "mep":
-      return (
-        <svg
-          width="48"
-          height="48"
-          viewBox="0 0 24 24"
-          fill="none"
-          aria-hidden="true"
-        >
-          <rect
-            x="3"
-            y="3"
-            width="7"
-            height="7"
-            rx="1"
-            stroke={color}
-            strokeWidth="1.5"
-          />
-          <rect
-            x="14"
-            y="3"
-            width="7"
-            height="7"
-            rx="1"
-            stroke={color}
-            strokeWidth="1.5"
-          />
-          <rect
-            x="3"
-            y="14"
-            width="7"
-            height="7"
-            rx="1"
-            stroke={color}
-            strokeWidth="1.5"
-          />
-          <path
-            d="M14 17.5h7M17.5 14v7"
-            stroke={color}
-            strokeWidth="1.5"
-            strokeLinecap="round"
-          />
-        </svg>
-      );
-    default:
-      return <></>;
-  }
-}
 
 // SVG clip path for the notched card shape
 const serviceCardClipPath =
@@ -223,44 +95,16 @@ export function CoreServices(): React.ReactElement {
             style={{ boxShadow: "0px 5.43px 5.43px rgba(0,0,0,0.25)" }}
             aria-label="Previous services"
           >
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              aria-hidden="true"
-            >
-              <path
-                d="M15 19l-7-7 7-7"
-                stroke="white"
-                strokeWidth="1.36"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
+            <ArrowLeft size={16} color="white" />
           </button>
 
           {/* Right arrow */}
           <button
-            className="absolute -right-[50px] top-1/2 -translate-y-1/2 w-[80px] h-[38px] rounded-[19px] border border-white hidden md:flex items-center justify-center hover:bg-white/10 transition-colors z-10"
+            className="absolute -right-12.5 top-1/2 -translate-y-1/2 w-20 h-9.5 rounded-[19px] border border-white hidden md:flex items-center justify-center hover:bg-white/10 transition-colors z-10"
             style={{ boxShadow: "0px 5.43px 5.43px rgba(0,0,0,0.25)" }}
             aria-label="Next services"
           >
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              aria-hidden="true"
-            >
-              <path
-                d="M9 5l7 7-7 7"
-                stroke="white"
-                strokeWidth="1.36"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
+            <ArrowRight size={16} color="white" />
           </button>
 
           <div
@@ -287,8 +131,8 @@ export function CoreServices(): React.ReactElement {
                   style={{ padding: "7.5% 7.9%", paddingBottom: "18%" }}
                 >
                   {/* Icon */}
-                  <div className="w-[87px] h-[87px] rounded-[16px] bg-[#FFF5F0] flex items-center justify-center mb-[20px] transition-transform duration-300 group-hover:-translate-y-[10px]">
-                    <ServiceIcon icon={service.icon} />
+                  <div className="w-[87px] h-[87px] rounded-[16px] p-3 bg-[#FFF5F0] flex items-center justify-center mb-[20px] transition-transform duration-300 group-hover:-translate-y-[10px]">
+                    <img src={service.icon} alt={service.title} />
                   </div>
 
                   {/* Title */}
@@ -331,13 +175,6 @@ export function CoreServices(): React.ReactElement {
               </div>
             ))}
           </div>
-        </div>
-
-        {/* Dots indicator */}
-        <div className="flex items-center justify-center gap-[8px] mt-[30px]">
-          <span className="w-[10px] h-[10px] rounded-full bg-[#DF440E]" />
-          <span className="w-[10px] h-[10px] rounded-full bg-white/30" />
-          <span className="w-[10px] h-[10px] rounded-full bg-white/30" />
         </div>
       </div>
     </section>

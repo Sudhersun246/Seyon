@@ -21,7 +21,13 @@ export function ServicesPage(): React.ReactElement {
       <DeliveryApproach />
       <QualitySafety />
       <WhyServicesStandOut />
-      <CTASection />
+      <CTASection
+        variant="services"
+        heading="Let's Build with Confidence"
+        description="Partner with Seyon Constrotech for engineering excellence, disciplined execution, and construction you can trust."
+        buttonText="Contact Our Team"
+        buttonLink="/contact"
+      />
     </>
   );
 }

@@ -29,7 +29,7 @@ export function CompletedProjects(): React.ReactElement {
 
         <h2
           id="completed-heading"
-          className={`font-['Space_Grotesk'] font-bold text-[36px] md:text-[44px] leading-[1.2] tracking-[-0.5px] text-[#0A1A3A] mb-[48px] scroll-fade-up ${isVisible ? "visible" : ""}`}
+          className={`font-['Space_Grotesk'] font-bold text-[36px] md:text-[44px] leading-[1.2] tracking-[-0.5px] text-[#160F72] mb-[48px] scroll-fade-up ${isVisible ? "visible" : ""}`}
           style={{ transitionDelay: "100ms" }}
         >
           Built with precision

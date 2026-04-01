@@ -13,7 +13,29 @@ import step4 from "@/assets/images/projects/icons/step4.png";
 import iso from "@/assets/images/projects/icons/iso.png";
 import safety from "@/assets/images/projects/icons/safety.png";
 import sustain from "@/assets/images/projects/icons/sustain.png";
-
+import expertTeam from "@/assets/images/contact/icons/expertTeam.png";
+import communication from "@/assets/images/contact/icons/communication.png";
+import reliable from "@/assets/images/contact/icons/reliable.png";
+import quality1 from "@/assets/images/contact/icons/quality.png";
+import greg from "@/assets/images/about/greg.jpg";
+import eliz from "@/assets/images/about/eliz.jpg";
+import brian from "@/assets/images/about/brian.jpg";
+import brooke from "@/assets/images/about/brooke.jpg";
+import ian from "@/assets/images/about/ian.jpg";
+import adam from "@/assets/images/about/adam.png";
+import ryan from "@/assets/images/about/ryan.jpg";
+import romel from "@/assets/images/about/romel.jpg";
+import olivia from "@/assets/images/about/olivia.png";
+import faith from "@/assets/images/about/faith.jpg";
+import sarah from "@/assets/images/about/sarah.jpg";
+import donovan from "@/assets/images/about/donovan.jpg";
+import kelley from "@/assets/images/about/kelley.jpg";
+import alianny from "@/assets/images/about/alianny.jpg";
+import tom from "@/assets/images/about/tom.jpg";
+import akhtar from "@/assets/images/about/akhtar.jpg";
+import taylor from "@/assets/images/about/taylor.png";
+import nick from "@/assets/images/about/nick.jpg";
+import seth from "@/assets/images/about/seth.jpg";
 
 export const heroContent = {
   headline: 'Innovative Solutions for a Digital World',
@@ -438,3 +460,133 @@ export const items = [
     icon: sustain,
   },
 ];
+
+export 
+const whyItems = [
+  {
+    title: "Expert Engineering Teams",
+    description:
+      "Highly skilled professionals with deep expertise in construction and engineering disciplines.",
+    icon: expertTeam,
+  },
+  {
+    title: "Transparent Communication",
+    description:
+      "Open dialogue and regular updates throughout every stage of your project journey.",
+    icon: communication,
+  },
+  {
+    title: "Quality & Safety Commitment",
+    description:
+      "Unwavering dedication to the highest standards of quality control and workplace safety.",
+    icon: quality1,
+  },
+  {
+    title: "Reliable Project Delivery",
+    description:
+      "Proven track record of delivering projects on time and within budget specifications.",
+    icon: reliable,
+  },
+  ];
+
+  export const teamMembersAbout = [
+    { id: 1, name: "Greg Hughes", role: "Managing Partner", image: greg },
+    {
+      id: 2,
+      name: "ELIZABETH SOUSA",
+      role: "Chief Accounting Officer",
+      image: eliz,
+    },
+    {
+      id: 3,
+      name: "BRIAN BECK, PE",
+      role: "Vice President, Project Management",
+      image: brian,
+    },
+    {
+      id: 4,
+      name: "Brooke Simonds",
+      role: "Vice President, Property Management",
+      image: brooke,
+    },
+    {
+      id: 5,
+      name: "IAN FRATES",
+      role: "Senior Accounting Specialist",
+      image: ian,
+    },
+    {
+      id: 6,
+      name: "ADAM LEONARD",
+      role: "Senior Property Manager",
+      image: adam,
+    },
+    { id: 7, name: "RYAN MACAULAY", role: "General Manager", image: ryan },
+    { id: 8, name: "Romel Bryan", role: "Field Engineer", image: romel },
+    {
+      id: 9,
+      name: "Olivia DeLonais",
+      role: "Office Manager",
+      image: olivia,
+    },
+    {
+      id: 10,
+      name: "FAITH FARNHAM",
+      role: "Property Manager",
+      image: faith,
+    },
+    {
+      id: 11,
+      name: "Sarah Hernando",
+      role: "Tenant Coordinator",
+      image: sarah,
+    },
+    {
+      id: 12,
+      name: "Donovan Prozinski",
+      role: "Property Manager",
+      image: donovan,
+    },
+    {
+      id: 13,
+      name: "Kelley Manley",
+      role: "Property Administrator",
+      image: kelley,
+    },
+    {
+      id: 14,
+      name: "ALIANNY SILVERIO",
+      role: "Property Accountant",
+      image: alianny,
+    },
+    {
+      id: 15,
+      name: "Tom Manganiello",
+      role: "Senior Property Accountant",
+      image: tom,
+    },
+    {
+      id: 16,
+      name: "Seth Occeus",
+      role: "Property Accountant",
+      image: seth,
+    },
+    {
+      id: 17,
+      name: "MEHROSE AKHTAR",
+      role: "Property Accountant",
+      image: akhtar,
+    },
+    {
+      id: 18,
+      name: "TAYLOR DARROW",
+      role: "Human Resources Director",
+      image: taylor,
+    },
+    {
+      id: 19,
+      name: "Nicholas Vardakas",
+      role: "Tenant Coordinator",
+      image: nick,
+    },
+  ];
