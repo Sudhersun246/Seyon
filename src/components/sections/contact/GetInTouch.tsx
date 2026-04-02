@@ -86,14 +86,14 @@ export function GetInTouch(): React.ReactElement {
           style={{ transitionDelay: "150ms" }}
         >
           <div className="bg-white rounded-[20px] p-[32px] h-full">
-            <form onSubmit={handleSubmit} className="flex flex-col gap-[22px]">
+            <form onSubmit={handleSubmit} className="flex flex-col gap-5.5">
               {[
-                { id: "c-name", name: "name", label: "Name", type: "text", placeholder: "Michael Carter", bordered: true },
-                { id: "c-email", name: "email", label: "Email", type: "email", placeholder: "michaelcarter@gmail.com", bordered: false },
-                { id: "c-phone", name: "phone", label: "Phone number", type: "tel", placeholder: "+1 650 213 7379", bordered: false },
+                { id: "c-name", name: "name", label: "Name", type: "text", placeholder: "Michael Carter" },
+                { id: "c-email", name: "email", label: "Email", type: "email", placeholder: "michaelcarter@gmail.com" },
+                { id: "c-phone", name: "phone", label: "Phone number", type: "number", placeholder: "+1 650 213 7379" },
               ].map((field) => (
                 <div key={field.id}>
-                  <label htmlFor={field.id} className="block font-['Space_Grotesk'] font-medium text-[14px] text-[#696969] mb-[8px]">
+                  <label htmlFor={field.id} className="block font-['Space_Grotesk'] font-medium text-[14px] text-[#696969] mb-2">
                     {field.label}
                   </label>
                   <input
@@ -104,7 +104,6 @@ export function GetInTouch(): React.ReactElement {
                     value={formData[field.name as keyof typeof formData]}
                     onChange={handleChange}
                     className="w-full font-['Space_Grotesk'] text-[14px] text-black bg-[#F8F8F8] rounded-[10px] px-[18px] py-[11px] outline-none focus:border-[#DF440E] transition-colors placeholder:text-black/40"
-                    style={{ border: field.bordered ? "1px solid #F9773B" : "1px solid transparent" }}
                   />
                 </div>
               ))}

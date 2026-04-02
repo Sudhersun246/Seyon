@@ -58,13 +58,13 @@ function ServiceDetailItem({
             {service.number} — {service.label}
           </span>
         </div>
-        <h3 className="font-['Space_Grotesk'] font-bold text-[32px] leading-[40px] tracking-[-0.5px] text-[#0A1A3A] mb-[20px]">
+        <h3 className="font-['Space_Grotesk'] font-bold text-[32px] leading-10 tracking-[-0.5px] text-[#0A1A3A] mb-5">
           {service.title}
         </h3>
-        <p className="font-['Space_Grotesk'] font-normal text-[16px] leading-[28px] text-[#4A5568] mb-[24px] text-justify">
+        <p className="font-['Space_Grotesk'] font-normal text-[16px] leading-7 text-[#4A5568] mb-6 text-justify">
           {service.description}
         </p>
-        <ul className="space-y-[12px]">
+        <ul className="space-y-3">
           {service.bullets.map((bullet, i) => (
             <BulletPoint key={i} text={bullet} />
           ))}
@@ -77,7 +77,7 @@ function ServiceDetailItem({
 export function ServiceDetailSections(): React.ReactElement {
   return (
     <section className="w-full bg-white">
-      <div className="max-w-7xl mx-auto px-4 md:px-8">
+      <div className="max-w-400 mx-auto px-4 md:px-8">
         {serviceDetails.map((service, index) => (
           <ServiceDetailItem key={service.id} service={service} index={index} />
         ))}

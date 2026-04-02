@@ -1,9 +1,11 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import skyLine from "@/assets/images/projects/skyline.jpg";
 import oceanView from "@/assets/images/projects/oceanview.jpg";
 import vertex from "@/assets/images/projects/vertex.jpg";
 import summit from "@/assets/images/projects/summit.jpg";
+import badge from "@/assets/images/home/badge.png"
 
 const projects = [
   {
@@ -36,9 +38,73 @@ const projects = [
   },
 ];
 
-// SVG clip path for the notched project card shape
-const projectCardClipPath =
-  "M366 0C383.673 0 398 14.3269 398 32L398 477C398 483.627 392.627 489 386 489L348 489C341.373 489 336 494.373 336 501L336 539C336 545.627 330.627 551 324 551L32 551C14.3269 551 0 536.673 0 519L0 32C0 14.3269 14.3269 0 32 0L366 0Z";
+function ProjectCard({ project }: { project: typeof projects[0] }) {
+  const outerRef = React.useRef<HTMLDivElement>(null);
+  const [dims, setDims] = React.useState({ width: 300, height: 450 });
+
+  React.useEffect(() => {
+    const update = () => {
+      if (outerRef.current) {
+        const rect = outerRef.current.getBoundingClientRect();
+        if (rect.width > 0 && rect.height > 0) {
+          setDims({ width: rect.width, height: rect.height });
+        }
+      }
+    };
+    update();
+    const observer = new ResizeObserver(update);
+    if (outerRef.current) observer.observe(outerRef.current);
+    return () => observer.disconnect();
+  }, []);
+
+  const W = dims.width;
+  const H = dims.height;
+  const notchW = 52;
+  const notchH = 52;
+  const outerR = 16;
+  const outerNotchR = 12;
+  const innerNotchR = 16;
+
+  const clipPath = `path('M ${outerR},0 L ${W - outerR},0 Q ${W},0 ${W},${outerR} L ${W},${H - notchH - outerNotchR} Q ${W},${H - notchH} ${W - outerNotchR},${H - notchH} L ${W - notchW + innerNotchR},${H - notchH} Q ${W - notchW},${H - notchH} ${W - notchW},${H - notchH + innerNotchR} L ${W - notchW},${H - outerR} Q ${W - notchW},${H} ${W - notchW - outerR},${H} L ${outerR},${H} Q 0,${H} 0,${H - outerR} L 0,${outerR} Q 0,0 ${outerR},0 Z')`;
+
+  return (
+    <div ref={outerRef} className="relative group" style={{ aspectRatio: "398/551" }}>
+      <div
+        className="absolute inset-0 flex flex-col bg-[#242424]"
+        style={{ clipPath, WebkitClipPath: clipPath, padding: "5.5%", paddingBottom: "0" }}
+      >
+        <div className="relative overflow-hidden rounded-[10px]" style={{ height: "64%" }}>
+          <img
+            src={project.image}
+            alt={project.title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
+        </div>
+        <div className="p-[10px] pt-[16px] flex flex-col flex-1" style={{ paddingBottom: "14%" }}>
+          <h3 className="font-['Space_Grotesk'] font-bold text-[28px] leading-[36px] tracking-[-0.32px] text-white mb-[8px]">
+            {project.title}
+          </h3>
+          <p className="font-['Space_Grotesk'] font-medium text-[16px] leading-[24px] tracking-[-0.32px] text-[#696969] mb-[12px]">
+            {project.description}
+          </p>
+          <div className="flex items-center justify-between mt-auto">
+            <span className="font-['Space_Grotesk'] font-medium text-[16px] leading-[20px] tracking-[-0.32px] text-white underline underline-offset-4 cursor-pointer hover:text-[#DF440E] transition-colors">
+              Learn more
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="absolute flex items-center justify-center bg-[#DF440E] cursor-pointer hover:bg-[#c53a0c] transition-colors"
+        style={{ width: "46px", height: "46px", right: "0px", bottom: "0px", borderRadius: "10px" }}
+      >
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" className="transform -rotate-45" aria-hidden="true">
+          <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="white" strokeWidth="1.5" strokeLinecap="square" />
+        </svg>
+      </div>
+    </div>
+  );
+}
 
 export function ProjectShowcase(): React.ReactElement {
   const { ref: sectionRef, isVisible } = useScrollAnimation();
@@ -83,37 +149,7 @@ export function ProjectShowcase(): React.ReactElement {
         className={`flex justify-center relative z-10 mb-[-68px] scroll-scale-up ${isVisible ? "visible" : ""}`}
       >
         <div className="relative" style={{ width: "136px", height: "136px" }}>
-          {/* Rotating text ring */}
-          <svg
-            className="w-full h-full animate-spin"
-            style={{ animationDuration: "10s" }}
-            viewBox="0 0 136 136"
-            aria-hidden="true"
-          >
-            <defs>
-              <path
-                id="circlePath"
-                d="M 68,68 m -54,0 a 54,54 0 1,1 108,0 a 54,54 0 1,1 -108,0"
-              />
-            </defs>
-            <text className="font-['Space_Grotesk'] text-[13px] fill-[#DF440E] font-medium">
-              <textPath href="#circlePath" startOffset="0%">
-                Quality • Comfort • Quality • Comfort •{" "}
-              </textPath>
-            </text>
-          </svg>
-          {/* Center circle with 100% */}
-          <div
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80px] h-[80px] rounded-full flex items-center justify-center"
-            style={{
-              backgroundColor: "#DF440E",
-              boxShadow: "0px 2px 10.6px rgba(0,0,0,0.12)",
-            }}
-          >
-            <span className="font-['Space_Grotesk'] font-bold text-[22px] leading-[28px] text-white">
-              100%
-            </span>
-          </div>
+          <img src={ badge } />
         </div>
       </div>
 
@@ -139,89 +175,7 @@ export function ProjectShowcase(): React.ReactElement {
           className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 stagger-children ${isVisible ? "visible" : ""}`}
         >
           {projects.map((project) => (
-            <div
-              key={project.id}
-              className="relative group overflow-hidden"
-              style={{ aspectRatio: "398/551" }}
-            >
-              {/* Orange background visible through the notch */}
-              <div
-                className="absolute inset-0 rounded-[32px]"
-                aria-hidden="true"
-              />
-              {/* Dark notched shape via SVG */}
-              <svg
-                className="absolute inset-0 w-full h-full"
-                viewBox="0 0 398 551"
-                preserveAspectRatio="none"
-                aria-hidden="true"
-              >
-                <path d={projectCardClipPath} fill="#242424" />
-              </svg>
-              {/* Content on top */}
-              <div
-                className="absolute inset-0 flex flex-col"
-                style={{ padding: "5.5%", paddingBottom: "0" }}
-              >
-                {/* Image */}
-                <div
-                  className="relative overflow-hidden rounded-[10px]"
-                  style={{ height: "64%" }}
-                >
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-
-                {/* Content */}
-                <div
-                  className="p-[10px] pt-[16px] flex flex-col flex-1"
-                  style={{ paddingBottom: "14%" }}
-                >
-                  <h3 className="font-['Space_Grotesk'] font-bold text-[28px] leading-[36px] tracking-[-0.32px] text-white mb-[8px]">
-                    {project.title}
-                  </h3>
-                  <p className="font-['Space_Grotesk'] font-medium text-[16px] leading-[24px] tracking-[-0.32px] text-[#696969] mb-[12px]">
-                    {project.description}
-                  </p>
-                  <div className="flex items-center justify-between mt-auto">
-                    <span className="font-['Space_Grotesk'] font-medium text-[16px] leading-[20px] tracking-[-0.32px] text-white underline underline-offset-4 cursor-pointer hover:text-[#DF440E] transition-colors">
-                      Learn more
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Arrow button positioned at the notch */}
-              <div
-                className="absolute flex items-center justify-center bg-[#DF440E] cursor-pointer hover:bg-[#c53a0c] transition-colors"
-                style={{
-                  width: "46px",
-                  height: "46px",
-                  right: "0px",
-                  bottom: "0px",
-                  borderRadius: "10px",
-                }}
-              >
-                <svg
-                  width="14"
-                  height="14"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  className="transform -rotate-45"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M5 12H19M19 12L12 5M19 12L12 19"
-                    stroke="white"
-                    strokeWidth="1.5"
-                    strokeLinecap="square"
-                  />
-                </svg>
-              </div>
-            </div>
+            <ProjectCard key={project.id} project={project} />
           ))}
         </div>
 

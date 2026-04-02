@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import wadeImg from "@/assets/images/team/wade.jpg";
 import darrellImg from "@/assets/images/team/darrell.jpg";
@@ -85,30 +84,6 @@ export function MeetExperts(): React.ReactElement {
                 Our team is here to deliver excellence from concept to
                 completion.
               </p>
-              <Link
-                to="/contact"
-                className="inline-flex items-center gap-[10px] bg-[#160F72] rounded-[10px] px-[30px] py-[14px]"
-              >
-                <span className="font-['Space_Grotesk'] font-medium text-[18px] leading-[18px] text-white">
-                  Contact Us
-                </span>
-                <div className="w-[28px] h-[28px] rounded-[14px] bg-white flex items-center justify-center">
-                  <svg
-                    width="14"
-                    height="14"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    className="transform -rotate-45"
-                  >
-                    <path
-                      d="M5 12H19M19 12L12 5M19 12L12 19"
-                      stroke="#160F72"
-                      strokeWidth="2"
-                      strokeLinecap="square"
-                    />
-                  </svg>
-                </div>
-              </Link>
             </div>
           </div>
 

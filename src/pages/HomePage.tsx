@@ -4,8 +4,8 @@ import {
   CoreServices,
   ProjectShowcase,
   MeetExperts,
-  ContactSection,
 } from "@/components/sections";
+import { GetInTouch } from "@/components/sections/contact/GetInTouch";
 
 export function HomePage(): React.ReactElement {
   return (
@@ -27,7 +27,7 @@ export function HomePage(): React.ReactElement {
       <CoreServices />
       <ProjectShowcase />
       <MeetExperts />
-      <ContactSection />
+      <GetInTouch />
     </>
   );
 }
