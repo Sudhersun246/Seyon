@@ -6,10 +6,7 @@ export function AboutTeam(): React.ReactElement {
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 });
 
   return (
-    <section
-      className="w-full py-25 bg-white"
-      aria-labelledby="team-heading"
-    >
+    <section className="w-full py-25 bg-white" aria-labelledby="team-heading">
       <style>{`
   /* Flip Card */
   .flip-card {
@@ -53,19 +50,13 @@ export function AboutTeam(): React.ReactElement {
     display: none;              /* Chrome, Safari */
   }
 
-  /* Scroll Hint (Fade effect to indicate scrollable content) */
-  .scroll-fade {
-    mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
-    -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
-  }
-
   /* Optional: Smooth scrolling feel */
   .smooth-scroll {
     scroll-behavior: smooth;
   }
 `}</style>
 
-      <div className="max-w-400 mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-15" ref={ref}>
           <span
@@ -151,7 +142,7 @@ export function AboutTeam(): React.ReactElement {
                   {/* Bio */}
                   <div className="flex-1 overflow-y-auto hide-scrollbar scroll-fade smooth-scroll pb-4">
                     {" "}
-                    <p className="font-['Space_Grotesk'] font-normal text-[11.5px] leading-[1.7] text-white/85">
+                    <p className="font-['Space_Grotesk'] font-normal text-[14px] leading-[1.7] text-white/85">
                       {member.bio}
                     </p>
                   </div>

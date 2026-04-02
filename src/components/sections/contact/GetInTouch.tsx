@@ -17,7 +17,7 @@ export function GetInTouch(): React.ReactElement {
   };
 
   return (
-    <section id="get-in-touch" className="w-full py-[80px] px-4 md:px-[60px] lg:px-[100px] bg-white">
+    <section id="get-in-touch" className="max-w-full  py-[80px] px-4 md:px-[60px] lg:px-[100px] bg-white">
       <div
         ref={ref}
         className="relative w-full rounded-[24px] overflow-hidden flex flex-col lg:flex-row"
@@ -35,13 +35,13 @@ export function GetInTouch(): React.ReactElement {
           </h2>
 
           {/* Office Address */}
-          <div className="rounded-[14px] p-[20px] flex items-start gap-[14px]" style={{ backgroundColor: "rgba(255,255,255,0.15)" }}>
+          <div className="rounded-[14px] p-[20px] flex flex-col md:flex-row items-start gap-[14px] bg-[#f06b3d] border border-white/30">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="shrink-0 mt-1" aria-hidden="true">
               <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="white" />
             </svg>
             <div>
               <p className="font-['Space_Grotesk'] font-bold text-[14px] text-white mb-[6px]">Office Address</p>
-              <p className="font-['Space_Grotesk'] font-normal text-[13px] leading-[22px] text-white/80">
+              <p className="font-['Space_Grotesk'] font-normal text-[14px] leading-[22px] text-white/80">
                 Seyon Constrotech Private Limited<br />
                 No. 31/3, Vinayagar Kovil Street<br />
                 Aminjikarai<br />
@@ -69,11 +69,11 @@ export function GetInTouch(): React.ReactElement {
                 icon: <Phone size={18} color="white" />,
               },
             ].map((item) => (
-              <div key={item.label} className="rounded-[12px] p-[16px] flex flex-col gap-[10px]" style={{ backgroundColor: "rgba(255,255,255,0.15)" }}>
+              <div key={item.label} className="rounded-[12px] p-[16px] flex flex-col gap-[10px] bg-[#f06b3d] border border-white/30">
                 {item.icon}
                 <div>
-                  <p className="font-['Space_Grotesk'] font-bold text-[12px] text-white mb-[4px]">{item.label}</p>
-                  <p className="font-['Space_Grotesk'] font-normal text-[11px] text-white/80 break-words">{item.value}</p>
+                  <p className="font-['Space_Grotesk'] font-bold text-[14px] text-white mb-[4px]">{item.label}</p>
+                  <p className="font-['Space_Grotesk'] font-normal text-[14px] text-white/80 break-words">{item.value}</p>
                 </div>
               </div>
             ))}
