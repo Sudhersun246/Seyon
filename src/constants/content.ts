@@ -3,7 +3,7 @@ import quality from '@/assets/images/services/icons/quality.svg'
 import tick from "@/assets/images/services/icons/tick.svg";
 import warning from "@/assets/images/services/icons/danger.svg";  
 import skyLine from "@/assets/images/projects/skyline.jpg";
-import oceanView from "@/assets/images/projects/oceanView.jpg";
+import oceanView from "@/assets/images/projects/oceanview.jpg";
 import vertex from "@/assets/images/projects/vertex.jpg";
 import summit from "@/assets/images/projects/summit.jpg";
 import step1 from "@/assets/images/projects/icons/step1.png";
