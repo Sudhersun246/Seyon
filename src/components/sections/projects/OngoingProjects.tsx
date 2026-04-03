@@ -195,8 +195,8 @@ export function OngoingProjects(): React.ReactElement {
               key={project.id}
               image={project.image}
               title={project.title}
-              location={project.area}
-              area={project.location}
+              location={project.location}
+              area={project.area}
               // description={project.description}
             />
           ))}
