@@ -5,7 +5,7 @@ import skyLine from "@/assets/images/projects/skyline.jpg";
 import oceanView from "@/assets/images/projects/oceanview.jpg";
 import vertex from "@/assets/images/projects/vertex.jpg";
 import summit from "@/assets/images/projects/summit.jpg";
-import badge from "@/assets/images/home/badge.png"
+import badge from "@/assets/images/home/badge.png";
 
 const projects = [
   {
@@ -38,7 +38,7 @@ const projects = [
   },
 ];
 
-function ProjectCard({ project }: { project: typeof projects[0] }) {
+function ProjectCard({ project }: { project: (typeof projects)[0] }) {
   const outerRef = React.useRef<HTMLDivElement>(null);
   const [dims, setDims] = React.useState({ width: 300, height: 450 });
 
@@ -68,19 +68,34 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
   const clipPath = `path('M ${outerR},0 L ${W - outerR},0 Q ${W},0 ${W},${outerR} L ${W},${H - notchH - outerNotchR} Q ${W},${H - notchH} ${W - outerNotchR},${H - notchH} L ${W - notchW + innerNotchR},${H - notchH} Q ${W - notchW},${H - notchH} ${W - notchW},${H - notchH + innerNotchR} L ${W - notchW},${H - outerR} Q ${W - notchW},${H} ${W - notchW - outerR},${H} L ${outerR},${H} Q 0,${H} 0,${H - outerR} L 0,${outerR} Q 0,0 ${outerR},0 Z')`;
 
   return (
-    <div ref={outerRef} className="relative group" style={{ aspectRatio: "398/551" }}>
+    <div
+      ref={outerRef}
+      className="relative group"
+      style={{ aspectRatio: "398/551" }}
+    >
       <div
         className="absolute inset-0 flex flex-col bg-[#242424]"
-        style={{ clipPath, WebkitClipPath: clipPath, padding: "5.5%", paddingBottom: "0" }}
+        style={{
+          clipPath,
+          WebkitClipPath: clipPath,
+          padding: "5.5%",
+          paddingBottom: "0",
+        }}
       >
-        <div className="relative overflow-hidden rounded-[10px]" style={{ height: "64%" }}>
+        <div
+          className="relative overflow-hidden rounded-[10px]"
+          style={{ height: "64%" }}
+        >
           <img
             src={project.image}
             alt={project.title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
         </div>
-        <div className="p-[10px] pt-[16px] flex flex-col flex-1" style={{ paddingBottom: "14%" }}>
+        <div
+          className="p-[10px] pt-[16px] flex flex-col flex-1"
+          style={{ paddingBottom: "14%" }}
+        >
           <h3 className="font-['Space_Grotesk'] font-bold text-[28px] leading-[36px] tracking-[-0.32px] text-white mb-[8px]">
             {project.title}
           </h3>
@@ -96,10 +111,28 @@ function ProjectCard({ project }: { project: typeof projects[0] }) {
       </div>
       <div
         className="absolute flex items-center justify-center bg-[#DF440E] cursor-pointer hover:bg-[#c53a0c] transition-colors"
-        style={{ width: "46px", height: "46px", right: "0px", bottom: "0px", borderRadius: "10px" }}
+        style={{
+          width: "46px",
+          height: "46px",
+          right: "0px",
+          bottom: "0px",
+          borderRadius: "10px",
+        }}
       >
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" className="transform -rotate-45" aria-hidden="true">
-          <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="white" strokeWidth="1.5" strokeLinecap="square" />
+        <svg
+          width="14"
+          height="14"
+          viewBox="0 0 24 24"
+          fill="none"
+          className="transform -rotate-45"
+          aria-hidden="true"
+        >
+          <path
+            d="M5 12H19M19 12L12 5M19 12L12 19"
+            stroke="white"
+            strokeWidth="1.5"
+            strokeLinecap="square"
+          />
         </svg>
       </div>
     </div>
@@ -149,7 +182,7 @@ export function ProjectShowcase(): React.ReactElement {
         className={`flex justify-center relative z-10 mb-[-68px] scroll-scale-up ${isVisible ? "visible" : ""}`}
       >
         <div className="relative" style={{ width: "136px", height: "136px" }}>
-          <img src={ badge } />
+          <img src={badge} />
         </div>
       </div>
 
@@ -183,12 +216,12 @@ export function ProjectShowcase(): React.ReactElement {
         <div className="text-center mt-[40px]">
           <Link
             to="/projects"
-            className="inline-flex items-center gap-[10px] bg-[#DF440E] rounded-[10px] px-[30px] py-[14px]"
+            className="inline-flex items-center gap-[10px] bg-[#DF440E] rounded-[10px] px-[30px] py-[14px] group"
           >
             <span className="font-['Space_Grotesk'] font-medium text-[18px] leading-[18px] text-white">
               View All Projects
             </span>
-            <div className="w-[28px] h-[28px] rounded-[14px] bg-white flex items-center justify-center">
+            <div className="w-[28px] h-[28px] rounded-[14px] bg-white flex items-center justify-center transform group-hover:rotate-45 transition duration-300">
               <svg
                 width="14"
                 height="14"

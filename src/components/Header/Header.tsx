@@ -82,12 +82,12 @@ export function Header(): React.ReactElement {
         {/* CTA Button */}
         <Link
           to="/contact"
-          className="hidden lg:flex items-center gap-2.5 bg-[#DF440E] rounded-[10px] px-7.5 py-3.5"
+          className="group hidden lg:flex items-center gap-2.5 bg-[#DF440E] rounded-[10px] px-7.5 py-3.5"
         >
           <span className="font-[Space_Grotesk] font-bold text-[16px] uppercase leading-4 tracking-[0px] text-white">
             Contact Us
           </span>
-          <div className="w-7 h-7 rounded-full bg-white flex items-center justify-center">
+          <div className="w-7 h-7 rounded-full bg-white flex items-center justify-center transform group-hover:rotate-45 transition duration-300 ">
             <svg
               width="14"
               height="14"
@@ -168,12 +168,12 @@ export function Header(): React.ReactElement {
             <Link
               to="/contact"
               onClick={closeMobileMenu}
-              className="flex items-center justify-center gap-2.5 bg-[#DF440E] rounded-[10px] px-7.5 py-3.5 mt-2"
+              className="group flex items-center justify-center gap-2.5 bg-[#DF440E] rounded-[10px] px-7.5 py-3.5 mt-2"
             >
               <span className="font-[Space_Grotesk] font-bold text-[16px] uppercase leading-4 tracking-[0px] text-white">
                 Contact Us
               </span>
-              <div className="w-7 h-7 rounded-full bg-white flex items-center justify-center">
+              <div className="w-7 h-7 rounded-full bg-white flex items-center justify-center transform group-hover:rotate-45 transition duration-300">
                 <svg
                   width="14"
                   height="14"

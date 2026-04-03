@@ -159,7 +159,7 @@ export function ServicesSection(): React.ReactElement {
             <span className="font-['Space_Grotesk'] font-medium text-[16px] leading-[16px] text-white">
               View All Services
             </span>
-            <div className="w-[28px] h-[28px] rounded-[14px] bg-white flex items-center justify-center">
+            <div className="w-[28px] h-[28px] rounded-[14px] bg-white flex items-center justify-center transform group-hover:rotate-45 transition duration-300">
               <svg
                 width="14"
                 height="14"

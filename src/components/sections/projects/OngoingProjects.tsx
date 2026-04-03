@@ -1,15 +1,21 @@
 import React from "react";
 import { ongoingProjects } from "@/constants/content";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import ruler from "@/assets/images/projects/icons/whiteRuler.svg";
+import locationi from "@/assets/images/projects/icons/whiteMapPoint.svg";
 
 function ProjectCard({
   image,
   title,
-  description,
+  location,
+  area,
+  // description,
 }: {
   image: string;
   title: string;
-  description: string;
+  location: string;
+  area: string;
+  // description: string;
 }) {
   const cardRef = React.useRef<HTMLDivElement>(null);
   const [dims, setDims] = React.useState({ width: 300, height: 400 });
@@ -57,7 +63,10 @@ function ProjectCard({
         style={{ clipPath, WebkitClipPath: clipPath, aspectRatio: "398/551" }}
       >
         {/* Image */}
-        <div className="overflow-hidden rounded-[10px] m-[5.5%] mb-0" style={{ height: "64%" }}>
+        <div
+          className="overflow-hidden rounded-[10px] m-[5.5%] mb-0"
+          style={{ height: "64%" }}
+        >
           <img
             src={image}
             alt={title}
@@ -70,9 +79,25 @@ function ProjectCard({
           <h3 className="font-['Space_Grotesk'] font-bold text-[20px] leading-6.5 tracking-[-0.32px] text-white mb-1.5">
             {title}
           </h3>
-          <p className="font-['Space_Grotesk'] font-medium text-[13px] leading-5 tracking-[-0.2px] text-[#696969]">
+          {/* Meta */}
+          <div className="flex items-center gap-2.5">
+            <div className="flex items-center justify-center gap-1">
+              <img src={locationi} />
+              <span className="font-['Space_Grotesk'] font-normal text-[13px] text-[#fff]">
+                {location}
+              </span>
+            </div>
+            <span className="text-[#D1D5DB]">•</span>
+            <div className="flex items-center justify-center gap-1">
+              <img src={ruler} />
+              <span className="font-['Space_Grotesk'] font-normal text-[13px] text-[#fff]">
+                {area}
+              </span>
+            </div>
+          </div>
+          {/* <p className="font-['Space_Grotesk'] font-medium text-[13px] leading-5 tracking-[-0.2px] text-[#696969]">
             {description}
-          </p>
+          </p> */}
         </div>
       </div>
 
@@ -113,10 +138,15 @@ export function OngoingProjects(): React.ReactElement {
         style={{ backgroundColor: "#0F0F1A" }}
       >
         {/* Header row */}
-        <div className={`flex items-start justify-between mb-10 scroll-fade-up ${isVisible ? "visible" : ""}`}>
+        <div
+          className={`flex items-start justify-between mb-10 scroll-fade-up ${isVisible ? "visible" : ""}`}
+        >
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <span className="w-2.25 h-2.25 rounded-full bg-[#DF440E]" aria-hidden="true" />
+              <span
+                className="w-2.25 h-2.25 rounded-full bg-[#DF440E]"
+                aria-hidden="true"
+              />
               <span className="font-['Space_Grotesk'] font-medium text-[12px] uppercase tracking-[4px] text-[#DF440E]">
                 Ongoing Projects
               </span>
@@ -129,7 +159,7 @@ export function OngoingProjects(): React.ReactElement {
             </h2>
           </div>
 
-          <a
+          {/* <a
             href="#"
             className="flex-shrink-0 inline-flex items-center gap-[8px] bg-[#DF440E] rounded-[10px] px-[20px] py-[10px] mt-[4px]"
           >
@@ -153,19 +183,21 @@ export function OngoingProjects(): React.ReactElement {
                 />
               </svg>
             </div>
-          </a>
+          </a> */}
         </div>
 
         {/* Grid */}
         <div
-          className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[20px] stagger-children ${isVisible ? "visible" : ""}`}
+          className={`grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-[20px] stagger-children ${isVisible ? "visible" : ""}`}
         >
           {ongoingProjects.map((project) => (
             <ProjectCard
               key={project.id}
               image={project.image}
               title={project.title}
-              description={project.description}
+              location={project.area}
+              area={project.location}
+              // description={project.description}
             />
           ))}
         </div>
