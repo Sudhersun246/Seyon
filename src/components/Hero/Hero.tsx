@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import heroBgImage from "@/assets/images/hero/hero-bg.jpg";
+import heroBgImage from "@/assets/images/hero/hero-bg.webp";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const stats = [
@@ -45,7 +45,7 @@ export function Hero(): React.ReactElement {
             id="hero-heading"
             className={`font-['Space_Grotesk'] font-bold text-[36px] leading-[40px] md:text-[56px] md:leading-[60px] lg:text-[clamp(50px, 8vh, 80px)] lg:leading-[79.2px] tracking-[-1.44px] text-white scroll-fade-up ${heroVisible ? "visible" : ""}`}
           >
-            Foundation for{" "}
+            Built right. Delivered with{" "}
             <span
               className="bg-clip-text text-transparent"
               style={{
@@ -53,7 +53,7 @@ export function Hero(): React.ReactElement {
                   "linear-gradient(90deg, #FF8902 0%, #FF6900 50%, #FB2C37 100%)",
               }}
             >
-              the Future.
+              certainty.
             </span>
           </h1>
 
@@ -62,9 +62,7 @@ export function Hero(): React.ReactElement {
             className={`max-w-247.5 font-['Space_Grotesk'] font-normal text-[16px] leading-[24px] md:text-[20px] md:leading-[28px] lg:text-[24px] lg:leading-[30.6px] text-white text-center scroll-fade-up ${heroVisible ? "visible" : ""}`}
             style={{ transitionDelay: "200ms" }}
           >
-            Elite Builders, delivers top tier commercial construction services
-            across Miami, turning blueprints into reality with precision and
-            expertise.
+            Foundation for the future. Built today. <br />End-to-end commercial and infrastructure construction across India.
           </p>
 
           {/* Stats Section */}

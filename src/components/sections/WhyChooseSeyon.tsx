@@ -4,30 +4,30 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const features = [
   {
     id: "feature-1",
-    title: "Expert Engineering Teams",
+    title: "Expert End-to-End Delivery Team",
     description:
-      "Highly skilled professionals with deep technical expertise and industry experience.",
+      "We de-risk, permit, source, build, and deliver infrastructure in India for both domestic and international capital.",
     icon: "engineers",
   },
   {
     id: "feature-2",
     title: "Assured Quality & Safety",
     description:
-      "Rigorous quality control and safety-first culture across all project phases.",
+      "Our systems, our people, and our track record mean your board can trust the outcome and its quality.",
     icon: "quality",
   },
   {
     id: "feature-3",
     title: "Transparent Collaboration",
     description:
-      "Open communication and partnership approach with clients and stakeholders.",
+      "We speak your language in reporting, in governance, in safety because we were built for clients like you.",
     icon: "collaboration",
   },
   {
     id: "feature-4",
     title: "On-Time Delivery",
     description:
-      "Disciplined project management ensuring timely completion without compromise.",
+      "When you give us a project, you transfer the India execution risk to us resulting in disciplined well managed on time delivery.",
     icon: "delivery",
   },
 ];
@@ -139,7 +139,7 @@ export function WhyChooseSeyon(): React.ReactElement {
           className={`text-center font-['Space_Grotesk'] font-medium text-[24px] md:text-[32px] lg:text-[40px] leading-[51px] tracking-[-0.32px] text-black mb-[40px] scroll-fade-up ${isVisible ? "visible" : ""}`}
           style={{ transitionDelay: "100ms" }}
         >
-          Built on Trust, Delivered with Excellence
+          We are your single point of execution certainty in India
         </h2>
 
         {/* Features Grid - 2x2 */}

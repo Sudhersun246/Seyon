@@ -16,8 +16,8 @@ export function ProjectsPage(): React.ReactElement {
       />
       <ProjectsHero />
       <ProjectsOverview />
-      <CompletedProjects />
       <OngoingProjects />
+      <CompletedProjects />
       <ProjectDelivery />
       <ProjectQualitySafety />
     </>

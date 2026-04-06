@@ -1,27 +1,38 @@
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useScrollAnimation } from '@/hooks/useScrollAnimation'
 import logoImage from '@/assets/images/header/logo.png'
 
 const quickLinks = [
   { label: 'About Us', href: '/about' },
   { label: 'Services', href: '/services' },
-  { label: 'Our Approach', href: '/about' },
-  { label: 'Quality & Safety', href: '/about' },
+  { label: 'Our Projects', href: '/projects' },
 ]
 
 const serviceLinks = [
-  { label: 'Civil & Infrastructure', href: '/services' },
-  { label: 'MEP & Building Services', href: '/services' },
-  { label: 'HVAC Installations', href: '/services' },
-  { label: 'Structural & Industrial', href: '/services' },
-  { label: 'Interior & Fit-out', href: '/services' },
+  { label: 'Civil & Infrastructure', href: '/services', hash: 'service-civil' },
+  { label: 'MEP & Building Services', href: '/services', hash: 'service-mep' },
+  { label: 'HVAC Installations', href: '/services', hash: 'service-hvac' },
+  { label: 'Structural & Industrial', href: '/services', hash: 'service-structural' },
+  { label: 'Interior & Fit-out', href: '/services', hash: 'service-fitout' },
 ]
 
 export function Footer(): React.ReactElement {
   const { ref: footerRef, isVisible } = useScrollAnimation({ threshold: 0.1 })
+  const navigate = useNavigate()
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  const handleServiceClick = (e: React.MouseEvent, href: string, hash: string) => {
+    e.preventDefault()
+    navigate(href)
+    setTimeout(() => {
+      const el = document.getElementById(hash)
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' })
+      }
+    }, 100)
   }
 
   return (
@@ -90,12 +101,13 @@ export function Footer(): React.ReactElement {
             <ul className="flex flex-col gap-[16px]">
               {serviceLinks.map((link) => (
                 <li key={link.label}>
-                  <Link
-                    to={link.href}
-                    className="font-['Space_Grotesk'] font-normal text-[19px] leading-[27px] text-[#99A1AF] hover:text-white transition-colors"
+                  <a
+                    href={`${link.href}#${link.hash}`}
+                    onClick={(e) => handleServiceClick(e, link.href, link.hash)}
+                    className="font-['Space_Grotesk'] font-normal text-[19px] leading-[27px] text-[#99A1AF] hover:text-white transition-colors cursor-pointer"
                   >
                     {link.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>

@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom'
-import ctaBgImage from '@/assets/images/contact/projectInMind.png'
-import serviceBgImage from '@/assets/images/services/service-sec.jpg'
+import ctaBgImage from '@/assets/images/contact/projectInMind.webp'
+import serviceBgImage from '@/assets/images/services/service-sec.webp'
 
 interface CTASectionProps {
   heading?: string;

@@ -1,4 +1,4 @@
-import heroBgImage from "@/assets/images/hero/hero-bg.jpg";
+import heroBgImage from "@/assets/images/hero/hero-bg.webp";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Link } from "react-router-dom";
 
@@ -38,8 +38,7 @@ export function AboutHero(): React.ReactElement {
           className={`font-['Space_Grotesk'] font-normal text-[16px] md:text-[18px] leading-[30px] text-white/90 max-w-[700px] mb-[36px] scroll-fade-up ${isVisible ? "visible" : ""}`}
           style={{ transitionDelay: "150ms" }}
         >
-          A multidisciplinary engineering and contracting organisation delivering
-          comprehensive construction solutions across diverse sectors.
+          Seyon Constrotech was built on a belief that has not changed: good engineering, honest work, and disciplined execution create projects that stand the test of time.
         </p>
 
         <Link

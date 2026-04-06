@@ -1,6 +1,6 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import partnerImg from "@/assets/images/contact/business.png";
-import rotate from "@/assets/images/contact/rotate.png";
+import partnerImg from "@/assets/images/contact/business.webp";
+import rotate from "@/assets/images/contact/rotate.webp";
 
 export function BusinessEnquiries(): React.ReactElement {
   const { ref, isVisible } = useScrollAnimation();

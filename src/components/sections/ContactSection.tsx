@@ -1,5 +1,5 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import ctaBgImage from "@/assets/images/cta/cta-bg.jpg";
+import ctaBgImage from "@/assets/images/cta/cta-bg.webp";
 import { ContactForm } from "./contact/ContactForm";
 
 const socialLinks = [

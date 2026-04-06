@@ -102,13 +102,13 @@ function ProjectCard({
       </div>
 
       {/* Arrow button at notch */}
-      <div className="absolute bottom-1 right-1 w-9.5 h-9.5 rounded-lg bg-[#DF440E] flex items-center justify-center group-hover:bg-[#c63a0c] transition-colors">
+      <div className="group absolute bottom-1 right-1 w-9.5 h-9.5 rounded-lg bg-[#DF440E] flex items-center justify-center group-hover:bg-[#c63a0c] transition-all group-hover:rounded-full duration-300">
         <svg
           width="14"
           height="14"
           viewBox="0 0 24 24"
           fill="none"
-          className="transform -rotate-45"
+          className="transform -rotate-45 group-hover:rotate-0 transition duration-300"
           aria-hidden="true"
         >
           <path

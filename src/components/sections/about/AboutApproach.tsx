@@ -24,12 +24,21 @@ export function AboutApproach(): React.ReactElement {
         </h2>
 
         <p className="font-['Space_Grotesk'] font-normal text-[16px] md:text-[18px] leading-[30px] text-[#4A5568]">
-          Seyon Constrotech was founded from a unique perspective on engineering
-          and construction services. We are a multidisciplinary firm that thinks
-          like a value creator. Through our experiences in the market, we saw an
-          opportunity to not only uplevel the industry in terms of consistent
-          quality service but to also bring the perspective of long-term value
-          in everyday decisions, communication, and reporting.
+          We are a multidisciplinary engineering and contracting company — but
+          more importantly, we are a team of people who take full accountability
+          for what we build. Our work spans Civil, MEP, Mechanical, and
+          Infrastructure projects across residential, commercial, industrial,
+          and institutional sectors. Every project reflects the experience,
+          care, and ownership of the people behind it. Over the years, we have
+          grown from an execution-focused team into a trusted partner for
+          clients across the full spectrum — from local developers who rely on
+          us for consistent, reliable delivery to international organisations
+          who need a single accountable partner capable of managing India
+          infrastructure programmes to global quality and governance standards.
+          From planning and installation to testing, commissioning, and final
+          handover — our approach remains what it has always been: do the job
+          right, work safely, and deliver lasting value. For every client. On
+          every project.
         </p>
       </div>
     </section>

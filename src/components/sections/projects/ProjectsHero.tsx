@@ -1,4 +1,4 @@
-import projectsBgImage from "@/assets/images/projects/project-bg.png";
+import projectsBgImage from "@/assets/images/projects/project-bg.webp";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 export function ProjectsHero(): React.ReactElement {

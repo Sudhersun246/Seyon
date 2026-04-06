@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import skyLine from '@/assets/images/projects/skyline.jpg'
-import oceanView from '@/assets/images/projects/oceanview.jpg'
-import vertex from '@/assets/images/projects/vertex.jpg'
+import skyLine from '@/assets/images/projects/skyline.webp'
+import oceanView from '@/assets/images/projects/oceanview.webp'
+import vertex from '@/assets/images/projects/vertex.webp'
 
 const projects = [
   {

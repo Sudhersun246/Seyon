@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import ctaBgImage from "@/assets/images/cta/cta-bg.jpg";
+import ctaBgImage from "@/assets/images/cta/cta-bg.webp";
 import { Mail, Globe, Phone } from "lucide-react";
 
 
@@ -88,9 +88,9 @@ export function GetInTouch(): React.ReactElement {
           <div className="bg-white rounded-[20px] p-[32px] h-full">
             <form onSubmit={handleSubmit} className="flex flex-col gap-5.5">
               {[
-                { id: "c-name", name: "name", label: "Name", type: "text", placeholder: "Michael Carter" },
-                { id: "c-email", name: "email", label: "Email", type: "email", placeholder: "michaelcarter@gmail.com" },
-                { id: "c-phone", name: "phone", label: "Phone number", type: "number", placeholder: "+1 650 213 7379" },
+                { id: "c-name", name: "name", label: "Name", type: "text", placeholder: "Enter your name" },
+                { id: "c-email", name: "email", label: "Email", type: "email", placeholder: "Enter your email" },
+                { id: "c-phone", name: "phone", label: "Phone number", type: "number", placeholder: "Enter your phone number" },
               ].map((field) => (
                 <div key={field.id}>
                   <label htmlFor={field.id} className="block font-['Space_Grotesk'] font-medium text-[14px] text-[#696969] mb-2">
@@ -123,10 +123,10 @@ export function GetInTouch(): React.ReactElement {
               </div>
               <button
                 type="submit"
-                className="w-full flex items-center justify-center gap-[10px] bg-[#DF440E] rounded-[10px] px-[30px] py-[15px] hover:bg-[#c53a0c] transition-colors"
+                className="group w-full flex items-center justify-center gap-[10px] bg-[#DF440E] rounded-[10px] px-[30px] py-[15px] hover:bg-[#c53a0c] transition-colors"
               >
                 <span className="font-['Space_Grotesk'] font-medium text-[16px] text-white">Submit</span>
-                <div className="w-[26px] h-[26px] rounded-full bg-white flex items-center justify-center">
+                <div className="w-[26px] h-[26px] rounded-full bg-white flex items-center justify-center group-hover:rotate-45 transition duration-300">
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" className="-rotate-45" aria-hidden="true">
                     <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="#DF440E" strokeWidth="2.5" strokeLinecap="square" />
                   </svg>

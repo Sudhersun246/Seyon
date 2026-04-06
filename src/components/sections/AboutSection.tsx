@@ -1,4 +1,4 @@
-import aboutImage from '@/assets/images/about/about.jpg'
+import aboutImage from '@/assets/images/about/about.webp'
 
 const highlights = [
   { value: '25+', label: 'Years Experience' },

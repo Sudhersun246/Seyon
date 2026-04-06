@@ -1,40 +1,42 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import skyLine from "@/assets/images/projects/skyline.jpg";
-import oceanView from "@/assets/images/projects/oceanview.jpg";
-import vertex from "@/assets/images/projects/vertex.jpg";
-import summit from "@/assets/images/projects/summit.jpg";
+import GPNPalaceGardens from "@/assets/images/projects/ongoing_project/GPN Palace (Gardens).webp";
+import PoliceQuarters from "@/assets/images/projects/ongoing_project/Police Quarters.webp";
+import SingaporeGlobalDataCentre from "@/assets/images/projects/ongoing_project/Singapore Global Data Centre.webp";
+import Warehouse from "@/assets/images/projects/ongoing_project/Warehouse.webp";
 import badge from "@/assets/images/home/badge.png";
+import ruler from "@/assets/images/projects/icons/whiteRuler.svg";
+import locationi from "@/assets/images/projects/icons/whiteMapPoint.svg";
 
 const projects = [
   {
     id: "project-1",
-    image: skyLine,
-    title: "Skyline Tower",
-    description:
-      "A 35-story business hub with modern workspaces and a rooftop garden.",
+    image: SingaporeGlobalDataCentre,
+    title: "Singapore Global Data Centre",
+    location: "Ambattur",
+    area: "23,000 Sqft",
   },
   {
     id: "project-2",
-    image: oceanView,
-    title: "Oceanview Plaza",
-    description:
-      "A 35-story business hub with modern workspaces and a rooftop garden.",
+    image: Warehouse,
+    title: "Warehouse",
+    location: "Thiruverkadu",
+    area: "10,000 Sqft",
   },
   {
     id: "project-3",
-    image: vertex,
-    title: "Vertex Center",
-    description:
-      "A 35-story business hub with modern workspaces and a rooftop garden.",
+    image: GPNPalaceGardens,
+    title: "GPN Palace (Gardens)",
+    location: "Thiruverkadu",
+    area: "110,000 Sqft",
   },
   {
     id: "project-4",
-    image: summit,
-    title: "Summit Plaza",
-    description:
-      "A 35-story business hub with modern workspaces and a rooftop garden.",
+    image: PoliceQuarters,
+    title: "Police Quarters",
+    location: "Coimbatore",
+    area: "100,000 Sqft",
   },
 ];
 
@@ -92,31 +94,35 @@ function ProjectCard({ project }: { project: (typeof projects)[0] }) {
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
         </div>
-        <div
-          className="p-[10px] pt-[16px] flex flex-col flex-1"
-          style={{ paddingBottom: "14%" }}
-        >
-          <h3 className="font-['Space_Grotesk'] font-bold text-[28px] leading-[36px] tracking-[-0.32px] text-white mb-[8px]">
+        <div className="flex flex-col flex-1 px-[5.5%] pt-4 pb-[14%]">
+          <h3 className="font-['Space_Grotesk'] font-bold text-[20px] leading-6.5 tracking-[-0.32px] text-white mb-1.5">
             {project.title}
           </h3>
-          <p className="font-['Space_Grotesk'] font-medium text-[16px] leading-[24px] tracking-[-0.32px] text-[#696969] mb-[12px]">
-            {project.description}
-          </p>
-          <div className="flex items-center justify-between mt-auto">
-            <span className="font-['Space_Grotesk'] font-medium text-[16px] leading-[20px] tracking-[-0.32px] text-white underline underline-offset-4 cursor-pointer hover:text-[#DF440E] transition-colors">
-              Learn more
-            </span>
+          {/* Meta */}
+          <div className="flex items-center gap-2.5">
+            <div className="flex items-center justify-center gap-1">
+              <img src={locationi} />
+              <span className="font-['Space_Grotesk'] font-normal text-[13px] text-[#fff]">
+                {project.location}
+              </span>
+            </div>
+            <span className="text-[#D1D5DB]">•</span>
+            <div className="flex items-center justify-center gap-1">
+              <img src={ruler} />
+              <span className="font-['Space_Grotesk'] font-normal text-[13px] text-[#fff]">
+                {project.area}
+              </span>
+            </div>
           </div>
         </div>
       </div>
       <div
-        className="absolute flex items-center justify-center bg-[#DF440E] cursor-pointer hover:bg-[#c53a0c] transition-colors"
+        className="group absolute flex items-center rounded-[10px] justify-center bg-[#DF440E] cursor-pointer hover:bg-[#c53a0c] transition-all group-hover:rounded-[50px] duration-300"
         style={{
           width: "46px",
           height: "46px",
           right: "0px",
           bottom: "0px",
-          borderRadius: "10px",
         }}
       >
         <svg
@@ -124,7 +130,7 @@ function ProjectCard({ project }: { project: (typeof projects)[0] }) {
           height="14"
           viewBox="0 0 24 24"
           fill="none"
-          className="transform -rotate-45"
+          className="transform -rotate-45 group-hover:rotate-0 transition duration-300"
           aria-hidden="true"
         >
           <path

@@ -1,4 +1,4 @@
-import contactHero from "@/assets/images/contact/contact-bg.png";
+import contactHero from "@/assets/images/contact/contact-bg.webp";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 export function ContactHero(): React.ReactElement {

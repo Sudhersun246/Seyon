@@ -1,26 +1,27 @@
+import { Link } from "react-router-dom";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import wadeImg from "@/assets/images/team/wade.jpg";
-import darrellImg from "@/assets/images/team/darrell.jpg";
-import dustinImg from "@/assets/images/team/dustin.jpg";
+import greg from "@/assets/images/about/greg.webp";
+import eliz from "@/assets/images/about/eliz.webp";
+import brian from "@/assets/images/about/brian.webp";
 
 const teamMembers = [
   {
     id: "member-1",
-    name: "Wade",
-    role: "Trust Administrator",
-    image: wadeImg,
+    name: "Greg Hughes",
+    role: "Managing Partner",
+    image: greg,
   },
   {
     id: "member-2",
-    name: "Darrell",
-    role: "Accountant",
-    image: darrellImg,
+    name: "Elizabeth Sousa",
+    role: "Chief Accounting Officer",
+    image: eliz,
   },
   {
     id: "member-3",
-    name: "Dustin",
-    role: "Regional Manager",
-    image: dustinImg,
+    name: "Brian Beck, PE",
+    role: "Vice President, Project Management",
+    image: brian,
   },
 ];
 
@@ -58,7 +59,7 @@ export function MeetExperts(): React.ReactElement {
         <div className="flex flex-col lg:flex-row gap-0">
           {/* Left Orange Panel */}
           <div
-            className={`relative w-full lg:w-5/12 flex-shrink-0 overflow-hidden p-[40px] flex flex-col justify-end min-h-[300px] lg:min-h-[444px] scroll-fade-left ${isVisible ? "visible" : ""}`}
+            className={`relative w-full lg:w-5/12 flex-shrink-0 overflow-hidden p-[40px] flex flex-col justify-end min-h-[300px] lg:min-h-[380px] scroll-fade-left ${isVisible ? "visible" : ""}`}
             style={{
               background: "linear-gradient(135deg, #DF440E 0%, #FF7342 100%)",
               transitionDelay: "200ms",
@@ -84,6 +85,32 @@ export function MeetExperts(): React.ReactElement {
                 Our team is here to deliver excellence from concept to
                 completion.
               </p>
+              <div className="flex justify-center md:justify-start">
+              <Link
+                to="/about"
+                className="inline-flex items-center gap-[10px] bg-white rounded-[10px] px-[30px] py-[14px] group"
+              >
+                <span className="font-['Space_Grotesk'] font-medium text-[14px] md:text-[18px] leading-[18px] text-[#DF440E]">
+                  View Our Expertise
+                </span>
+                <div className="w-[28px] h-[28px] rounded-full bg-[#DF440E] flex items-center justify-center transform group-hover:rotate-45 transition duration-300">
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    className="transform -rotate-45"
+                  >
+                    <path
+                      d="M5 12H19M19 12L12 5M19 12L12 19"
+                      stroke="white"
+                      strokeWidth="2"
+                      strokeLinecap="square"
+                    />
+                  </svg>
+                </div>
+              </Link>
+              </div>
             </div>
           </div>
 
@@ -100,7 +127,7 @@ export function MeetExperts(): React.ReactElement {
                     <img
                       src={member.image}
                       alt={member.name}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover object-top"
                     />
                   </div>
                   {/* Info */}

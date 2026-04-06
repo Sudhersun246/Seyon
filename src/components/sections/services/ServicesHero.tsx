@@ -1,4 +1,4 @@
-import servicesBgImage from "@/assets/images/services/bg-services.png";
+import servicesBgImage from "@/assets/images/services/bg-services.webp";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 export function ServicesHero(): React.ReactElement {

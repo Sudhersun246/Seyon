@@ -1,4 +1,4 @@
-import baseTopImage from "@/assets/images/projects/baseTop.png";
+import baseTopImage from "@/assets/images/projects/baseTop.webp";
 import { featureProjects } from "@/constants/content";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 

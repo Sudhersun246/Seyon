@@ -1,5 +1,5 @@
 import React from "react";
-import servicesBgImage from "@/assets/images/services/services-bg.jpg";
+import servicesBgImage from "@/assets/images/services/services-bg.webp";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import "./style.scss";
 import hvacIcon from "@/assets/images/home/mech.png";
@@ -88,10 +88,10 @@ function ServiceCard({ service }: { service: typeof services[0] }) {
         </p>
       </div>
       <div
-        className="absolute flex items-center justify-center bg-white rounded-[9px] hover:bg-gray-50 transition-colors cursor-pointer"
+        className="group absolute flex items-center justify-center bg-white rounded-[10px] hover:bg-gray-50 transition-colors cursor-pointer group-hover:rounded-4xl "
         style={{ width: "50px", height: "50px", right: "6px", bottom: "6px" }}
       >
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="transform -rotate-45" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="transform -rotate-45 group-hover:rotate-0 transition duration-300" aria-hidden="true">
           <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="#DF440E" strokeWidth="1.5" strokeLinecap="round" />
         </svg>
       </div>

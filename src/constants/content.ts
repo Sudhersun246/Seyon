@@ -1,11 +1,7 @@
 import type { Feature, Service, TeamMember, ContactInfo } from '@/types'
 import quality from '@/assets/images/services/icons/quality.svg'
 import tick from "@/assets/images/services/icons/tick.svg";
-import warning from "@/assets/images/services/icons/danger.svg";  
-import skyLine from "@/assets/images/projects/skyline.jpg";
-import oceanView from "@/assets/images/projects/oceanview.jpg";
-import vertex from "@/assets/images/projects/vertex.jpg";
-import summit from "@/assets/images/projects/summit.jpg";
+import warning from "@/assets/images/services/icons/danger.svg";
 import step1 from "@/assets/images/projects/icons/step1.png";
 import step2 from "@/assets/images/projects/icons/step2.png";
 import step3 from "@/assets/images/projects/icons/step3.png";
@@ -17,25 +13,49 @@ import expertTeam from "@/assets/images/contact/icons/expertTeam.png";
 import communication from "@/assets/images/contact/icons/communication.png";
 import reliable from "@/assets/images/contact/icons/reliable.png";
 import quality1 from "@/assets/images/contact/icons/quality.png";
-import greg from "@/assets/images/about/greg.jpg";
-import eliz from "@/assets/images/about/eliz.jpg";
-import brian from "@/assets/images/about/brian.jpg";
-import brooke from "@/assets/images/about/brooke.jpg";
-import ian from "@/assets/images/about/ian.jpg";
-import adam from "@/assets/images/about/adam.png";
-import ryan from "@/assets/images/about/ryan.jpg";
-import romel from "@/assets/images/about/romel.jpg";
-import olivia from "@/assets/images/about/olivia.png";
-import faith from "@/assets/images/about/faith.jpg";
-import sarah from "@/assets/images/about/sarah.jpg";
-import donovan from "@/assets/images/about/donovan.jpg";
-import kelley from "@/assets/images/about/kelley.jpg";
-import alianny from "@/assets/images/about/alianny.jpg";
-import tom from "@/assets/images/about/tom.jpg";
-import akhtar from "@/assets/images/about/akhtar.jpg";
-import taylor from "@/assets/images/about/taylor.png";
-import nick from "@/assets/images/about/nick.jpg";
-import seth from "@/assets/images/about/seth.jpg";
+import greg from "@/assets/images/about/greg.webp";
+import eliz from "@/assets/images/about/eliz.webp";
+import brian from "@/assets/images/about/brian.webp";
+import brooke from "@/assets/images/about/brooke.webp";
+import ian from "@/assets/images/about/ian.webp";
+import adam from "@/assets/images/about/adam.webp";
+import ryan from "@/assets/images/about/ryan.webp";
+import romel from "@/assets/images/about/romel.webp";
+import olivia from "@/assets/images/about/olivia.webp";
+import faith from "@/assets/images/about/faith.webp";
+import sarah from "@/assets/images/about/sarah.webp";
+import donovan from "@/assets/images/about/donovan.webp";
+import kelley from "@/assets/images/about/kelley.webp";
+import alianny from "@/assets/images/about/alianny.webp";
+import tom from "@/assets/images/about/tom.webp";
+import akhtar from "@/assets/images/about/akhtar.webp";
+import taylor from "@/assets/images/about/taylor.webp";
+import nick from "@/assets/images/about/nick.webp";
+import seth from "@/assets/images/about/seth.webp";
+
+// ONGOING PROJECTS
+import GPNPalaceGardens from "@/assets/images/projects/ongoing_project/GPN Palace (Gardens).webp";
+import PoliceQuarters from "@/assets/images/projects/ongoing_project/Police Quarters.webp";
+import SingaporeGlobalDataCentre from "@/assets/images/projects/ongoing_project/Singapore Global Data Centre.webp";
+import Warehouse from "@/assets/images/projects/ongoing_project/Warehouse.webp";
+import GPNFoodCourt from "@/assets/images/projects/ongoing_project/GPN Food Court.webp";
+import GraceSuperMarket from "@/assets/images/projects/ongoing_project/Grace Super Market.webp";
+import IronMount from "@/assets/images/projects/ongoing_project/Iron Mount.webp";
+import SIPCOT from "@/assets/images/projects/ongoing_project/SIPCOT.webp";
+import SNJGummudi from "@/assets/images/projects/ongoing_project/SNJ-gummudi.webp";
+import SNJPondy from "@/assets/images/projects/ongoing_project/SNJ-pondy.webp";
+import VBJNewShowroom from "@/assets/images/projects/ongoing_project/VBJ - New Showroom.webp";
+import WaterSump from "@/assets/images/projects/ongoing_project/Water Sump.webp";
+
+// COMPLETED PROJECTS
+import BhimmasGuestHouse from "@/assets/images/projects/completed_project/Bhimmas Guest House.webp";
+import BhimmasTempleTree from "@/assets/images/projects/completed_project/Bhimmas Temple Tree.webp";
+import GPNPalace1 from "@/assets/images/projects/completed_project/GPN Palace 1.webp";
+import JKumarCastingYard from "@/assets/images/projects/completed_project/J Kumar Casting Yard.webp";
+import JKumarRegionalOffice from "@/assets/images/projects/completed_project/J Kumar Regional Office.webp";
+import LTCastingYard from "@/assets/images/projects/completed_project/L&T Casting Yard.webp";
+import RKTRHeatTreatmentArea from "@/assets/images/projects/completed_project/RKTR – Heat Treatment Area.webp";
+import ShravidBeachHouse from "@/assets/images/projects/completed_project/Shravid Beach House.webp";
 
 export const heroContent = {
   headline: 'Innovative Solutions for a Digital World',
@@ -298,7 +318,7 @@ export const featureProjects = [
 export const ongoingProjects = [
   {
     id: "op-1",
-    image: skyLine,
+    image: GPNPalaceGardens,
     title: "GPN Palace (Gardens)",
     location: "Thiruverkadu",
     area: "110,000 Sqft",
@@ -306,7 +326,7 @@ export const ongoingProjects = [
   },
   {
     id: "op-2",
-    image: skyLine,
+    image: PoliceQuarters,
     title: "Police Quarters",
     location: "Coimbatore",
     area: "100,000 Sqft",
@@ -314,7 +334,7 @@ export const ongoingProjects = [
   },
   {
     id: "op-3",
-    image: skyLine,
+    image: SingaporeGlobalDataCentre,
     title: "Singapore Global Data Centre",
     location: "Ambattur",
     area: "23,000 Sqft",
@@ -322,7 +342,7 @@ export const ongoingProjects = [
   },
   {
     id: "op-4",
-    image: skyLine,
+    image: Warehouse,
     title: "Warehouse",
     location: "Thiruverkadu",
     area: "10,000 Sqft",
@@ -330,7 +350,7 @@ export const ongoingProjects = [
   },
   {
     id: "op-5",
-    image: skyLine,
+    image: GPNFoodCourt,
     title: "GPN Food Court",
     location: "Thiruverkadu",
     area: "24,000 Sqft",
@@ -338,7 +358,7 @@ export const ongoingProjects = [
   },
   {
     id: "op-6",
-    image: skyLine,
+    image: GraceSuperMarket,
     title: "Grace Super Market",
     location: "Thiruverkadu",
     area: "24,000 Sqft",
@@ -346,7 +366,7 @@ export const ongoingProjects = [
   },
   {
     id: "op-7",
-    image: skyLine,
+    image: SIPCOT,
     title: "SIPCOT Development",
     location: "Kandharvakottai",
     area: "200 Acres",
@@ -354,7 +374,7 @@ export const ongoingProjects = [
   },
   {
     id: "op-8",
-    image: skyLine,
+    image: IronMount,
     title: "Iron Mount",
     location: "Ambattur",
     area: "—",
@@ -362,7 +382,7 @@ export const ongoingProjects = [
   },
   {
     id: "op-9",
-    image: skyLine,
+    image: WaterSump,
     title: "Water Sump",
     location: "Thiruthani",
     area: "10,00,000 Liters",
@@ -370,7 +390,7 @@ export const ongoingProjects = [
   },
   {
     id: "op-10",
-    image: skyLine,
+    image: SNJPondy,
     title: "SNJ Project (Pondicherry)",
     location: "Pondicherry",
     area: "—",
@@ -378,7 +398,7 @@ export const ongoingProjects = [
   },
   {
     id: "op-11",
-    image: skyLine,
+    image: SNJGummudi,
     title: "SNJ Project (Gummidipoondi)",
     location: "Gummidipoondi",
     area: "—",
@@ -386,7 +406,7 @@ export const ongoingProjects = [
   },
   {
     id: "op-12",
-    image: skyLine,
+    image: VBJNewShowroom,
     title: "VBJ Showroom",
     location: "Annasalai",
     area: "—",
@@ -397,7 +417,7 @@ export const ongoingProjects = [
 export const completedProjects = [
   {
     id: "cp-1",
-    image: skyLine,
+    image: GPNPalace1,
     title: "GPN Palace 1",
     location: "Thiruverkadu",
     area: "150,000 Sqft",
@@ -405,7 +425,7 @@ export const completedProjects = [
   },
   {
     id: "cp-2",
-    image: oceanView,
+    image: BhimmasTempleTree,
     title: "Bhimmas Temple Tree",
     location: "Vadapalani",
     area: "75,000 Sqft",
@@ -413,7 +433,7 @@ export const completedProjects = [
   },
   {
     id: "cp-3",
-    image: vertex,
+    image: ShravidBeachHouse,
     title: "Shravid Beach House",
     location: "ECR",
     area: "10,000 Sqft (Building) + 9,000 Sqft (Landscape)",
@@ -421,7 +441,7 @@ export const completedProjects = [
   },
   {
     id: "cp-4",
-    image: summit,
+    image: BhimmasGuestHouse,
     title: "Bhimmas Guest House",
     location: "Vadapalani",
     area: "—",
@@ -429,7 +449,7 @@ export const completedProjects = [
   },
   {
     id: "cp-5",
-    image: vertex,
+    image: RKTRHeatTreatmentArea,
     title: "RKTR – Heat Treatment Area",
     location: "Puduvayal",
     area: "30,000 Sqft",
@@ -437,7 +457,7 @@ export const completedProjects = [
   },
   {
     id: "cp-6",
-    image: summit,
+    image: LTCastingYard,
     title: "L&T Casting Yard",
     location: "Shollinganallur",
     area: "—",
@@ -445,7 +465,7 @@ export const completedProjects = [
   },
   {
     id: "cp-7",
-    image: oceanView,
+    image: JKumarCastingYard,
     title: "J Kumar Casting Yard",
     location: "EVP Film City",
     area: "—",
@@ -453,7 +473,7 @@ export const completedProjects = [
   },
   {
     id: "cp-8",
-    image: skyLine,
+    image: JKumarRegionalOffice,
     title: "J Kumar Regional Office",
     location: "Maduravoyal",
     area: "—",
