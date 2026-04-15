@@ -120,9 +120,9 @@ FRAME: "Frame 2147229588" (1920x1492) at (0,0)
           Layout: VERTICAL gap=4 counterAxis= primaryAxis=CENTER
           Padding: L=20 R=20 T=12 B=12
           Stroke: #FFFFFF weight=1 align=INSIDE
-          TEXT: "500+" (155x79) at (672,503)
+          TEXT: "10+" (155x79) at (672,503)
             Fill: #FFFFFF alpha=1.00
-            Text: "500+"
+            Text: "10+"
             Font: Space Grotesk weight=500 size=62px
             LineHeight: 79.11199951171875px letterSpacing=-0.3199999928474426 align=LEFT
             TextCase: ORIGINAL Decoration: NONE

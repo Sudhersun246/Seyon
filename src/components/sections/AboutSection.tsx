@@ -2,7 +2,7 @@ import aboutImage from '@/assets/images/about/about.webp'
 
 const highlights = [
   { value: '25+', label: 'Years Experience' },
-  { value: '500+', label: 'Projects Delivered' },
+  { value: '10+', label: 'Projects Delivered' },
   { value: '100%', label: 'Client Satisfaction' },
 ]
 

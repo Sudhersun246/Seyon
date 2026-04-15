@@ -149,7 +149,7 @@ export function WhyChooseSeyon(): React.ReactElement {
           {features.map((feature) => (
             <div
               key={feature.id}
-              className="flex items-start gap-[16px] rounded-[24px] border-[0.5px] border-[#FF6900] bg-white p-[24px] hover:shadow-md transition-shadow duration-200"
+              className="flex items-start flex-col md:flex-row gap-[16px] rounded-[24px] border-[0.5px] border-[#FF6900] bg-white p-[24px] hover:shadow-md transition-shadow duration-200"
             >
               {/* Icon */}
               <div className="flex-shrink-0 w-[50px] h-[50px] rounded-full bg-[#F9773B] flex items-center justify-center">

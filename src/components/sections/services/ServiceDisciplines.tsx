@@ -85,8 +85,8 @@ function DisciplineCard({ icon, title, desc, anchor }: { icon: string; title: st
 
 export function ServiceDisciplines(): React.ReactElement {
   const { ref, isVisible } = useScrollAnimation();
-  const topCards = disciplineCards.slice(0, 3);
-  const bottomCards = disciplineCards.slice(3);
+  const topCards = disciplineCards.slice(0, 2);
+  const bottomCards = disciplineCards.slice(2, 4);
 
   return (
     <section
@@ -120,12 +120,12 @@ export function ServiceDisciplines(): React.ReactElement {
         </div>
 
         <div className={`stagger-children ${isVisible ? "visible" : ""}`}>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[20px] mb-[20px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-[20px] mb-[20px]">
             {topCards.map((s) => (
               <DisciplineCard key={s.title} {...s} />
             ))}
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-[20px] max-w-[840px] mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-[20px] mx-auto">
             {bottomCards.map((s) => (
               <DisciplineCard key={s.title} {...s} />
             ))}

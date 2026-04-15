@@ -3,9 +3,9 @@ import heroBgImage from "@/assets/images/hero/hero-bg.webp";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const stats = [
-  { value: "500+", label: "Project completed" },
-  { value: "100+", label: "Professionals" },
-  { value: "2M+", label: "Sq Ft built" },
+  { value: "10+", label: "Project completed" },
+  { value: "40+", label: "Professionals" },
+  { value: "330K", label: "Sq Ft built" },
 ];
 
 export function Hero(): React.ReactElement {

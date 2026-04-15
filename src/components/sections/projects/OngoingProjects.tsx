@@ -134,7 +134,7 @@ export function OngoingProjects(): React.ReactElement {
     >
       <div
         ref={ref}
-        className="max-w-387.5 mx-auto rounded-3xl px-10 py-12"
+        className="max-w-387.5 mx-auto rounded-3xl px-5 py-5 md:px-10 md:py-12"
         style={{ backgroundColor: "#0F0F1A" }}
       >
         {/* Header row */}

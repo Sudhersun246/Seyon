@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import GPNPalaceGardens from "@/assets/images/projects/ongoing_project/GPN Palace (Gardens).webp";
-import PoliceQuarters from "@/assets/images/projects/ongoing_project/Police Quarters.webp";
+// import GPNPalaceGardens from "@/assets/images/projects/ongoing_project/GPN Palace (Gardens).webp";
+// import PoliceQuarters from "@/assets/images/projects/ongoing_project/Police Quarters.webp";
 import SingaporeGlobalDataCentre from "@/assets/images/projects/ongoing_project/Singapore Global Data Centre.webp";
 import Warehouse from "@/assets/images/projects/ongoing_project/Warehouse.webp";
 import badge from "@/assets/images/home/badge.png";
 import ruler from "@/assets/images/projects/icons/whiteRuler.svg";
 import locationi from "@/assets/images/projects/icons/whiteMapPoint.svg";
+import SIPCOT from "@/assets/images/projects/ongoing_project/SIPCOT.webp";
+import SNJPondy from "@/assets/images/projects/ongoing_project/SNJ-pondy.webp";
 
 const projects = [
   {
@@ -19,24 +21,24 @@ const projects = [
   },
   {
     id: "project-2",
+    image: SIPCOT,
+    title: "SIPCOT Development",
+    location: "Kandharvakottai",
+    area: "200 Acres",
+  },
+  {
+    id: "project-3",
     image: Warehouse,
     title: "Warehouse",
     location: "Thiruverkadu",
     area: "10,000 Sqft",
   },
   {
-    id: "project-3",
-    image: GPNPalaceGardens,
-    title: "GPN Palace (Gardens)",
-    location: "Thiruverkadu",
-    area: "110,000 Sqft",
-  },
-  {
     id: "project-4",
-    image: PoliceQuarters,
-    title: "Police Quarters",
-    location: "Coimbatore",
-    area: "100,000 Sqft",
+    image: SNJPondy,
+    title: "SNJ Project (Pondicherry)",
+    location: "Pondicherry",
+    area: "—",
   },
 ];
 

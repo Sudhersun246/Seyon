@@ -171,9 +171,9 @@ M1920 2.5C1920 3.88071 1918.88 5 1917.5 5L1731 5C1714.43 5 1701 18.4315 1701 35L
 
 | Card | Number | Label | Width |
 |------|--------|-------|-------|
-| 1 | 500+ | Project completed | 195px |
-| 2 | 100+ | Professionals | 185px |
-| 3 | 2M+ | Sq Ft built | 170px |
+| 1 | 10+ | Project completed | 195px |
+| 2 | 40+ | Professionals | 185px |
+| 3 | 330K | Sq Ft built | 170px |
 
 - **Number Style**: Space Grotesk 500, 62px, lh=79.11px, ls=-0.32px, `#FFFFFF`
 - **Label Style**: Space Grotesk 400, 16px, lh=24px, `#FFFFFF`

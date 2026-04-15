@@ -8,7 +8,7 @@ export function QualitySafety(): React.ReactElement {
   return (
     <section className="w-full py-20" aria-labelledby="quality-heading">
       <div ref={ref} className="max-w-[1600px] mx-auto px-4 md:px-8">
-        <div className="rounded-[24px] p-[40px] bg-[#FFF6F2] md:p-[60px] border border-[#FFE4D6]">
+        <div className="rounded-[24px] p-[20px] bg-[#FFF6F2] md:p-[60px] border border-[#FFE4D6]">
           <div className={`scroll-fade-up ${isVisible ? "visible" : ""}`}>
             <div className="flex items-center gap-[8px] mb-[12px]">
               <span className="w-[9px] h-[9px] rounded-full bg-primary-600" />

@@ -1,27 +1,27 @@
 import { Link } from "react-router-dom";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import greg from "@/assets/images/about/greg.webp";
-import eliz from "@/assets/images/about/eliz.webp";
-import brian from "@/assets/images/about/brian.webp";
+import NarayanaMurthy from "@/assets/images/about/NarayanaMurthy.webp";
+import SathyaRNarayan from "@/assets/images/about/Sathya R Narayan.webp";
+import imgPlaceholder from "@/assets/images/about/img-Placeholder.svg";
 
 const teamMembers = [
   {
     id: "member-1",
-    name: "Greg Hughes",
-    role: "Managing Partner",
-    image: greg,
+    name: "Narayana Murthy",
+    role: "Managing Director",
+    image: NarayanaMurthy,
   },
   {
     id: "member-2",
-    name: "Elizabeth Sousa",
-    role: "Chief Accounting Officer",
-    image: eliz,
+    name: "Sathya R Narayan",
+    role: "Director",
+    image: SathyaRNarayan,
   },
   {
     id: "member-3",
-    name: "Brian Beck, PE",
-    role: "Vice President, Project Management",
-    image: brian,
+    name: "Anil Jonnalagadda",
+    role: "Director",
+    image: imgPlaceholder,
   },
 ];
 
@@ -41,7 +41,7 @@ export function MeetExperts(): React.ReactElement {
           <div className="inline-flex items-center gap-[8px]">
             <span className="w-[9px] h-[9px] rounded-full bg-[#DF440E]" />
             <span className="font-['Space_Grotesk'] font-medium text-[16px] leading-[20px] uppercase tracking-[4.2px] text-[#FF6B35]">
-              Meet Our Experts
+              Meet Our Leaders
             </span>
           </div>
         </div>

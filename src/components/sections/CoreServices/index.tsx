@@ -2,19 +2,19 @@ import React from "react";
 import servicesBgImage from "@/assets/images/services/services-bg.webp";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import "./style.scss";
-import hvacIcon from "@/assets/images/home/mech.png";
+// import hvacIcon from "@/assets/images/home/mech.png";
 import civilIcon from "@/assets/images/home/civil.png";
 import structuralIcon from "@/assets/images/home/structure.png";
 import mepIcon from "@/assets/images/home/mep.png";
 
 const services = [
-  {
-    id: "service-1",
-    title: "Mechanical (HVAC) Installations",
-    description:
-      "Our integrated design & build approach streamlines construction by handling architectural planning and a smooth workflow from concept to completion.",
-    icon: hvacIcon,
-  },
+  // {
+  //   id: "service-1",
+  //   title: "Mechanical (HVAC) Installations",
+  //   description:
+  //     "Our integrated design & build approach streamlines construction by handling architectural planning and a smooth workflow from concept to completion.",
+  //   icon: hvacIcon,
+  // },
   {
     id: "service-2",
     title: "Civil & Infrastructure Works",
@@ -147,7 +147,7 @@ export function CoreServices(): React.ReactElement {
         {/* Services Cards */}
         <div className="relative">
           <div
-            className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[24px] stagger-children ${isVisible ? "visible" : ""}`}
+            className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[24px] stagger-children ${isVisible ? "visible" : ""}`}
           >
             {services.map((service) => (
               <ServiceCard key={service.id} service={service} />

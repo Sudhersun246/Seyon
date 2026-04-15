@@ -42,7 +42,7 @@ export function CompletedProjects(): React.ReactElement {
             <div
               key={project.id}
               className="bg-white rounded-3xl border border-[#E8E8E8] shadow-sm hover:shadow-md transition-shadow flex flex-col"
-              style={{ padding: "22px", gap: "10px", opacity: 1 }}
+              style={{ padding: "20px", gap: "10px", opacity: 1 }}
             >
               {/* Image */}
               <div

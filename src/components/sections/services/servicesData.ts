@@ -63,26 +63,26 @@ export const serviceDetails = [
     imageLabel: "MEP SYSTEMS",
     imageLeft: false,
   },
-  {
-    id: "hvac",
-    number: "03",
-    label: "MECHANICAL INSTALLATIONS",
-    title: "Mechanical HVAC Systems",
-    description:
-      "We design, supply, and install HVAC systems engineered for thermal efficiency, occupant comfort, and operational reliability — from central plant to final air distribution in buildings of all scales and occupancy types.",
-    bullets: [
-      "HVAC system design and installation",
-      "Ductwork fabrication and installation",
-      "Chilled water and hot water systems",
-      "Testing, balancing, and commissioning",
-    ],
-    image: mechanicalImage,
-    imageLabel: "HVAC SYSTEMS",
-    imageLeft: true,
-  },
+  // {
+  //   id: "hvac",
+  //   number: "03",
+  //   label: "MECHANICAL INSTALLATIONS",
+  //   title: "Mechanical HVAC Systems",
+  //   description:
+  //     "We design, supply, and install HVAC systems engineered for thermal efficiency, occupant comfort, and operational reliability — from central plant to final air distribution in buildings of all scales and occupancy types.",
+  //   bullets: [
+  //     "HVAC system design and installation",
+  //     "Ductwork fabrication and installation",
+  //     "Chilled water and hot water systems",
+  //     "Testing, balancing, and commissioning",
+  //   ],
+  //   image: mechanicalImage,
+  //   imageLabel: "HVAC SYSTEMS",
+  //   imageLeft: true,
+  // },
   {
     id: "structural",
-    number: "04",
+    number: "03",
     label: "STRUCTURAL & INDUSTRIAL",
     title: "Structural & Industrial Works",
     description:
@@ -96,11 +96,11 @@ export const serviceDetails = [
     ],
     image: structuralImage,
     imageLabel: "STRUCTURAL",
-    imageLeft: false,
+    imageLeft: true,
   },
   {
     id: "fitout",
-    number: "05",
+    number: "04",
     label: "INTERIOR, EXTERIOR & FIT-OUT",
     title: "Interior & Fit-Out Solutions",
     description:
@@ -114,7 +114,7 @@ export const serviceDetails = [
     ],
     image: fitoutImage,
     imageLabel: "FIT-OUT",
-    imageLeft: true,
+    imageLeft: false,
   },
 ];
 
@@ -181,7 +181,7 @@ export const deliveryStages = [
 export const disciplineCards = [
   { icon: civil, title: "Civil & Infrastructure", desc: "Earthworks, RCC, drainage, and complete site infrastructure development", anchor: "civil" },
   { icon: mep, title: "MEP Services", desc: "Plumbing, fire safety, electrical systems fully coordinated and code-compliant", anchor: "mep" },
-  { icon: mechanical, title: "Mechanical / HVAC", desc: "HVAC systems designed for performance, energy efficiency, and occupant comfort", anchor: "hvac" },
+  // { icon: mechanical, title: "Mechanical / HVAC", desc: "HVAC systems designed for performance, energy efficiency, and occupant comfort", anchor: "hvac" },
   { icon: structural, title: "Structural & Industrial", desc: "Steel structures, industrial installations, and precision fabrication works", anchor: "structural" },
   { icon: fitout, title: "Fit-Out Solutions", desc: "Interior, exterior, and specialist fit-out works functional and refined", anchor: "fitout" },
 ];
