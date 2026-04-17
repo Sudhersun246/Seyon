@@ -11,7 +11,7 @@ const quickLinks = [
 const serviceLinks = [
   { label: 'Civil & Infrastructure', href: '/services', hash: 'service-civil' },
   { label: 'MEP & Building Services', href: '/services', hash: 'service-mep' },
-  { label: 'HVAC Installations', href: '/services', hash: 'service-hvac' },
+  // { label: 'HVAC Installations', href: '/services', hash: 'service-hvac' },
   { label: 'Structural & Industrial', href: '/services', hash: 'service-structural' },
   { label: 'Interior & Fit-out', href: '/services', hash: 'service-fitout' },
 ]
