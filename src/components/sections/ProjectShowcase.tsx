@@ -8,7 +8,7 @@ import Warehouse from "@/assets/images/projects/ongoing_project/Warehouse.webp";
 import badge from "@/assets/images/home/badge.png";
 import ruler from "@/assets/images/projects/icons/whiteRuler.svg";
 import locationi from "@/assets/images/projects/icons/whiteMapPoint.svg";
-import SIPCOT from "@/assets/images/projects/ongoing_project/SIPCOT.webp";
+import WaterSump from "@/assets/images/projects/ongoing_project/Water Sump.webp";
 import SNJPondy from "@/assets/images/projects/ongoing_project/SNJ-pondy.webp";
 
 const projects = [
@@ -21,10 +21,10 @@ const projects = [
   },
   {
     id: "project-2",
-    image: SIPCOT,
-    title: "SIPCOT Development",
-    location: "Kandharvakottai",
-    area: "200 Acres",
+    image: WaterSump,
+    title: "Water Sump",
+    location: "Thiruthani",
+    area: "10,00,000 Liters",
   },
   {
     id: "project-3",
@@ -75,7 +75,7 @@ function ProjectCard({ project }: { project: (typeof projects)[0] }) {
     <div
       ref={outerRef}
       className="relative group"
-      style={{ aspectRatio: "398/551" }}
+      style={{ aspectRatio: "398/480" }}
     >
       <div
         className="absolute inset-0 flex flex-col bg-[#242424]"
@@ -86,22 +86,19 @@ function ProjectCard({ project }: { project: (typeof projects)[0] }) {
           paddingBottom: "0",
         }}
       >
-        <div
-          className="relative overflow-hidden rounded-[10px]"
-          style={{ height: "64%" }}
-        >
+        <div className="relative h-full overflow-hidden rounded-[10px]">
           <img
             src={project.image}
             alt={project.title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
         </div>
-        <div className="flex flex-col flex-1 px-[5.5%] pt-4 pb-[14%]">
+        <div className="w-[86%] flex flex-col flex-1 px-[5.5%] pt-4 pb-[8%]">
           <h3 className="font-['Space_Grotesk'] font-bold text-[20px] leading-6.5 tracking-[-0.32px] text-white mb-1.5">
             {project.title}
           </h3>
           {/* Meta */}
-          <div className="flex items-center gap-2.5">
+          <div className="flex items-center flex-wrap gap-2.5">
             <div className="flex items-center justify-center gap-1">
               <img src={locationi} />
               <span className="font-['Space_Grotesk'] font-normal text-[13px] text-[#fff]">

@@ -59,14 +59,11 @@ function ProjectCard({
     >
       <div
         ref={cardRef}
-        className="relative flex flex-col bg-[#242424]"
-        style={{ clipPath, WebkitClipPath: clipPath, aspectRatio: "398/551" }}
+        className="relative h-full flex flex-col bg-[#242424]"
+        style={{ clipPath, WebkitClipPath: clipPath }}
       >
         {/* Image */}
-        <div
-          className="overflow-hidden rounded-[10px] m-[5.5%] mb-0"
-          style={{ height: "64%" }}
-        >
+        <div className="h-[70%] overflow-hidden rounded-[10px] m-[5.5%] mb-0">
           <img
             src={image}
             alt={title}
@@ -75,12 +72,12 @@ function ProjectCard({
         </div>
 
         {/* Text */}
-        <div className="flex flex-col flex-1 px-[5.5%] pt-4 pb-[14%]">
+        <div className="w-[86%] flex flex-col flex-1 px-[5.5%] pt-4 pb-[8%]">
           <h3 className="font-['Space_Grotesk'] font-bold text-[20px] leading-6.5 tracking-[-0.32px] text-white mb-1.5">
             {title}
           </h3>
           {/* Meta */}
-          <div className="flex items-center gap-2.5">
+          <div className="flex items-center flex-wrap gap-2.5">
             <div className="flex items-center justify-center gap-1">
               <img src={locationi} />
               <span className="font-['Space_Grotesk'] font-normal text-[13px] text-[#fff]">

@@ -315,14 +315,6 @@ export const ongoingProjects = [
   },
   {
     id: "op-2",
-    image: SIPCOT,
-    title: "SIPCOT Development",
-    location: "Kandharvakottai",
-    area: "200 Acres",
-    // description: "A 35-story business hub with modern workspaces and a rooftop garden.",
-  },
-  {
-    id: "op-3",
     image: Warehouse,
     title: "Warehouse",
     location: "Thiruverkadu",
@@ -330,7 +322,7 @@ export const ongoingProjects = [
     // description: "A 35-story business hub with modern workspaces and a rooftop garden.",
   },
   {
-    id: "op-4",
+    id: "op-3",
     image: SNJPondy,
     title: "SNJ Project (Pondicherry)",
     location: "Pondicherry",
@@ -338,7 +330,7 @@ export const ongoingProjects = [
     // description: "A 35-story business hub with modern workspaces and a rooftop garden.",
   },
   {
-    id: "op-5",
+    id: "op-4",
     image: SNJGummudi,
     title: "SNJ Project (Gummidipoondi)",
     location: "Gummidipoondi",
@@ -346,7 +338,7 @@ export const ongoingProjects = [
     // description: "A 35-story business hub with modern workspaces and a rooftop garden.",
   },
   {
-    id: "op-6",
+    id: "op-5",
     image: WaterSump,
     title: "Water Sump",
     location: "Thiruthani",
@@ -354,7 +346,7 @@ export const ongoingProjects = [
     // description: "A 35-story business hub with modern workspaces and a rooftop garden.",
   },
   {
-    id: "op-7",
+    id: "op-6",
     image: GPNPalaceGardens,
     title: "GPN Palace (Gardens)",
     location: "Thiruverkadu",
@@ -362,7 +354,7 @@ export const ongoingProjects = [
     // description: "A 35-story business hub with modern workspaces and a rooftop garden.",
   },
   {
-    id: "op-8",
+    id: "op-7",
     image: GPNFoodCourt,
     title: "GPN Food Court",
     location: "Thiruverkadu",
@@ -370,7 +362,7 @@ export const ongoingProjects = [
     // description: "A 35-story business hub with modern workspaces and a rooftop garden.",
   },
   {
-    id: "op-9",
+    id: "op-8",
     image: GraceSuperMarket,
     title: "Grace Super Market",
     location: "Thiruverkadu",
@@ -378,7 +370,7 @@ export const ongoingProjects = [
     // description: "A 35-story business hub with modern workspaces and a rooftop garden.",
   },
   {
-    id: "op-10",
+    id: "op-9",
     image: VBJNewShowroom,
     title: "VBJ Showroom",
     location: "Annasalai",
@@ -386,13 +378,21 @@ export const ongoingProjects = [
     // description: "A 35-story business hub with modern workspaces and a rooftop garden.",
   },
   {
-    id: "op-11",
+    id: "op-10",
     image: PoliceQuarters,
     title: "Police Quarters",
     location: "Coimbatore",
     area: "100,000 Sqft",
     // description: "A 35-story business hub with modern workspaces and a rooftop garden.",
   },
+  // {
+  //   id: "op-2",
+  //   image: SIPCOT,
+  //   title: "SIPCOT Development",
+  //   location: "Kandharvakottai",
+  //   area: "200 Acres",
+  //   // description: "A 35-story business hub with modern workspaces and a rooftop garden.",
+  // },
   // {
   //   id: "op-8",
   //   image: IronMount,
