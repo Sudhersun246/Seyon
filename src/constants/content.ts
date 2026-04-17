@@ -25,7 +25,7 @@ import Warehouse from "@/assets/images/projects/ongoing_project/Warehouse.webp";
 import GPNFoodCourt from "@/assets/images/projects/ongoing_project/GPN Food Court.webp";
 import GraceSuperMarket from "@/assets/images/projects/ongoing_project/Grace Super Market.webp";
 // import IronMount from "@/assets/images/projects/ongoing_project/Iron Mount.webp";
-import SIPCOT from "@/assets/images/projects/ongoing_project/SIPCOT.webp";
+// import SIPCOT from "@/assets/images/projects/ongoing_project/SIPCOT.webp";
 import SNJGummudi from "@/assets/images/projects/ongoing_project/SNJ-gummudi.webp";
 import SNJPondy from "@/assets/images/projects/ongoing_project/SNJ-pondy.webp";
 import VBJNewShowroom from "@/assets/images/projects/ongoing_project/VBJ - New Showroom.webp";
